@@ -1,0 +1,129 @@
+{
+  "as_of": "2026-11-02T13:00:07.727Z",
+  "url": "https://vendorindex.dev/vendor/weaviate/",
+  "vendor": {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "type": "open_source",
+    "categories": [
+      "vector-databases"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "weaviate-client",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/weaviate-client/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "weaviate-client",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/weaviate-client",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/weaviate/weaviate-go-client",
+      "registry": "go",
+      "url": "https://github.com/weaviate/weaviate-go-client",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "io.weaviate",
+      "registry": "maven",
+      "url": "https://github.com/weaviate/java-client",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "weaviate-serverless",
+      "name": "Serverless (Flex)",
+      "base_price": 45,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.12
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 60.42,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 12.1,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://weaviate.io/developers/weaviate/quickstart"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 5,
+      "monthly": 45.6
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -12.2,
+    "last_release_at": "2026-10-29",
+    "status_page": "https://status.weaviate.io",
+    "sources": [
+      "https://www.npmjs.com/package/weaviate-client",
+      "https://status.weaviate.io"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

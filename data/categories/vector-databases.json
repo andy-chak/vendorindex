@@ -1,0 +1,152 @@
+{
+  "as_of": "2026-11-02T13:00:07.727Z",
+  "url": "https://vendorindex.dev/category/vector-databases/",
+  "category": {
+    "id": "vector-databases",
+    "name": "Vector databases",
+    "usage_metric": "storage_gb"
+  },
+  "use_cases": [
+    {
+      "id": "rag-store",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "chroma",
+          "total": 79,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 5,
+              "monthly": 1.65
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "starter-prod",
+              "name": "Starter prod (~5 GB, 1M queries/mo)",
+              "monthly": 1.65
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "qdrant",
+          "total": 68.16,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 5,
+              "monthly": 25
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "starter-prod",
+              "name": "Starter prod (~5 GB, 1M queries/mo)",
+              "monthly": 25
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "turbopuffer",
+          "total": 66.1,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 5,
+              "monthly": 17.65
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "starter-prod",
+              "name": "Starter prod (~5 GB, 1M queries/mo)",
+              "monthly": 17.65
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "weaviate",
+          "total": 60.42,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 5,
+              "monthly": 45.6
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "starter-prod",
+              "name": "Starter prod (~5 GB, 1M queries/mo)",
+              "monthly": 45.6
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "pinecone",
+          "total": 53,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 5,
+              "monthly": 51.65
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "starter-prod",
+              "name": "Starter prod (~5 GB, 1M queries/mo)",
+              "monthly": 51.65
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

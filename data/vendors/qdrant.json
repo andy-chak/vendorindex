@@ -1,0 +1,139 @@
+{
+  "as_of": "2026-11-02T13:00:07.727Z",
+  "url": "https://vendorindex.dev/vendor/qdrant/",
+  "vendor": {
+    "id": "qdrant",
+    "name": "Qdrant",
+    "type": "open_source",
+    "categories": [
+      "vector-databases"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "qdrant-client",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/qdrant-client/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@qdrant/js-client-rest",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@qdrant/js-client-rest",
+      "official": true
+    },
+    {
+      "language": "rust",
+      "package": "qdrant-client",
+      "registry": "crates",
+      "url": "https://github.com/qdrant/rust-client",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/qdrant/go-client",
+      "registry": "go",
+      "url": "https://github.com/qdrant/go-client",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "io.qdrant",
+      "registry": "maven",
+      "url": "https://github.com/qdrant/java-client",
+      "official": true
+    },
+    {
+      "language": "csharp",
+      "package": "Qdrant.Client",
+      "registry": "nuget",
+      "url": "https://github.com/qdrant/qdrant-dotnet",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "qdrant-cloud",
+      "name": "Cloud (small cluster)",
+      "base_price": 25,
+      "billing_period": "month",
+      "included_units": {
+        "storage_gb": 20
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 68.16,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 53.3,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://qdrant.tech/documentation/quickstart/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 90,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 5,
+      "monthly": 25
+    }
+  ],
+  "health": {
+    "score": 90,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -23.4,
+    "last_release_at": "2026-10-22",
+    "status_page": "https://status.qdrant.io",
+    "sources": [
+      "https://www.npmjs.com/package/@qdrant/js-client-rest",
+      "https://status.qdrant.io"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

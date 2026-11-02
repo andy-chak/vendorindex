@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-11-02T13:00:07.727Z",
+  "url": "https://vendorindex.dev/vendor/chroma/",
+  "vendor": {
+    "id": "chroma",
+    "name": "Chroma",
+    "type": "open_source",
+    "categories": [
+      "vector-databases"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "chromadb",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/chromadb/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "chromadb",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/chromadb",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "chroma-starter",
+      "name": "Starter (usage-based)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.33
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 79,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.trychroma.com/getting-started"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 90,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 5,
+      "monthly": 1.65
+    }
+  ],
+  "health": {
+    "score": 90,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -26.6,
+    "last_release_at": "2026-06-30",
+    "status_page": "https://status.trychroma.com",
+    "sources": [
+      "https://www.npmjs.com/package/chromadb",
+      "https://status.trychroma.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

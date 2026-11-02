@@ -1,0 +1,129 @@
+{
+  "as_of": "2026-11-02T13:00:07.727Z",
+  "url": "https://vendorindex.dev/vendor/pinecone/",
+  "vendor": {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "type": "saas",
+    "categories": [
+      "vector-databases"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "pinecone",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/pinecone/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@pinecone-database/pinecone",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@pinecone-database/pinecone",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/pinecone-io/go-pinecone",
+      "registry": "go",
+      "url": "https://docs.pinecone.io/reference/go-sdk",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "io.pinecone",
+      "registry": "maven",
+      "url": "https://docs.pinecone.io/reference/java-sdk",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "pinecone-standard",
+      "name": "Standard (serverless)",
+      "base_price": 50,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.33
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 53,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.pinecone.io/guides/get-started/quickstart"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 90,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 5,
+      "monthly": 51.65
+    }
+  ],
+  "health": {
+    "score": 90,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -20.2,
+    "last_release_at": "2026-10-20",
+    "status_page": "https://status.pinecone.io",
+    "sources": [
+      "https://www.npmjs.com/package/@pinecone-database/pinecone",
+      "https://status.pinecone.io"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
