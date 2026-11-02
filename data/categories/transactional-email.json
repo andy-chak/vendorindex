@@ -1,0 +1,161 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "category": {
+    "id": "transactional-email",
+    "name": "Transactional email",
+    "usage_metric": "emails"
+  },
+  "use_cases": [
+    {
+      "id": "transactional",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "resend",
+          "total": 92.33,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 3000,
+              "monthly": 0
+            },
+            {
+              "volume": 50000,
+              "monthly": 20
+            },
+            {
+              "volume": 1000000,
+              "monthly": 650
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "sendgrid",
+          "total": 82.85,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 3000,
+              "monthly": 19.95
+            },
+            {
+              "volume": 50000,
+              "monthly": 19.95
+            },
+            {
+              "volume": 1000000,
+              "monthly": 304.95
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "we_rate_higher"
+        },
+        {
+          "vendor": "mailgun",
+          "total": 79.91,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 3000,
+              "monthly": 15
+            },
+            {
+              "volume": 50000,
+              "monthly": 35
+            },
+            {
+              "volume": 1000000,
+              "monthly": 1080
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "amazon-ses",
+          "total": 67.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 3000,
+              "monthly": 0.3
+            },
+            {
+              "volume": 50000,
+              "monthly": 5
+            },
+            {
+              "volume": 1000000,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "postmark",
+          "total": 63.25,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 3000,
+              "monthly": 15
+            },
+            {
+              "volume": 50000,
+              "monthly": 66
+            },
+            {
+              "volume": 1000000,
+              "monthly": 1206
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "resend",
+    "name": "Resend",
+    "type": "saas",
+    "categories": [
+      "transactional-email"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 85,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": 3,
+    "metrics_covered": [
+      "delivered",
+      "opened",
+      "clicked",
+      "bounced",
+      "complained"
+    ],
+    "notes": "Events via webhooks and API; short log retention, no bulk export.",
+    "evidence": [
+      "https://resend.com/docs/dashboard/emails/introduction"
+    ]
+  },
+  "plans": [
+    {
+      "id": "resend-free",
+      "name": "Free",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "emails": 3000
+      },
+      "overages": [],
+      "contact_sales": false
+    },
+    {
+      "id": "resend-pro",
+      "name": "Pro",
+      "base_price": 20,
+      "billing_period": "month",
+      "included_units": {
+        "emails": 50000
+      },
+      "overages": [
+        {
+          "metric": "emails",
+          "unit_size": 1000,
+          "per_unit": 0.9
+        }
+      ],
+      "contact_sales": false
+    },
+    {
+      "id": "resend-scale-1m",
+      "name": "Scale (1M)",
+      "base_price": 650,
+      "billing_period": "month",
+      "included_units": {
+        "emails": 1000000
+      },
+      "overages": [
+        {
+          "metric": "emails",
+          "unit_size": 1000,
+          "per_unit": 0.65
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 92.33,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 75.41,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 85,
+        "weight": 0.15,
+        "evidence": [
+          "https://resend.com/docs/introduction"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 3000,
+      "monthly": 0
+    },
+    {
+      "volume": 50000,
+      "monthly": 20
+    },
+    {
+      "volume": 1000000,
+      "monthly": 650
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

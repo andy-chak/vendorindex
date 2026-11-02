@@ -1,0 +1,114 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "amazon-ses",
+    "name": "Amazon SES",
+    "type": "saas",
+    "categories": [
+      "transactional-email"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "iso27001"
+    ]
+  },
+  "agent_friction": 35,
+  "observability": {
+    "dashboard": false,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": true,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "delivered",
+      "bounced",
+      "complained",
+      "opened",
+      "clicked",
+      "rejected"
+    ],
+    "notes": "Powerful but build-it-yourself — metrics via CloudWatch and event destinations you configure; no polished dashboard.",
+    "evidence": [
+      "https://docs.aws.amazon.com/ses/latest/dg/monitor-sending-activity.html"
+    ]
+  },
+  "plans": [
+    {
+      "id": "ses-standard",
+      "name": "Standard (à la carte)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "emails",
+          "unit_size": 1000,
+          "per_unit": 0.1
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 67.75,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 35,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.aws.amazon.com/ses/latest/dg/send-email.html"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 90,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 3000,
+      "monthly": 0.3
+    },
+    {
+      "volume": 50000,
+      "monthly": 5
+    },
+    {
+      "volume": 1000000,
+      "monthly": 100
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

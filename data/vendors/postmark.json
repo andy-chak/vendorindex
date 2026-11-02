@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "postmark",
+    "name": "Postmark",
+    "type": "saas",
+    "categories": [
+      "transactional-email"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 65,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": true,
+    "realtime": true,
+    "retention_days": 45,
+    "metrics_covered": [
+      "delivered",
+      "opened",
+      "clicked",
+      "bounced",
+      "complained",
+      "spam"
+    ],
+    "notes": "Stats and Messages APIs plus webhooks; 45-day message activity retention.",
+    "evidence": [
+      "https://postmarkapp.com/developer/api/overview"
+    ]
+  },
+  "plans": [
+    {
+      "id": "postmark-basic",
+      "name": "Basic",
+      "base_price": 15,
+      "billing_period": "month",
+      "included_units": {
+        "emails": 10000
+      },
+      "overages": [
+        {
+          "metric": "emails",
+          "unit_size": 1000,
+          "per_unit": 1.8
+        }
+      ],
+      "contact_sales": false
+    },
+    {
+      "id": "postmark-platform",
+      "name": "Platform",
+      "base_price": 18,
+      "billing_period": "month",
+      "included_units": {
+        "emails": 10000
+      },
+      "overages": [
+        {
+          "metric": "emails",
+          "unit_size": 1000,
+          "per_unit": 1.2
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 63.25,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 50,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.15,
+        "evidence": [
+          "https://postmarkapp.com/developer"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 3000,
+      "monthly": 15
+    },
+    {
+      "volume": 50000,
+      "monthly": 66
+    },
+    {
+      "volume": 1000000,
+      "monthly": 1206
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

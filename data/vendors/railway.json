@@ -1,0 +1,111 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "railway",
+    "name": "Railway",
+    "type": "saas",
+    "categories": [
+      "postgres-hosting"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "cpu",
+      "memory",
+      "storage",
+      "network"
+    ],
+    "notes": "Usage-based, per-second billing; metrics in the project dashboard.",
+    "evidence": [
+      "https://docs.railway.com/reference/metrics"
+    ]
+  },
+  "plans": [
+    {
+      "id": "railway-hobby",
+      "name": "Hobby",
+      "base_price": 5,
+      "billing_period": "month",
+      "included_units": {
+        "storage_gb": 1
+      },
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.15
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 68.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.railway.com/guides/postgresql"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 6.35
+    },
+    {
+      "volume": 100,
+      "monthly": 19.85
+    },
+    {
+      "volume": 1000,
+      "monthly": 154.85
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

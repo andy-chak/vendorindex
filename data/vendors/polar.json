@@ -1,0 +1,95 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "polar",
+    "name": "Polar",
+    "type": "saas",
+    "categories": [
+      "payments"
+    ],
+    "compliance": [
+      "pci",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 85,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "orders",
+      "subscriptions",
+      "revenue"
+    ],
+    "notes": "Developer-first MoR; open-source core, API + webhooks + MCP.",
+    "evidence": [
+      "https://docs.polar.sh/integrate/webhooks/endpoints"
+    ]
+  },
+  "plans": [
+    {
+      "id": "polar-standard",
+      "name": "Standard",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 51.35,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 48,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 85,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.polar.sh"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 40,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 4000
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

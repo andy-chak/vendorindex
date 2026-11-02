@@ -1,0 +1,112 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "neon",
+    "name": "Neon",
+    "type": "saas",
+    "categories": [
+      "postgres-hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 100,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": false,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "compute",
+      "storage",
+      "connections"
+    ],
+    "notes": "Dashboard metrics; serverless compute scales to zero.",
+    "evidence": [
+      "https://neon.com/docs/introduction/monitoring"
+    ]
+  },
+  "plans": [
+    {
+      "id": "neon-launch",
+      "name": "Launch",
+      "base_price": 19,
+      "billing_period": "month",
+      "included_units": {
+        "storage_gb": 10
+      },
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.35
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 56.61,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 33.07,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://neon.com/docs/introduction"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 19
+    },
+    {
+      "volume": 100,
+      "monthly": 50.5
+    },
+    {
+      "volume": 1000,
+      "monthly": 365.5
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

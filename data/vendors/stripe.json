@@ -1,0 +1,97 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "stripe",
+    "name": "Stripe",
+    "type": "saas",
+    "categories": [
+      "payments"
+    ],
+    "compliance": [
+      "soc2",
+      "pci",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 100,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": true,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "charges",
+      "payouts",
+      "disputes",
+      "subscriptions"
+    ],
+    "notes": "Rich dashboard + Sigma/API; webhooks for every event.",
+    "evidence": [
+      "https://stripe.com/docs/webhooks"
+    ]
+  },
+  "plans": [
+    {
+      "id": "stripe-standard",
+      "name": "Standard (online cards)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 68.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://stripe.com/docs/development/quickstart"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 3000
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

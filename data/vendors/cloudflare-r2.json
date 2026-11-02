@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "cloudflare-r2",
+    "name": "Cloudflare R2",
+    "type": "saas",
+    "categories": [
+      "object-storage"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "iso27001"
+    ]
+  },
+  "agent_friction": 90,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": false,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "storage",
+      "class_a_ops",
+      "class_b_ops"
+    ],
+    "notes": "Dashboard + GraphQL analytics; no egress to meter (egress is free).",
+    "evidence": [
+      "https://developers.cloudflare.com/r2/platform/metrics-analytics/"
+    ]
+  },
+  "plans": [
+    {
+      "id": "r2-standard",
+      "name": "R2 Standard",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "storage_gb": 10
+      },
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.015
+        },
+        {
+          "metric": "egress_gb",
+          "unit_size": 1,
+          "per_unit": 0
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 66.86,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 91.79,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://developers.cloudflare.com/r2/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 1.35
+    },
+    {
+      "volume": 1000,
+      "monthly": 14.85
+    },
+    {
+      "volume": 10000,
+      "monthly": 149.85
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

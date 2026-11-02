@@ -1,0 +1,120 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "amazon-s3",
+    "name": "Amazon S3",
+    "type": "saas",
+    "categories": [
+      "object-storage"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "iso27001",
+      "pci"
+    ]
+  },
+  "agent_friction": 35,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": true,
+    "realtime": false,
+    "retention_days": null,
+    "metrics_covered": [
+      "storage",
+      "requests",
+      "egress",
+      "errors"
+    ],
+    "notes": "Metrics via CloudWatch; access logs and event notifications you configure.",
+    "evidence": [
+      "https://docs.aws.amazon.com/AmazonS3/latest/userguide/cloudwatch-monitoring.html"
+    ]
+  },
+  "plans": [
+    {
+      "id": "s3-standard",
+      "name": "S3 Standard",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "egress_gb": 100
+      },
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.023
+        },
+        {
+          "metric": "egress_gb",
+          "unit_size": 1,
+          "per_unit": 0.09
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 38.75,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 35,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 2.3
+    },
+    {
+      "volume": 1000,
+      "monthly": 23
+    },
+    {
+      "volume": 10000,
+      "monthly": 230
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

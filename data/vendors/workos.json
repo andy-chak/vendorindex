@@ -1,0 +1,111 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "workos",
+    "name": "WorkOS",
+    "type": "saas",
+    "categories": [
+      "auth"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 80,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "authentications",
+      "users",
+      "sso_connections"
+    ],
+    "notes": "Dashboard + events API/webhooks; enterprise SSO/directory focus.",
+    "evidence": [
+      "https://workos.com/docs/events"
+    ]
+  },
+  "plans": [
+    {
+      "id": "workos-authkit",
+      "name": "AuthKit",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "mau": 1000000
+      },
+      "overages": [
+        {
+          "metric": "mau",
+          "unit_size": 1000000,
+          "per_unit": 2500
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 65.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://workos.com/docs/authkit"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 0
+    },
+    {
+      "volume": 10000,
+      "monthly": 0
+    },
+    {
+      "volume": 100000,
+      "monthly": 0
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

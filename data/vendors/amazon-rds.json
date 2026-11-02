@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "amazon-rds",
+    "name": "Amazon RDS for Postgres",
+    "type": "saas",
+    "categories": [
+      "postgres-hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "iso27001",
+      "pci"
+    ]
+  },
+  "agent_friction": 35,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": true,
+    "realtime": false,
+    "retention_days": 7,
+    "metrics_covered": [
+      "cpu",
+      "connections",
+      "iops",
+      "storage"
+    ],
+    "notes": "Performance Insights + CloudWatch; instance-based, runs 24/7.",
+    "evidence": [
+      "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html"
+    ]
+  },
+  "plans": [
+    {
+      "id": "rds-micro",
+      "name": "db.t4g.micro (on-demand)",
+      "base_price": 11.68,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.115
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 51.89,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 65.71,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 35,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 12.83
+    },
+    {
+      "volume": 100,
+      "monthly": 23.18
+    },
+    {
+      "volume": 1000,
+      "monthly": 126.68
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

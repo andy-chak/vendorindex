@@ -1,0 +1,122 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "clerk",
+    "name": "Clerk",
+    "type": "saas",
+    "categories": [
+      "auth"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 80,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": false,
+    "webhooks": true,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "signups",
+      "active_users",
+      "sessions"
+    ],
+    "notes": "Dashboard + webhooks for auth events; no bulk metrics API.",
+    "evidence": [
+      "https://clerk.com/docs/integrations/webhooks"
+    ]
+  },
+  "plans": [
+    {
+      "id": "clerk-free",
+      "name": "Hobby (Free)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "mau": 50000
+      },
+      "overages": [],
+      "contact_sales": false
+    },
+    {
+      "id": "clerk-pro",
+      "name": "Pro",
+      "base_price": 25,
+      "billing_period": "month",
+      "included_units": {
+        "mau": 50000
+      },
+      "overages": [
+        {
+          "metric": "mau",
+          "unit_size": 1,
+          "per_unit": 0.02
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 45.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://clerk.com/docs/quickstarts/overview"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 0
+    },
+    {
+      "volume": 10000,
+      "monthly": 0
+    },
+    {
+      "volume": 100000,
+      "monthly": 1025
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

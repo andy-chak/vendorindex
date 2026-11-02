@@ -1,0 +1,96 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "paddle",
+    "name": "Paddle",
+    "type": "saas",
+    "categories": [
+      "payments"
+    ],
+    "compliance": [
+      "soc2",
+      "pci",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 65,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": false,
+    "realtime": false,
+    "retention_days": null,
+    "metrics_covered": [
+      "transactions",
+      "subscriptions",
+      "tax"
+    ],
+    "notes": "Dashboard + webhooks; tax/compliance handled for you.",
+    "evidence": [
+      "https://developer.paddle.com/webhooks/overview"
+    ]
+  },
+  "plans": [
+    {
+      "id": "paddle-standard",
+      "name": "Pay-as-you-go",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 38.75,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.15,
+        "evidence": [
+          "https://developer.paddle.com"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 40,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 5000
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

@@ -1,0 +1,161 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "category": {
+    "id": "postgres-hosting",
+    "name": "Postgres hosting",
+    "usage_metric": "storage_gb"
+  },
+  "use_cases": [
+    {
+      "id": "prod-db",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "railway",
+          "total": 68.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 6.35
+            },
+            {
+              "volume": 100,
+              "monthly": 19.85
+            },
+            {
+              "volume": 1000,
+              "monthly": 154.85
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "neon",
+          "total": 56.61,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 19
+            },
+            {
+              "volume": 100,
+              "monthly": 50.5
+            },
+            {
+              "volume": 1000,
+              "monthly": 365.5
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "amazon-rds",
+          "total": 51.89,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 12.83
+            },
+            {
+              "volume": 100,
+              "monthly": 23.18
+            },
+            {
+              "volume": 1000,
+              "monthly": 126.68
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "supabase",
+          "total": 48.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 25.25
+            },
+            {
+              "volume": 100,
+              "monthly": 36.5
+            },
+            {
+              "volume": 1000,
+              "monthly": 149
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "crunchy-bridge",
+          "total": 47.95,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 9
+            },
+            {
+              "volume": 100,
+              "monthly": null
+            },
+            {
+              "volume": 1000,
+              "monthly": null
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

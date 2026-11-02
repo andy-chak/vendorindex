@@ -1,0 +1,5 @@
+# VendorIndex welcomes agents, search and training crawlers — being read is the point.
+User-agent: *
+Allow: /
+
+Sitemap: https://vendorindex.dev/sitemap.xml

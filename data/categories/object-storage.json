@@ -1,0 +1,161 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "category": {
+    "id": "object-storage",
+    "name": "Object storage",
+    "usage_metric": "storage_gb"
+  },
+  "use_cases": [
+    {
+      "id": "app-assets",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "cloudflare-r2",
+          "total": 66.86,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 1.35
+            },
+            {
+              "volume": 1000,
+              "monthly": 14.85
+            },
+            {
+              "volume": 10000,
+              "monthly": 149.85
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "tigris",
+          "total": 64.3,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 2
+            },
+            {
+              "volume": 1000,
+              "monthly": 20
+            },
+            {
+              "volume": 10000,
+              "monthly": 200
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "backblaze-b2",
+          "total": 63.25,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 0.63
+            },
+            {
+              "volume": 1000,
+              "monthly": 6.88
+            },
+            {
+              "volume": 10000,
+              "monthly": 69.43
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "amazon-s3",
+          "total": 38.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 2.3
+            },
+            {
+              "volume": 1000,
+              "monthly": 23
+            },
+            {
+              "volume": 10000,
+              "monthly": 230
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "vercel-blob",
+          "total": 36.49,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 2.28
+            },
+            {
+              "volume": 1000,
+              "monthly": 22.98
+            },
+            {
+              "volume": 10000,
+              "monthly": 229.98
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "supabase",
+    "name": "Supabase",
+    "type": "saas",
+    "categories": [
+      "auth",
+      "postgres-hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 100,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": true,
+    "raw_export": true,
+    "realtime": true,
+    "retention_days": 7,
+    "metrics_covered": [
+      "auth",
+      "database",
+      "storage",
+      "realtime"
+    ],
+    "notes": "Unified dashboard + logs across auth and the Postgres database.",
+    "evidence": [
+      "https://supabase.com/docs/guides/platform/logs"
+    ]
+  },
+  "plans": [
+    {
+      "id": "supabase-auth-free",
+      "name": "Free",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "mau": 50000
+      },
+      "overages": [],
+      "contact_sales": false
+    },
+    {
+      "id": "supabase-auth-pro",
+      "name": "Pro",
+      "base_price": 25,
+      "billing_period": "month",
+      "included_units": {
+        "mau": 100000
+      },
+      "overages": [
+        {
+          "metric": "mau",
+          "unit_size": 1,
+          "per_unit": 0.00325
+        }
+      ],
+      "contact_sales": false
+    },
+    {
+      "id": "supabase-db-pro",
+      "name": "Pro (database)",
+      "base_price": 25,
+      "billing_period": "month",
+      "included_units": {
+        "storage_gb": 8
+      },
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.125
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 68.01,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 97.56,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://supabase.com/docs"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 0
+    },
+    {
+      "volume": 10000,
+      "monthly": 0
+    },
+    {
+      "volume": 100000,
+      "monthly": 25
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

@@ -1,0 +1,105 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "crunchy-bridge",
+    "name": "Crunchy Bridge",
+    "type": "saas",
+    "categories": [
+      "postgres-hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 55,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": false,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "cpu",
+      "connections",
+      "storage"
+    ],
+    "notes": "Metrics dashboard; Hobby runs on lower-tier infra with no SLA.",
+    "evidence": [
+      "https://docs.crunchybridge.com/concepts/plans-pricing"
+    ]
+  },
+  "plans": [
+    {
+      "id": "crunchy-hobby0",
+      "name": "Hobby-0",
+      "base_price": 9,
+      "billing_period": "month",
+      "included_units": {
+        "storage_gb": 10
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 47.95,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 85.98,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 55,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.crunchybridge.com"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 9
+    },
+    {
+      "volume": 100,
+      "monthly": null
+    },
+    {
+      "volume": 1000,
+      "monthly": null
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

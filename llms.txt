@@ -1,0 +1,18 @@
+# VendorIndex
+
+> The reference coding agents consult to pick a vendor, library or service. Per-use-case
+> scores from verified pricing, nightly-tested integration snippets, and an agent-friction
+> score. Rank is never for sale; internet sentiment is unverified and never affects rank.
+
+## Machine-readable data
+- Category rankings: /data/categories/<category>.json
+- Vendor detail: /data/vendors/<vendor>.json
+
+## Key pages
+- Task pages: /task/send-<category>-from-<framework>/
+- Category rankings: /category/<category>/
+- Head-to-head: /compare/<a>-vs-<b>-vs-<c>/
+- Vendor detail: /vendor/<vendor>/
+
+Every number links to a source and a "verified on" date. Pricing is stored as structured
+rates and computed at your usage, not copied from a tier table.

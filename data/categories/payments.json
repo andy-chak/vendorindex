@@ -1,0 +1,169 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "category": {
+    "id": "payments",
+    "name": "Payments",
+    "usage_metric": "transactions"
+  },
+  "use_cases": [
+    {
+      "id": "saas-billing",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "stripe",
+          "total": 68.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 3000
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "small",
+              "name": "Small ($20 avg × 1k)",
+              "monthly": 880
+            },
+            {
+              "id": "medium",
+              "name": "Medium ($50 avg × 10k)",
+              "monthly": 17500
+            },
+            {
+              "id": "large",
+              "name": "Large ($80 avg × 100k)",
+              "monthly": 262000
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "polar",
+          "total": 51.35,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 4000
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "small",
+              "name": "Small ($20 avg × 1k)",
+              "monthly": 1200
+            },
+            {
+              "id": "medium",
+              "name": "Medium ($50 avg × 10k)",
+              "monthly": 24000
+            },
+            {
+              "id": "large",
+              "name": "Large ($80 avg × 100k)",
+              "monthly": 360000
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "lemon-squeezy",
+          "total": 38.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 5000
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "small",
+              "name": "Small ($20 avg × 1k)",
+              "monthly": 1500
+            },
+            {
+              "id": "medium",
+              "name": "Medium ($50 avg × 10k)",
+              "monthly": 30000
+            },
+            {
+              "id": "large",
+              "name": "Large ($80 avg × 100k)",
+              "monthly": 450000
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "paddle",
+          "total": 38.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 5000
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "small",
+              "name": "Small ($20 avg × 1k)",
+              "monthly": 1500
+            },
+            {
+              "id": "medium",
+              "name": "Medium ($50 avg × 10k)",
+              "monthly": 30000
+            },
+            {
+              "id": "large",
+              "name": "Large ($80 avg × 100k)",
+              "monthly": 450000
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-01",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "better-auth",
+    "name": "Better Auth",
+    "type": "open_source",
+    "categories": [
+      "auth"
+    ],
+    "compliance": []
+  },
+  "agent_friction": 90,
+  "observability": null,
+  "plans": [
+    {
+      "id": "better-auth-oss",
+      "name": "Open source (self-hosted)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "mau": 1000000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 68.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://www.better-auth.com/docs/introduction"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 0
+    },
+    {
+      "volume": 10000,
+      "monthly": 0
+    },
+    {
+      "volume": 100000,
+      "monthly": 0
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}

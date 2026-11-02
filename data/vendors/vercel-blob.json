@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-11-02T01:10:20.552Z",
+  "vendor": {
+    "id": "vercel-blob",
+    "name": "Vercel Blob",
+    "type": "saas",
+    "categories": [
+      "object-storage"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 90,
+  "observability": {
+    "dashboard": true,
+    "metrics_api": true,
+    "webhooks": false,
+    "raw_export": false,
+    "realtime": true,
+    "retention_days": null,
+    "metrics_covered": [
+      "storage",
+      "data_transfer",
+      "operations"
+    ],
+    "notes": "Observability in the Vercel dashboard; tightly coupled to Vercel.",
+    "evidence": [
+      "https://vercel.com/docs/vercel-blob/usage-and-pricing"
+    ]
+  },
+  "plans": [
+    {
+      "id": "vercel-blob",
+      "name": "Vercel Blob",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "storage_gb": 1,
+        "egress_gb": 10
+      },
+      "overages": [
+        {
+          "metric": "storage_gb",
+          "unit_size": 1,
+          "per_unit": 0.023
+        },
+        {
+          "metric": "egress_gb",
+          "unit_size": 1,
+          "per_unit": 0.05
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 36.49,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 32.45,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://vercel.com/docs/vercel-blob"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 40,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 2.28
+    },
+    {
+      "volume": 1000,
+      "monthly": 22.98
+    },
+    {
+      "volume": 10000,
+      "monthly": 229.98
+    }
+  ],
+  "last_verified": "2026-11-01",
+  "internet_unverified": null
+}
