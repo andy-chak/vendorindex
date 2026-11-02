@@ -7,6 +7,8 @@
   <url><loc>https://vendorindex.dev/compare/honeybadger-vs-appsignal-vs-sentry/</loc></url>
   <url><loc>https://vendorindex.dev/category/object-storage/</loc></url>
   <url><loc>https://vendorindex.dev/compare/cloudflare-r2-vs-tigris-vs-backblaze-b2/</loc></url>
+  <url><loc>https://vendorindex.dev/category/observability/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/newrelic-vs-betterstack-vs-axiom/</loc></url>
   <url><loc>https://vendorindex.dev/category/payments/</loc></url>
   <url><loc>https://vendorindex.dev/compare/stripe-vs-polar-vs-paddle/</loc></url>
   <url><loc>https://vendorindex.dev/category/postgres-hosting/</loc></url>
@@ -23,18 +25,23 @@
   <url><loc>https://vendorindex.dev/vendor/amazon-ses/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/appsignal/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/auth0/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/axiom/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/backblaze-b2/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/better-auth/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/betterstack/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/bird/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/bugsnag/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/chroma/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/clerk/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-r2/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/datadog/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/grafana/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/honeybadger/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/mailgun/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/neon/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/newrelic/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/paddle/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/pinecone/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/plivo/</loc></url>

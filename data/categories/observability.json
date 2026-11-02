@@ -1,0 +1,162 @@
+{
+  "as_of": "2026-11-02T13:17:14.631Z",
+  "url": "https://vendorindex.dev/category/observability/",
+  "category": {
+    "id": "observability",
+    "name": "Observability (APM & logs)",
+    "usage_metric": "ingest_gb"
+  },
+  "use_cases": [
+    {
+      "id": "app-observability",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "newrelic",
+          "total": 76.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 0
+            },
+            {
+              "volume": 100,
+              "monthly": 0
+            },
+            {
+              "volume": 1000,
+              "monthly": 360
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "betterstack",
+          "total": 71.21,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.05
+            },
+            {
+              "volume": 100,
+              "monthly": 14.55
+            },
+            {
+              "volume": 1000,
+              "monthly": 149.55
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "axiom",
+          "total": 70.41,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 25
+            },
+            {
+              "volume": 100,
+              "monthly": 25
+            },
+            {
+              "volume": 1000,
+              "monthly": 25
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "grafana",
+          "total": 65.32,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 19
+            },
+            {
+              "volume": 100,
+              "monthly": 39
+            },
+            {
+              "volume": 1000,
+              "monthly": 399
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "datadog",
+          "total": 53.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 46
+            },
+            {
+              "volume": 100,
+              "monthly": 55
+            },
+            {
+              "volume": 1000,
+              "monthly": 145
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

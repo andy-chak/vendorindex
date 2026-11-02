@@ -1,0 +1,126 @@
+{
+  "as_of": "2026-11-02T13:17:14.631Z",
+  "url": "https://vendorindex.dev/vendor/grafana/",
+  "vendor": {
+    "id": "grafana",
+    "name": "Grafana Cloud",
+    "type": "open_source",
+    "categories": [
+      "observability"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "iso27001"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@grafana/faro-web-sdk",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@grafana/faro-web-sdk",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/grafana/grafana-api-golang-client",
+      "registry": "go",
+      "url": "https://github.com/grafana/grafana-openapi-client-go",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "grafana-pro",
+      "name": "Pro",
+      "base_price": 19,
+      "billing_period": "month",
+      "included_units": {
+        "ingest_gb": 50
+      },
+      "overages": [
+        {
+          "metric": "ingest_gb",
+          "unit_size": 1,
+          "per_unit": 0.4
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 65.32,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 29.09,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://grafana.com/docs/grafana-cloud/get-started/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 19
+    },
+    {
+      "volume": 100,
+      "monthly": 39
+    },
+    {
+      "volume": 1000,
+      "monthly": 399
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -12.6,
+    "last_release_at": "2026-10-22",
+    "status_page": "https://status.grafana.com",
+    "sources": [
+      "https://www.npmjs.com/package/@grafana/faro-web-sdk",
+      "https://status.grafana.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

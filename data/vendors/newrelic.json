@@ -1,0 +1,161 @@
+{
+  "as_of": "2026-11-02T13:17:14.631Z",
+  "url": "https://vendorindex.dev/vendor/newrelic/",
+  "vendor": {
+    "id": "newrelic",
+    "name": "New Relic",
+    "type": "saas",
+    "categories": [
+      "observability"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "iso27001"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "newrelic",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/newrelic",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "newrelic",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/newrelic/",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "newrelic_rpm",
+      "registry": "rubygems",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.newrelic.agent.java",
+      "registry": "maven",
+      "url": "https://github.com/newrelic/newrelic-java-agent",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/newrelic/go-agent",
+      "registry": "go",
+      "url": "https://github.com/newrelic/go-agent",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "NewRelic.Agent",
+      "registry": "nuget",
+      "url": "https://github.com/newrelic/newrelic-dotnet-agent",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "newrelic/newrelic-php-agent",
+      "registry": "packagist",
+      "url": "https://github.com/newrelic/newrelic-php-agent",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "newrelic-standard",
+      "name": "Standard",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "ingest_gb": 100
+      },
+      "overages": [
+        {
+          "metric": "ingest_gb",
+          "unit_size": 1,
+          "per_unit": 0.4
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 76.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.newrelic.com/docs/apm/agents/nodejs-agent/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 0
+    },
+    {
+      "volume": 100,
+      "monthly": 0
+    },
+    {
+      "volume": 1000,
+      "monthly": 360
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -16.5,
+    "last_release_at": "2026-10-29",
+    "status_page": "https://status.newrelic.com",
+    "sources": [
+      "https://www.npmjs.com/package/newrelic",
+      "https://status.newrelic.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

@@ -1,0 +1,160 @@
+{
+  "as_of": "2026-11-02T13:17:14.631Z",
+  "url": "https://vendorindex.dev/vendor/datadog/",
+  "vendor": {
+    "id": "datadog",
+    "name": "Datadog",
+    "type": "saas",
+    "categories": [
+      "observability"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "iso27001",
+      "pci"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "dd-trace",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/dd-trace",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "ddtrace",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/ddtrace/",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "datadog",
+      "registry": "rubygems",
+      "url": "https://github.com/DataDog/dd-trace-rb",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "gopkg.in/DataDog/dd-trace-go.v1",
+      "registry": "go",
+      "url": "https://github.com/DataDog/dd-trace-go",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.datadoghq:dd-trace-api",
+      "registry": "maven",
+      "url": "https://github.com/DataDog/dd-trace-java",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Datadog.Trace",
+      "registry": "nuget",
+      "url": "https://github.com/DataDog/dd-trace-dotnet",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "datadog/dd-trace",
+      "registry": "packagist",
+      "url": "https://github.com/DataDog/dd-trace-php",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "datadog-pro",
+      "name": "Pro (infra + logs)",
+      "base_price": 45,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "ingest_gb",
+          "unit_size": 1,
+          "per_unit": 0.1
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 53.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.datadoghq.com/getting_started/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 40,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 46
+    },
+    {
+      "volume": 100,
+      "monthly": 55
+    },
+    {
+      "volume": 1000,
+      "monthly": 145
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -16.5,
+    "last_release_at": "2026-10-30",
+    "status_page": "https://status.datadoghq.com",
+    "sources": [
+      "https://www.npmjs.com/package/dd-trace",
+      "https://status.datadoghq.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
