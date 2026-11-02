@@ -3,6 +3,8 @@
   <url><loc>https://vendorindex.dev/</loc></url>
   <url><loc>https://vendorindex.dev/category/auth/</loc></url>
   <url><loc>https://vendorindex.dev/compare/better-auth-vs-supabase-vs-workos/</loc></url>
+  <url><loc>https://vendorindex.dev/category/error-monitoring/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/honeybadger-vs-appsignal-vs-sentry/</loc></url>
   <url><loc>https://vendorindex.dev/category/object-storage/</loc></url>
   <url><loc>https://vendorindex.dev/compare/cloudflare-r2-vs-tigris-vs-backblaze-b2/</loc></url>
   <url><loc>https://vendorindex.dev/category/payments/</loc></url>
@@ -19,14 +21,17 @@
   <url><loc>https://vendorindex.dev/vendor/amazon-rds/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/amazon-s3/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/amazon-ses/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/appsignal/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/auth0/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/backblaze-b2/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/better-auth/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/bird/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/bugsnag/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/chroma/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/clerk/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-r2/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/honeybadger/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/mailgun/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/neon/</loc></url>
@@ -38,7 +43,9 @@
   <url><loc>https://vendorindex.dev/vendor/qdrant/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/railway/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/resend/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/rollbar/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/sendgrid/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/sentry/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/stripe/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/supabase/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/telnyx/</loc></url>

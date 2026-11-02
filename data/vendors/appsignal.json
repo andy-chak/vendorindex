@@ -1,0 +1,124 @@
+{
+  "as_of": "2026-11-02T13:09:49.534Z",
+  "url": "https://vendorindex.dev/vendor/appsignal/",
+  "vendor": {
+    "id": "appsignal",
+    "name": "AppSignal",
+    "type": "saas",
+    "categories": [
+      "error-monitoring"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "ruby",
+      "package": "appsignal",
+      "registry": "rubygems",
+      "url": "https://github.com/appsignal/appsignal-ruby",
+      "official": true
+    },
+    {
+      "language": "elixir",
+      "package": "appsignal",
+      "registry": "hex",
+      "url": "https://github.com/appsignal/appsignal-elixir",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@appsignal/nodejs",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@appsignal/nodejs",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "appsignal",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/appsignal/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "appsignal-standard",
+      "name": "Standard",
+      "base_price": 23.25,
+      "billing_period": "month",
+      "included_units": {
+        "events": 250000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 73,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.appsignal.com/nodejs/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 90,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 50000,
+      "monthly": 23.25
+    }
+  ],
+  "health": {
+    "score": 90,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -29.3,
+    "last_release_at": "2026-10-23",
+    "status_page": "https://status.appsignal.com",
+    "sources": [
+      "https://www.npmjs.com/package/@appsignal/nodejs",
+      "https://status.appsignal.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

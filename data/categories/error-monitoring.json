@@ -1,0 +1,122 @@
+{
+  "as_of": "2026-11-02T13:09:49.534Z",
+  "url": "https://vendorindex.dev/category/error-monitoring/",
+  "category": {
+    "id": "error-monitoring",
+    "name": "Error monitoring",
+    "usage_metric": "events"
+  },
+  "use_cases": [
+    {
+      "id": "app-errors",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "honeybadger",
+          "total": 73.01,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 50000,
+              "monthly": 26
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "appsignal",
+          "total": 73,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 50000,
+              "monthly": 23.25
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "sentry",
+          "total": 72.7,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 50000,
+              "monthly": 29
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "rollbar",
+          "total": 59.58,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 50000,
+              "monthly": 35
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "bugsnag",
+          "total": 51.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 50000,
+              "monthly": 39
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

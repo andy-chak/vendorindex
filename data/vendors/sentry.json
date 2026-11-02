@@ -1,0 +1,146 @@
+{
+  "as_of": "2026-11-02T13:09:49.534Z",
+  "url": "https://vendorindex.dev/vendor/sentry/",
+  "vendor": {
+    "id": "sentry",
+    "name": "Sentry",
+    "type": "open_source",
+    "categories": [
+      "error-monitoring"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@sentry/node",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@sentry/node",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "sentry-sdk",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/sentry-sdk/",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "sentry-ruby",
+      "registry": "rubygems",
+      "url": "https://github.com/getsentry/sentry-ruby",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "sentry/sentry",
+      "registry": "packagist",
+      "url": "https://github.com/getsentry/sentry-php",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/getsentry/sentry-go",
+      "registry": "go",
+      "url": "https://github.com/getsentry/sentry-go",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "io.sentry",
+      "registry": "maven",
+      "url": "https://github.com/getsentry/sentry-java",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Sentry",
+      "registry": "nuget",
+      "url": "https://github.com/getsentry/sentry-dotnet",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "sentry-team",
+      "name": "Team",
+      "base_price": 29,
+      "billing_period": "month",
+      "included_units": {
+        "events": 50000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 72.7,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 63.49,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.sentry.io/platforms/javascript/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 50000,
+      "monthly": 29
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -9.4,
+    "last_release_at": "2026-10-28",
+    "status_page": "https://status.sentry.io",
+    "sources": [
+      "https://www.npmjs.com/package/@sentry/node",
+      "https://status.sentry.io"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

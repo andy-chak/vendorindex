@@ -1,0 +1,138 @@
+{
+  "as_of": "2026-11-02T13:09:49.534Z",
+  "url": "https://vendorindex.dev/vendor/honeybadger/",
+  "vendor": {
+    "id": "honeybadger",
+    "name": "Honeybadger",
+    "type": "saas",
+    "categories": [
+      "error-monitoring"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@honeybadger-io/js",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@honeybadger-io/js",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "honeybadger",
+      "registry": "rubygems",
+      "url": "https://github.com/honeybadger-io/honeybadger-ruby",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "honeybadger",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/honeybadger/",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "honeybadger-io/honeybadger-php",
+      "registry": "packagist",
+      "url": "https://github.com/honeybadger-io/honeybadger-php",
+      "official": true
+    },
+    {
+      "language": "elixir",
+      "package": "honeybadger",
+      "registry": "hex",
+      "url": "https://github.com/honeybadger-io/honeybadger-elixir",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/honeybadger-io/honeybadger-go",
+      "registry": "go",
+      "url": "https://github.com/honeybadger-io/honeybadger-go",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "honeybadger-team",
+      "name": "Team",
+      "base_price": 26,
+      "billing_period": "month",
+      "included_units": {
+        "events": 50000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 73.01,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 82.54,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.honeybadger.io/lib/javascript/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 50000,
+      "monthly": 26
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -13,
+    "last_release_at": "2026-10-16",
+    "status_page": "https://status.honeybadger.io",
+    "sources": [
+      "https://www.npmjs.com/package/@honeybadger-io/js",
+      "https://status.honeybadger.io"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

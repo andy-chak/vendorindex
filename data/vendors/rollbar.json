@@ -1,0 +1,146 @@
+{
+  "as_of": "2026-11-02T13:09:49.534Z",
+  "url": "https://vendorindex.dev/vendor/rollbar/",
+  "vendor": {
+    "id": "rollbar",
+    "name": "Rollbar",
+    "type": "saas",
+    "categories": [
+      "error-monitoring"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "rollbar",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/rollbar",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "rollbar",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/rollbar/",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "rollbar",
+      "registry": "rubygems",
+      "url": "https://github.com/rollbar/rollbar-gem",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "rollbar/rollbar",
+      "registry": "packagist",
+      "url": "https://github.com/rollbar/rollbar-php",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/rollbar/rollbar-go",
+      "registry": "go",
+      "url": "https://github.com/rollbar/rollbar-go",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.rollbar",
+      "registry": "maven",
+      "url": "https://github.com/rollbar/rollbar-java",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Rollbar",
+      "registry": "nuget",
+      "url": "https://github.com/rollbar/Rollbar.NET",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "rollbar-essentials",
+      "name": "Essentials",
+      "base_price": 35,
+      "billing_period": "month",
+      "included_units": {
+        "events": 50000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 59.58,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 25.4,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.rollbar.com/docs/nodejs"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 90,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 50000,
+      "monthly": 35
+    }
+  ],
+  "health": {
+    "score": 90,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -22.1,
+    "last_release_at": "2026-10-27",
+    "status_page": "https://status.rollbar.com",
+    "sources": [
+      "https://www.npmjs.com/package/rollbar",
+      "https://status.rollbar.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
