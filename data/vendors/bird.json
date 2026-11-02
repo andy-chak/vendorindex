@@ -1,0 +1,136 @@
+{
+  "as_of": "2026-11-02T13:06:18.156Z",
+  "url": "https://vendorindex.dev/vendor/bird/",
+  "vendor": {
+    "id": "bird",
+    "name": "Bird (MessageBird)",
+    "type": "saas",
+    "categories": [
+      "sms"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 55,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "messagebird",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/messagebird",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "messagebird",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/messagebird/",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "messagebird/php-rest-api",
+      "registry": "packagist",
+      "url": "https://github.com/messagebird/php-rest-api",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/messagebird/go-rest-api",
+      "registry": "go",
+      "url": "https://github.com/messagebird/go-rest-api",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "bird-sms",
+      "name": "SMS (US, long code)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "messages",
+          "unit_size": 1,
+          "per_unit": 0.0035
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 66.75,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 55,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.bird.com/api"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 80,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 35
+    },
+    {
+      "volume": 100000,
+      "monthly": 350
+    },
+    {
+      "volume": 1000000,
+      "monthly": 3500
+    }
+  ],
+  "health": {
+    "score": 80,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -16.9,
+    "last_release_at": "2023-01-25",
+    "status_page": "https://status.bird.com",
+    "sources": [
+      "https://www.npmjs.com/package/messagebird",
+      "https://status.bird.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

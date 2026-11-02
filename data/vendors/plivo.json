@@ -1,0 +1,158 @@
+{
+  "as_of": "2026-11-02T13:06:18.156Z",
+  "url": "https://vendorindex.dev/vendor/plivo/",
+  "vendor": {
+    "id": "plivo",
+    "name": "Plivo",
+    "type": "saas",
+    "categories": [
+      "sms"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 65,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "plivo",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/plivo",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "plivo",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/plivo/",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "plivo/plivo-php",
+      "registry": "packagist",
+      "url": "https://github.com/plivo/plivo-php",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "plivo",
+      "registry": "rubygems",
+      "url": "https://github.com/plivo/plivo-ruby",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.plivo",
+      "registry": "maven",
+      "url": "https://github.com/plivo/plivo-java",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/plivo/plivo-go",
+      "registry": "go",
+      "url": "https://github.com/plivo/plivo-go",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Plivo",
+      "registry": "nuget",
+      "url": "https://github.com/plivo/plivo-dotnet",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "plivo-sms",
+      "name": "SMS (US, long code)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "messages",
+          "unit_size": 1,
+          "per_unit": 0.0077
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 52.78,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 17.65,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.15,
+        "evidence": [
+          "https://www.plivo.com/docs/sms/quickstart/node"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 90,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 77
+    },
+    {
+      "volume": 100000,
+      "monthly": 770
+    },
+    {
+      "volume": 1000000,
+      "monthly": 7700
+    }
+  ],
+  "health": {
+    "score": 90,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -21.1,
+    "last_release_at": "2026-07-28",
+    "status_page": "https://status.plivo.com",
+    "sources": [
+      "https://www.npmjs.com/package/plivo",
+      "https://status.plivo.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

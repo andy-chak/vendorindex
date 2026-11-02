@@ -1,0 +1,162 @@
+{
+  "as_of": "2026-11-02T13:06:18.156Z",
+  "url": "https://vendorindex.dev/category/sms/",
+  "category": {
+    "id": "sms",
+    "name": "SMS API",
+    "usage_metric": "messages"
+  },
+  "use_cases": [
+    {
+      "id": "app-notifications",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "telnyx",
+          "total": 71.29,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 40
+            },
+            {
+              "volume": 100000,
+              "monthly": 400
+            },
+            {
+              "volume": 1000000,
+              "monthly": 4000
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "bird",
+          "total": 66.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 35
+            },
+            {
+              "volume": 100000,
+              "monthly": 350
+            },
+            {
+              "volume": 1000000,
+              "monthly": 3500
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "twilio",
+          "total": 53.93,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 83
+            },
+            {
+              "volume": 100000,
+              "monthly": 830
+            },
+            {
+              "volume": 1000000,
+              "monthly": 8300
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "plivo",
+          "total": 52.78,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 77
+            },
+            {
+              "volume": 100000,
+              "monthly": 770
+            },
+            {
+              "volume": 1000000,
+              "monthly": 7700
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "vonage",
+          "total": 51.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 86
+            },
+            {
+              "volume": 100000,
+              "monthly": 860
+            },
+            {
+              "volume": 1000000,
+              "monthly": 8600
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "as_of": "2026-11-02T13:06:18.156Z",
+  "url": "https://vendorindex.dev/vendor/telnyx/",
+  "vendor": {
+    "id": "telnyx",
+    "name": "Telnyx",
+    "type": "saas",
+    "categories": [
+      "sms"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "pci"
+    ]
+  },
+  "agent_friction": 85,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "telnyx",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/telnyx",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "telnyx",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/telnyx/",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "telnyx/telnyx-php",
+      "registry": "packagist",
+      "url": "https://github.com/team-telnyx/telnyx-php",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "telnyx",
+      "registry": "rubygems",
+      "url": "https://github.com/team-telnyx/telnyx-ruby",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Telnyx.net",
+      "registry": "nuget",
+      "url": "https://github.com/team-telnyx/telnyx-dotnet",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "telnyx-sms",
+      "name": "Messaging (US)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "messages",
+          "unit_size": 1,
+          "per_unit": 0.004
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 71.29,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 90.2,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 85,
+        "weight": 0.15,
+        "evidence": [
+          "https://developers.telnyx.com/docs/messaging/messages/send-message"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 40
+    },
+    {
+      "volume": 100000,
+      "monthly": 400
+    },
+    {
+      "volume": 1000000,
+      "monthly": 4000
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 5.9,
+    "last_release_at": "2026-10-28",
+    "status_page": "https://status.telnyx.com",
+    "sources": [
+      "https://www.npmjs.com/package/telnyx",
+      "https://status.telnyx.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

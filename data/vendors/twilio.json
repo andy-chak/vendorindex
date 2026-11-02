@@ -1,0 +1,159 @@
+{
+  "as_of": "2026-11-02T13:06:18.156Z",
+  "url": "https://vendorindex.dev/vendor/twilio/",
+  "vendor": {
+    "id": "twilio",
+    "name": "Twilio",
+    "type": "saas",
+    "categories": [
+      "sms"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr",
+      "iso27001"
+    ]
+  },
+  "agent_friction": 85,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "twilio",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/twilio",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "twilio",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/twilio/",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "twilio/sdk",
+      "registry": "packagist",
+      "url": "https://github.com/twilio/twilio-php",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "twilio-ruby",
+      "registry": "rubygems",
+      "url": "https://github.com/twilio/twilio-ruby",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.twilio.sdk",
+      "registry": "maven",
+      "url": "https://github.com/twilio/twilio-java",
+      "official": true
+    },
+    {
+      "language": "csharp",
+      "package": "Twilio",
+      "registry": "nuget",
+      "url": "https://github.com/twilio/twilio-csharp",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/twilio/twilio-go",
+      "registry": "go",
+      "url": "https://github.com/twilio/twilio-go",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "twilio-sms",
+      "name": "SMS (US, pay-as-you-go)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "messages",
+          "unit_size": 1,
+          "per_unit": 0.0083
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 53.93,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 5.88,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 85,
+        "weight": 0.15,
+        "evidence": [
+          "https://www.twilio.com/docs/messaging/quickstart"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 83
+    },
+    {
+      "volume": 100000,
+      "monthly": 830
+    },
+    {
+      "volume": 1000000,
+      "monthly": 8300
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -11.4,
+    "last_release_at": "2026-10-12",
+    "status_page": "https://status.twilio.com",
+    "sources": [
+      "https://www.npmjs.com/package/twilio",
+      "https://status.twilio.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
