@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:34:25.230Z",
+  "as_of": "2026-11-02T11:48:02.565Z",
   "url": "https://vendorindex.dev/vendor/mailgun/",
   "vendor": {
     "id": "mailgun",
@@ -88,7 +88,7 @@
     }
   ],
   "score": {
-    "total": 79.91,
+    "total": 80.41,
     "dimensions": [
       {
         "dimension": "fit",
@@ -118,7 +118,7 @@
       },
       {
         "dimension": "health",
-        "value": 80,
+        "value": 85,
         "weight": 0.1,
         "evidence": []
       },
@@ -144,6 +144,18 @@
       "monthly": 1080
     }
   ],
+  "health": {
+    "score": 85,
+    "incidents_90d": 1,
+    "downloads_trend_pct": -24.9,
+    "last_release_at": "2026-11-02",
+    "status_page": "https://status.mailgun.com",
+    "sources": [
+      "https://www.npmjs.com/package/mailgun.js",
+      "https://status.mailgun.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

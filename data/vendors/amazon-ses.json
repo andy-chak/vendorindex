@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:34:25.230Z",
+  "as_of": "2026-11-02T11:48:02.565Z",
   "url": "https://vendorindex.dev/vendor/amazon-ses/",
   "vendor": {
     "id": "amazon-ses",
@@ -54,7 +54,7 @@
     }
   ],
   "score": {
-    "total": 67.75,
+    "total": 68.75,
     "dimensions": [
       {
         "dimension": "fit",
@@ -84,7 +84,7 @@
       },
       {
         "dimension": "health",
-        "value": 90,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -110,6 +110,17 @@
       "monthly": 100
     }
   ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://health.aws.amazon.com/health/status",
+    "sources": [
+      "https://health.aws.amazon.com/health/status"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:34:25.230Z",
+  "as_of": "2026-11-02T11:48:02.565Z",
   "url": "https://vendorindex.dev/vendor/resend/",
   "vendor": {
     "id": "resend",
@@ -81,7 +81,7 @@
     }
   ],
   "score": {
-    "total": 92.33,
+    "total": 92.83,
     "dimensions": [
       {
         "dimension": "fit",
@@ -111,7 +111,7 @@
       },
       {
         "dimension": "health",
-        "value": 95,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -137,6 +137,18 @@
       "monthly": 650
     }
   ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -6.7,
+    "last_release_at": "2026-10-30",
+    "status_page": "https://resend-status.com",
+    "sources": [
+      "https://www.npmjs.com/package/resend",
+      "https://resend-status.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

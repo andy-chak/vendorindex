@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:34:25.230Z",
+  "as_of": "2026-11-02T11:48:02.565Z",
   "url": "https://vendorindex.dev/category/transactional-email/",
   "category": {
     "id": "transactional-email",
@@ -38,7 +38,7 @@
       "ranking": [
         {
           "vendor": "resend",
-          "total": 92.33,
+          "total": 92.83,
           "insufficient_data": false,
           "costs": [
             {
@@ -62,7 +62,7 @@
         },
         {
           "vendor": "sendgrid",
-          "total": 82.85,
+          "total": 83.35,
           "insufficient_data": false,
           "costs": [
             {
@@ -86,7 +86,7 @@
         },
         {
           "vendor": "mailgun",
-          "total": 79.91,
+          "total": 80.41,
           "insufficient_data": false,
           "costs": [
             {
@@ -110,7 +110,7 @@
         },
         {
           "vendor": "amazon-ses",
-          "total": 67.75,
+          "total": 68.75,
           "insufficient_data": false,
           "costs": [
             {
@@ -134,7 +134,7 @@
         },
         {
           "vendor": "postmark",
-          "total": 63.25,
+          "total": 62.25,
           "insufficient_data": false,
           "costs": [
             {

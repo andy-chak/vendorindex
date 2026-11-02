@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:34:25.230Z",
+  "as_of": "2026-11-02T11:48:02.565Z",
   "url": "https://vendorindex.dev/vendor/postmark/",
   "vendor": {
     "id": "postmark",
@@ -71,7 +71,7 @@
     }
   ],
   "score": {
-    "total": 63.25,
+    "total": 62.25,
     "dimensions": [
       {
         "dimension": "fit",
@@ -101,7 +101,7 @@
       },
       {
         "dimension": "health",
-        "value": 100,
+        "value": 90,
         "weight": 0.1,
         "evidence": []
       },
@@ -127,6 +127,18 @@
       "monthly": 1206
     }
   ],
+  "health": {
+    "score": 90,
+    "incidents_90d": 1,
+    "downloads_trend_pct": -11.4,
+    "last_release_at": "2026-07-10",
+    "status_page": "https://status.postmarkapp.com",
+    "sources": [
+      "https://www.npmjs.com/package/postmark",
+      "https://status.postmarkapp.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }
