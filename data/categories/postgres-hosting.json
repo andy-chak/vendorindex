@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/category/postgres-hosting/",
   "category": {
     "id": "postgres-hosting",
@@ -38,7 +38,7 @@
       "ranking": [
         {
           "vendor": "railway",
-          "total": 68.5,
+          "total": 78,
           "insufficient_data": false,
           "costs": [
             {
@@ -62,7 +62,7 @@
         },
         {
           "vendor": "neon",
-          "total": 56.61,
+          "total": 66.11,
           "insufficient_data": false,
           "costs": [
             {
@@ -86,7 +86,7 @@
         },
         {
           "vendor": "amazon-rds",
-          "total": 51.89,
+          "total": 61.89,
           "insufficient_data": false,
           "costs": [
             {
@@ -110,7 +110,7 @@
         },
         {
           "vendor": "supabase",
-          "total": 48.5,
+          "total": 58.5,
           "insufficient_data": false,
           "costs": [
             {
@@ -134,7 +134,7 @@
         },
         {
           "vendor": "crunchy-bridge",
-          "total": 47.95,
+          "total": 57.95,
           "insufficient_data": false,
           "costs": [
             {

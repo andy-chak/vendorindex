@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/paddle/",
   "vendor": {
     "id": "paddle",
@@ -15,7 +15,43 @@
     ]
   },
   "agent_friction": 65,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@paddle/paddle-node-sdk",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@paddle/paddle-node-sdk",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "paddle-python-sdk",
+      "registry": "pypi",
+      "url": "https://developer.paddle.com/api-reference/sdks/overview",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "paddle/paddle-php-sdk",
+      "registry": "packagist",
+      "url": "https://developer.paddle.com/api-reference/sdks/overview",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/PaddleHQ/paddle-go-sdk",
+      "registry": "go",
+      "url": "https://developer.paddle.com/api-reference/sdks/overview",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Paddle.Sdk",
+      "registry": "nuget",
+      "url": "https://developer.paddle.com/api-reference/sdks/overview",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -45,7 +81,7 @@
     }
   ],
   "score": {
-    "total": 38.75,
+    "total": 48.75,
     "dimensions": [
       {
         "dimension": "fit",
@@ -75,7 +111,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -93,7 +129,18 @@
       "monthly": 5000
     }
   ],
-  "health": null,
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -2.8,
+    "last_release_at": "2026-08-07",
+    "status_page": "https://paddlestatus.com",
+    "sources": [
+      "https://www.npmjs.com/package/@paddle/paddle-node-sdk",
+      "https://paddlestatus.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

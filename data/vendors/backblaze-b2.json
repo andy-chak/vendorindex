@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/backblaze-b2/",
   "vendor": {
     "id": "backblaze-b2",
@@ -15,7 +15,22 @@
     ]
   },
   "agent_friction": 55,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@aws-sdk/client-s3",
+      "registry": "npm",
+      "url": "https://www.backblaze.com/docs/cloud-storage-use-the-aws-sdk-for-javascript-v3-with-backblaze-b2",
+      "official": false
+    },
+    {
+      "language": "typescript",
+      "package": "backblaze-b2",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/backblaze-b2",
+      "official": false
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -59,7 +74,7 @@
     }
   ],
   "score": {
-    "total": 63.25,
+    "total": 71.75,
     "dimensions": [
       {
         "dimension": "fit",
@@ -89,7 +104,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 85,
         "weight": 0.1,
         "evidence": []
       },
@@ -115,7 +130,18 @@
       "monthly": 69.43
     }
   ],
-  "health": null,
+  "health": {
+    "score": 85,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -7.5,
+    "last_release_at": "2025-05-26",
+    "status_page": "https://status.backblaze.com",
+    "sources": [
+      "https://www.npmjs.com/package/backblaze-b2",
+      "https://status.backblaze.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

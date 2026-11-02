@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/amazon-s3/",
   "vendor": {
     "id": "amazon-s3",
@@ -17,7 +17,57 @@
     ]
   },
   "agent_friction": 35,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@aws-sdk/client-s3",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@aws-sdk/client-s3",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "boto3",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/boto3/",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/aws/aws-sdk-go-v2",
+      "registry": "go",
+      "url": "https://github.com/aws/aws-sdk-go-v2",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "software.amazon.awssdk:s3",
+      "registry": "maven",
+      "url": "https://github.com/aws/aws-sdk-java-v2",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "aws-sdk-s3",
+      "registry": "rubygems",
+      "url": "https://github.com/aws/aws-sdk-ruby",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "aws/aws-sdk-php",
+      "registry": "packagist",
+      "url": "https://github.com/aws/aws-sdk-php",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "AWSSDK.S3",
+      "registry": "nuget",
+      "url": "https://github.com/aws/aws-sdk-net",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -61,7 +111,7 @@
     }
   ],
   "score": {
-    "total": 38.75,
+    "total": 48.75,
     "dimensions": [
       {
         "dimension": "fit",
@@ -91,7 +141,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -117,7 +167,17 @@
       "monthly": 230
     }
   ],
-  "health": null,
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://health.aws.amazon.com/health/status",
+    "sources": [
+      "https://health.aws.amazon.com/health/status"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

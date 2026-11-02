@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/better-auth/",
   "vendor": {
     "id": "better-auth",
@@ -11,7 +11,15 @@
     "compliance": []
   },
   "agent_friction": 90,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "better-auth",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/better-auth",
+      "official": true
+    }
+  ],
   "observability": null,
   "plans": [
     {
@@ -27,7 +35,7 @@
     }
   ],
   "score": {
-    "total": 68.5,
+    "total": 78.5,
     "dimensions": [
       {
         "dimension": "fit",
@@ -57,7 +65,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -83,7 +91,17 @@
       "monthly": 0
     }
   ],
-  "health": null,
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 13.1,
+    "last_release_at": "2026-11-01",
+    "status_page": null,
+    "sources": [
+      "https://www.npmjs.com/package/better-auth"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

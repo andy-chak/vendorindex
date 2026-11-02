@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/tigris/",
   "vendor": {
     "id": "tigris",
@@ -13,7 +13,22 @@
     ]
   },
   "agent_friction": 80,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@aws-sdk/client-s3",
+      "registry": "npm",
+      "url": "https://www.tigrisdata.com/docs/sdks/s3/aws-js-sdk/",
+      "official": false
+    },
+    {
+      "language": "python",
+      "package": "boto3",
+      "registry": "pypi",
+      "url": "https://www.tigrisdata.com/docs/sdks/s3/boto3/",
+      "official": false
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -53,7 +68,7 @@
     }
   ],
   "score": {
-    "total": 64.3,
+    "total": 74.3,
     "dimensions": [
       {
         "dimension": "fit",
@@ -83,7 +98,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -109,7 +124,17 @@
       "monthly": 200
     }
   ],
-  "health": null,
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://status.tigrisdata.com",
+    "sources": [
+      "https://status.tigrisdata.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

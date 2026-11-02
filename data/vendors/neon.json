@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/neon/",
   "vendor": {
     "id": "neon",
@@ -15,7 +15,15 @@
     ]
   },
   "agent_friction": 100,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@neondatabase/serverless",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@neondatabase/serverless",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -53,7 +61,7 @@
     }
   ],
   "score": {
-    "total": 56.61,
+    "total": 66.11,
     "dimensions": [
       {
         "dimension": "fit",
@@ -83,7 +91,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 95,
         "weight": 0.1,
         "evidence": []
       },
@@ -109,7 +117,18 @@
       "monthly": 365.5
     }
   ],
-  "health": null,
+  "health": {
+    "score": 95,
+    "incidents_90d": 1,
+    "downloads_trend_pct": -0.2,
+    "last_release_at": "2026-10-01",
+    "status_page": "https://neonstatus.com",
+    "sources": [
+      "https://www.npmjs.com/package/@neondatabase/serverless",
+      "https://neonstatus.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

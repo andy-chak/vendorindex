@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/category/object-storage/",
   "category": {
     "id": "object-storage",
@@ -38,7 +38,7 @@
       "ranking": [
         {
           "vendor": "cloudflare-r2",
-          "total": 66.86,
+          "total": 76.86,
           "insufficient_data": false,
           "costs": [
             {
@@ -62,7 +62,7 @@
         },
         {
           "vendor": "tigris",
-          "total": 64.3,
+          "total": 74.3,
           "insufficient_data": false,
           "costs": [
             {
@@ -86,7 +86,7 @@
         },
         {
           "vendor": "backblaze-b2",
-          "total": 63.25,
+          "total": 71.75,
           "insufficient_data": false,
           "costs": [
             {
@@ -110,7 +110,7 @@
         },
         {
           "vendor": "amazon-s3",
-          "total": 38.75,
+          "total": 48.75,
           "insufficient_data": false,
           "costs": [
             {
@@ -134,7 +134,7 @@
         },
         {
           "vendor": "vercel-blob",
-          "total": 36.49,
+          "total": 46.49,
           "insufficient_data": false,
           "costs": [
             {

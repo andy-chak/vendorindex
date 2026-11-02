@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/railway/",
   "vendor": {
     "id": "railway",
@@ -52,7 +52,7 @@
     }
   ],
   "score": {
-    "total": 68.5,
+    "total": 78,
     "dimensions": [
       {
         "dimension": "fit",
@@ -82,7 +82,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 95,
         "weight": 0.1,
         "evidence": []
       },
@@ -108,7 +108,17 @@
       "monthly": 154.85
     }
   ],
-  "health": null,
+  "health": {
+    "score": 95,
+    "incidents_90d": 1,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://status.railway.com",
+    "sources": [
+      "https://status.railway.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

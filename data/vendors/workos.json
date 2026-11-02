@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/workos/",
   "vendor": {
     "id": "workos",
@@ -14,7 +14,64 @@
     ]
   },
   "agent_friction": 80,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@workos-inc/node",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@workos-inc/node",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "workos",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/workos/",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "workos",
+      "registry": "rubygems",
+      "url": "https://workos.com/docs/sdks",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/workos/workos-go",
+      "registry": "go",
+      "url": "https://workos.com/docs/sdks",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "workos/workos-php",
+      "registry": "packagist",
+      "url": "https://workos.com/docs/sdks",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.workos",
+      "registry": "maven",
+      "url": "https://workos.com/docs/sdks",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "WorkOS.net",
+      "registry": "nuget",
+      "url": "https://workos.com/docs/sdks",
+      "official": true
+    },
+    {
+      "language": "elixir",
+      "package": "workos",
+      "registry": "hex",
+      "url": "https://workos.com/docs/sdks",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -52,7 +109,7 @@
     }
   ],
   "score": {
-    "total": 65.5,
+    "total": 74,
     "dimensions": [
       {
         "dimension": "fit",
@@ -82,7 +139,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 85,
         "weight": 0.1,
         "evidence": []
       },
@@ -108,7 +165,18 @@
       "monthly": 0
     }
   ],
-  "health": null,
+  "health": {
+    "score": 85,
+    "incidents_90d": 3,
+    "downloads_trend_pct": -4.5,
+    "last_release_at": "2026-10-30",
+    "status_page": "https://status.workos.com",
+    "sources": [
+      "https://www.npmjs.com/package/@workos-inc/node",
+      "https://status.workos.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

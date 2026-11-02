@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/stripe/",
   "vendor": {
     "id": "stripe",
@@ -15,7 +15,57 @@
     ]
   },
   "agent_friction": 100,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "stripe",
+      "registry": "npm",
+      "url": "https://github.com/stripe/stripe-node",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "stripe",
+      "registry": "pypi",
+      "url": "https://github.com/stripe/stripe-python",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "stripe",
+      "registry": "rubygems",
+      "url": "https://github.com/stripe/stripe-ruby",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "stripe/stripe-php",
+      "registry": "packagist",
+      "url": "https://github.com/stripe/stripe-php",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/stripe/stripe-go",
+      "registry": "go",
+      "url": "https://github.com/stripe/stripe-go",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.stripe:stripe-java",
+      "registry": "maven",
+      "url": "https://github.com/stripe/stripe-java",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Stripe.net",
+      "registry": "nuget",
+      "url": "https://github.com/stripe/stripe-dotnet",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -46,7 +96,7 @@
     }
   ],
   "score": {
-    "total": 68.5,
+    "total": 75,
     "dimensions": [
       {
         "dimension": "fit",
@@ -76,7 +126,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 65,
         "weight": 0.1,
         "evidence": []
       },
@@ -94,7 +144,18 @@
       "monthly": 3000
     }
   ],
-  "health": null,
+  "health": {
+    "score": 65,
+    "incidents_90d": 7,
+    "downloads_trend_pct": -6.6,
+    "last_release_at": "2026-10-29",
+    "status_page": "https://status.stripe.com",
+    "sources": [
+      "https://www.npmjs.com/package/stripe",
+      "https://www.stripestatus.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/auth0/",
   "vendor": {
     "id": "auth0",
@@ -16,7 +16,57 @@
     ]
   },
   "agent_friction": 80,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@auth0/auth0-spa-js",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@auth0/auth0-spa-js",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "auth0-python",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/auth0-python/",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.auth0:auth0",
+      "registry": "maven",
+      "url": "https://auth0.com/docs/libraries",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Auth0.AuthenticationApi",
+      "registry": "nuget",
+      "url": "https://auth0.com/docs/libraries",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "auth0/auth0-php",
+      "registry": "packagist",
+      "url": "https://auth0.com/docs/libraries",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "auth0",
+      "registry": "rubygems",
+      "url": "https://auth0.com/docs/libraries",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/auth0/go-auth0",
+      "registry": "go",
+      "url": "https://auth0.com/docs/libraries",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -88,7 +138,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 95,
         "weight": 0.1,
         "evidence": []
       },
@@ -114,7 +164,18 @@
       "monthly": null
     }
   ],
-  "health": null,
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -15.3,
+    "last_release_at": "2026-10-19",
+    "status_page": "https://status.auth0.com",
+    "sources": [
+      "https://www.npmjs.com/package/auth0",
+      "https://status.auth0.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }

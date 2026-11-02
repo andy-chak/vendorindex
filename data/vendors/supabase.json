@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T12:02:21.379Z",
+  "as_of": "2026-11-02T12:08:59.188Z",
   "url": "https://vendorindex.dev/vendor/supabase/",
   "vendor": {
     "id": "supabase",
@@ -16,7 +16,50 @@
     ]
   },
   "agent_friction": 100,
-  "sdks": [],
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@supabase/supabase-js",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@supabase/supabase-js",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "supabase",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/supabase/",
+      "official": true
+    },
+    {
+      "language": "dart",
+      "package": "supabase_flutter",
+      "registry": "other",
+      "url": "https://supabase.com/docs/reference/dart",
+      "official": true
+    },
+    {
+      "language": "swift",
+      "package": "supabase-swift",
+      "registry": "other",
+      "url": "https://supabase.com/docs/reference/swift",
+      "official": true
+    },
+    {
+      "language": "csharp",
+      "package": "supabase-csharp",
+      "registry": "nuget",
+      "url": "https://supabase.com/docs/reference/csharp",
+      "official": false
+    },
+    {
+      "language": "kotlin",
+      "package": "supabase-kt",
+      "registry": "maven",
+      "url": "https://supabase.com/docs/reference/kotlin",
+      "official": false
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
@@ -83,7 +126,7 @@
     }
   ],
   "score": {
-    "total": 68.01,
+    "total": 78.01,
     "dimensions": [
       {
         "dimension": "fit",
@@ -113,7 +156,7 @@
       },
       {
         "dimension": "health",
-        "value": 0,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -139,7 +182,18 @@
       "monthly": 25
     }
   ],
-  "health": null,
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 8,
+    "last_release_at": "2026-10-15",
+    "status_page": "https://status.supabase.com",
+    "sources": [
+      "https://www.npmjs.com/package/@supabase/supabase-js",
+      "https://status.supabase.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
   "last_verified": "2026-11-01",
   "internet_unverified": null
 }
