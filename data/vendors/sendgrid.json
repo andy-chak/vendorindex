@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:48:02.565Z",
+  "as_of": "2026-11-02T12:02:21.379Z",
   "url": "https://vendorindex.dev/vendor/sendgrid/",
   "vendor": {
     "id": "sendgrid",
@@ -14,6 +14,57 @@
     ]
   },
   "agent_friction": 45,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@sendgrid/mail",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@sendgrid/mail",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "sendgrid",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/sendgrid/",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "sendgrid/sendgrid",
+      "registry": "packagist",
+      "url": "https://github.com/sendgrid/sendgrid-php",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "sendgrid-ruby",
+      "registry": "rubygems",
+      "url": "https://github.com/sendgrid/sendgrid-ruby",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/sendgrid/sendgrid-go",
+      "registry": "go",
+      "url": "https://github.com/sendgrid/sendgrid-go",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "com.sendgrid",
+      "registry": "maven",
+      "url": "https://github.com/sendgrid/sendgrid-java",
+      "official": true
+    },
+    {
+      "language": "csharp",
+      "package": "SendGrid",
+      "registry": "nuget",
+      "url": "https://github.com/sendgrid/sendgrid-csharp",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,

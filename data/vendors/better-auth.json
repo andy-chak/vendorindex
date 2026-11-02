@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:48:02.565Z",
+  "as_of": "2026-11-02T12:02:21.379Z",
   "url": "https://vendorindex.dev/vendor/better-auth/",
   "vendor": {
     "id": "better-auth",
@@ -11,6 +11,7 @@
     "compliance": []
   },
   "agent_friction": 90,
+  "sdks": [],
   "observability": null,
   "plans": [
     {

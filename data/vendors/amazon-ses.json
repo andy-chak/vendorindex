@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:48:02.565Z",
+  "as_of": "2026-11-02T12:02:21.379Z",
   "url": "https://vendorindex.dev/vendor/amazon-ses/",
   "vendor": {
     "id": "amazon-ses",
@@ -16,6 +16,57 @@
     ]
   },
   "agent_friction": 35,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@aws-sdk/client-sesv2",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@aws-sdk/client-sesv2",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "boto3",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/boto3/",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/aws/aws-sdk-go-v2",
+      "registry": "go",
+      "url": "https://github.com/aws/aws-sdk-go-v2",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "software.amazon.awssdk",
+      "registry": "maven",
+      "url": "https://github.com/aws/aws-sdk-java-v2",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "aws-sdk-ses",
+      "registry": "rubygems",
+      "url": "https://github.com/aws/aws-sdk-ruby",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "aws/aws-sdk-php",
+      "registry": "packagist",
+      "url": "https://github.com/aws/aws-sdk-php",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "AWSSDK.SimpleEmailV2",
+      "registry": "nuget",
+      "url": "https://github.com/aws/aws-sdk-net",
+      "official": true
+    }
+  ],
   "observability": {
     "dashboard": false,
     "metrics_api": true,

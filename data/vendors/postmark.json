@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:48:02.565Z",
+  "as_of": "2026-11-02T12:02:21.379Z",
   "url": "https://vendorindex.dev/vendor/postmark/",
   "vendor": {
     "id": "postmark",
@@ -14,6 +14,57 @@
     ]
   },
   "agent_friction": 65,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "postmark",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/postmark",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "postmarker",
+      "registry": "pypi",
+      "url": "https://postmarkapp.com/developer/integration/official-libraries",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "postmark",
+      "registry": "rubygems",
+      "url": "https://postmarkapp.com/developer/integration/official-libraries",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "wildbit/postmark-php",
+      "registry": "packagist",
+      "url": "https://postmarkapp.com/developer/integration/official-libraries",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Postmark",
+      "registry": "nuget",
+      "url": "https://postmarkapp.com/developer/integration/official-libraries",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "postmark",
+      "registry": "maven",
+      "url": "https://postmarkapp.com/developer/integration/official-libraries",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "keighl/postmark",
+      "registry": "go",
+      "url": "https://postmarkapp.com/developer/integration/official-libraries",
+      "official": false
+    }
+  ],
   "observability": {
     "dashboard": true,
     "metrics_api": true,

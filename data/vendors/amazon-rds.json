@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-02T11:48:02.565Z",
+  "as_of": "2026-11-02T12:02:21.379Z",
   "url": "https://vendorindex.dev/vendor/amazon-rds/",
   "vendor": {
     "id": "amazon-rds",
@@ -17,6 +17,7 @@
     ]
   },
   "agent_friction": 35,
+  "sdks": [],
   "observability": {
     "dashboard": true,
     "metrics_api": true,
