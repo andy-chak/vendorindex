@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/vendor/mistral-ocr/",
+  "vendor": {
+    "id": "mistral-ocr",
+    "name": "Mistral OCR",
+    "type": "saas",
+    "categories": [
+      "doc-extraction"
+    ],
+    "compliance": [
+      "gdpr",
+      "soc2"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "mistralai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/mistralai/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@mistralai/mistralai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@mistralai/mistralai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "mistral-ocr-standard",
+      "name": "OCR (per-page, La Plateforme)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.004
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 76.92,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 73.33,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.mistral.ai/capabilities/OCR/basic_ocr/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 40
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -16,
+    "last_release_at": "2026-11-01",
+    "status_page": "https://status.mistral.ai",
+    "sources": [
+      "https://pypi.org/project/mistralai/",
+      "https://status.mistral.ai"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": {
+    "sentiment_index": 45,
+    "divergence": "none"
+  }
+}

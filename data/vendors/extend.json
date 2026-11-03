@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/vendor/extend/",
+  "vendor": {
+    "id": "extend",
+    "name": "Extend",
+    "type": "saas",
+    "categories": [
+      "doc-extraction"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "extend-ai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/extend-ai",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "extend-ai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/extend-ai/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "extend-payg",
+      "name": "Pay-as-you-go (Parse Light)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.005
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 75.33,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 66.67,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.extend.ai"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 50
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 35.6,
+    "last_release_at": "2026-10-22",
+    "status_page": null,
+    "sources": [
+      "https://www.npmjs.com/package/extend-ai",
+      "https://docs.extend.ai"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

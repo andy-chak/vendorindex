@@ -1,0 +1,645 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/category/doc-extraction/",
+  "category": {
+    "id": "doc-extraction",
+    "name": "PDF & document extraction",
+    "usage_metric": "pages"
+  },
+  "use_cases": [
+    {
+      "id": "bulk-text-extraction",
+      "weights": [
+        {
+          "dimension": "cost",
+          "weight": 0.35
+        },
+        {
+          "dimension": "fit",
+          "weight": 0.15
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.1
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.15
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "docling",
+          "total": 90,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mineru",
+          "total": 88.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "unstructured",
+          "total": 88.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "marker",
+          "total": 87.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "pymupdf",
+          "total": 87,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "llamaparse",
+          "total": 78.92,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 25
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 25
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mistral-ocr",
+          "total": 76.92,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 40
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 40
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "extend",
+          "total": 75.33,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "pdfplumber",
+          "total": 70.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "reducto",
+          "total": 63.67,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 100
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "google-document-ai",
+          "total": 56.17,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 100
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "azure-document-intelligence",
+          "total": 53.17,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 100
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "aws-textract",
+          "total": 29.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 150
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 150
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "complex-doc-parsing",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.4
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.12
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.1
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.13
+        },
+        {
+          "dimension": "health",
+          "weight": 0.15
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "docling",
+          "total": 90,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mineru",
+          "total": 88.7,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "unstructured",
+          "total": 88.7,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "marker",
+          "total": 87.95,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mistral-ocr",
+          "total": 83.45,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 40
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 40
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "extend",
+          "total": 83.4,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "llamaparse",
+          "total": 83.15,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 25
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 25
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "reducto",
+          "total": 79.4,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 100
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "google-document-ai",
+          "total": 72.7,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 100
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "azure-document-intelligence",
+          "total": 69.7,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 100
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "aws-textract",
+          "total": 68.7,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 150
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 150
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "pymupdf",
+          "total": 60.73,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "pdfplumber",
+          "total": 59.43,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "parse-10k",
+              "name": "Layout parse (10k pages/mo)",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

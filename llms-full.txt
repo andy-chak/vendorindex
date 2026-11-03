@@ -2,7 +2,7 @@
 
 > The reference coding agents consult to pick a vendor, library or service. Per-use-case scores (0–100) from verified, cited pricing, agent-friction and health. Rank is never for sale; internet sentiment is unverified and never affects rank.
 
-Generated 2026-11-03 12:14 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
+Generated 2026-11-03 22:50 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
 Remote MCP server: https://mcp.vendorindex.dev (POST /mcp).
 
 ## Authentication  (/category/auth/)
@@ -12,6 +12,22 @@ Primary use case: App user authentication. Cost metric: mau.
 - WorkOS (workos): score 74, $0 @ 1k mau/mo, free tier: yes, verified 2026-11-01
 - Clerk (clerk): score 55.5, $0 @ 1k mau/mo, free tier: yes, verified 2026-11-01
 - Auth0 (auth0): score n/a, $0 @ 1k mau/mo, free tier: yes, verified 2026-11-01
+
+## PDF & document extraction  (/category/doc-extraction/)
+Primary use case: Bulk text/markdown extraction for RAG. Cost metric: pages.
+- Docling (docling): score 90, $0 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- MinerU (mineru): score 88.5, $0 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- Unstructured (unstructured): score 88.5, $0 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- Marker (marker): score 87.75, $0 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- PyMuPDF (pymupdf): score 87, $0 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- LlamaParse (llamaparse): score 78.92, $25 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- Mistral OCR (mistral-ocr): score 76.92, $40 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- Extend (extend): score 75.33, $50 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- pdfplumber (pdfplumber): score 70.5, $0 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- Reducto (reducto): score 63.67, $100 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- Google Document AI (google-document-ai): score 56.17, $100 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- Azure AI Document Intelligence (azure-document-intelligence): score 53.17, $100 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
+- AWS Textract (aws-textract): score 29.5, $150 @ Layout parse (10k pages/mo), free tier: yes, verified 2026-11-03
 
 ## Embeddings APIs  (/category/embeddings-apis/)
 Primary use case: Retrieval (English RAG). Cost metric: input_mtok.

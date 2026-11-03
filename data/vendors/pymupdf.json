@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/vendor/pymupdf/",
+  "vendor": {
+    "id": "pymupdf",
+    "name": "PyMuPDF",
+    "type": "open_source",
+    "categories": [
+      "doc-extraction"
+    ],
+    "compliance": []
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "PyMuPDF",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/PyMuPDF/",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "pymupdf4llm",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/pymupdf4llm/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "pymupdf-selfhost",
+      "name": "Self-hosted (open source)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "pages": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 87,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://pymupdf.readthedocs.io/en/latest/rag.html"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 44.8,
+    "last_release_at": "2026-11-02",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/PyMuPDF/",
+      "https://github.com/pymupdf/PyMuPDF/releases"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

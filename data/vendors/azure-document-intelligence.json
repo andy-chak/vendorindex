@@ -1,0 +1,124 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/vendor/azure-document-intelligence/",
+  "vendor": {
+    "id": "azure-document-intelligence",
+    "name": "Azure AI Document Intelligence",
+    "type": "saas",
+    "categories": [
+      "doc-extraction"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "iso27001",
+      "gdpr",
+      "pci"
+    ]
+  },
+  "agent_friction": 40,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "azure-ai-documentintelligence",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/azure-ai-documentintelligence/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@azure-rest/ai-document-intelligence",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@azure-rest/ai-document-intelligence",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "Azure.AI.DocumentIntelligence",
+      "registry": "nuget",
+      "url": "https://www.nuget.org/packages/Azure.AI.DocumentIntelligence",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "azure-document-intelligence-layout",
+      "name": "Layout (per-page)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.01
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 53.17,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 33.33,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 40,
+        "weight": 0.15,
+        "evidence": [
+          "https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 100
+    }
+  ],
+  "health": {
+    "score": 80,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -13.5,
+    "last_release_at": "2025-03-27",
+    "status_page": "https://status.azure.com",
+    "sources": [
+      "https://pypi.org/project/azure-ai-documentintelligence/",
+      "https://status.azure.com"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

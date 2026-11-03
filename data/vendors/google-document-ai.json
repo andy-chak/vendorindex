@@ -1,0 +1,124 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/vendor/google-document-ai/",
+  "vendor": {
+    "id": "google-document-ai",
+    "name": "Google Document AI",
+    "type": "saas",
+    "categories": [
+      "doc-extraction"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "iso27001",
+      "gdpr",
+      "pci"
+    ]
+  },
+  "agent_friction": 40,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "google-cloud-documentai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/google-cloud-documentai/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@google-cloud/documentai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@google-cloud/documentai",
+      "official": true
+    },
+    {
+      "language": "java",
+      "package": "google-cloud-document-ai",
+      "registry": "maven",
+      "url": "https://cloud.google.com/java/docs/reference/google-cloud-document-ai/latest/overview",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "google-document-ai-layout",
+      "name": "Layout Parser (per-page)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.01
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 56.17,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 33.33,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 40,
+        "weight": 0.15,
+        "evidence": [
+          "https://cloud.google.com/document-ai/docs/overview"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 100
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 16.6,
+    "last_release_at": "2026-10-29",
+    "status_page": "https://status.cloud.google.com",
+    "sources": [
+      "https://pypi.org/project/google-cloud-documentai/",
+      "https://status.cloud.google.com"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

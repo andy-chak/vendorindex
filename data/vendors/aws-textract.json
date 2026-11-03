@@ -1,0 +1,124 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/vendor/aws-textract/",
+  "vendor": {
+    "id": "aws-textract",
+    "name": "AWS Textract",
+    "type": "saas",
+    "categories": [
+      "doc-extraction"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "iso27001",
+      "gdpr",
+      "pci"
+    ]
+  },
+  "agent_friction": 40,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "boto3",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/boto3/",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "amazon-textract-textractor",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/amazon-textract-textractor/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@aws-sdk/client-textract",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@aws-sdk/client-textract",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "aws-textract-tables",
+      "name": "AnalyzeDocument — Tables (per-page)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.015
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 29.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 40,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.aws.amazon.com/textract/latest/dg/what-is.html"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 150
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 39.2,
+    "last_release_at": "2026-08-11",
+    "status_page": "https://health.aws.amazon.com/health/status",
+    "sources": [
+      "https://pypi.org/project/amazon-textract-textractor/",
+      "https://health.aws.amazon.com/health/status"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

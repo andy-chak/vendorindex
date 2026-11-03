@@ -1,0 +1,114 @@
+{
+  "as_of": "2026-11-03T22:50:46.101Z",
+  "url": "https://vendorindex.dev/vendor/reducto/",
+  "vendor": {
+    "id": "reducto",
+    "name": "Reducto",
+    "type": "saas",
+    "categories": [
+      "doc-extraction"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "reductoai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/reductoai/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "reductoai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/reductoai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "reducto-standard",
+      "name": "Standard (Parse, per-page)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.01
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 63.67,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 33.33,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.reducto.ai/overview"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 100
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 17.8,
+    "last_release_at": "2026-10-24",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/reductoai/",
+      "https://docs.reducto.ai"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

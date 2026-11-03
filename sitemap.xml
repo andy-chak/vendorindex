@@ -3,6 +3,8 @@
   <url><loc>https://vendorindex.dev/</loc></url>
   <url><loc>https://vendorindex.dev/category/auth/</loc></url>
   <url><loc>https://vendorindex.dev/compare/better-auth-vs-supabase-vs-workos/</loc></url>
+  <url><loc>https://vendorindex.dev/category/doc-extraction/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/docling-vs-mineru-vs-unstructured/</loc></url>
   <url><loc>https://vendorindex.dev/category/embeddings-apis/</loc></url>
   <url><loc>https://vendorindex.dev/compare/voyage-4-lite-vs-text-embedding-3-small-vs-jina-embeddings-v5/</loc></url>
   <url><loc>https://vendorindex.dev/category/error-monitoring/</loc></url>
@@ -38,7 +40,9 @@
   <url><loc>https://vendorindex.dev/vendor/apify/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/appsignal/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/auth0/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/aws-textract/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/axiom/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/azure-document-intelligence/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/backblaze-b2/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/better-auth/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/betterstack/</loc></url>
@@ -58,13 +62,16 @@
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/datadog/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/deepinfra/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/docling/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/exa/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/extend/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/firecrawl/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/fireworks-ai/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/fly/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-3-8-flash/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-4-argon/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-embedding/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/google-document-ai/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gpt-6-astra/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gpt-6-luna/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/grafana/</loc></url>
@@ -72,19 +79,26 @@
   <url><loc>https://vendorindex.dev/vendor/honeybadger/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/jina-embeddings-v5/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/llamaparse/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/mailgun/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/marker/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/mineru/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/mistral-embed/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/mistral-ocr/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/neon/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/netlify/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/newrelic/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/openrouter/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/paddle/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/pdfplumber/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/pinecone/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/plivo/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/polar/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/postmark/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/pymupdf/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/qdrant/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/railway/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/reducto/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/render/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/resend/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/rollbar/</loc></url>
@@ -103,6 +117,7 @@
   <url><loc>https://vendorindex.dev/vendor/together-ai/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/turbopuffer/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/twilio/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/unstructured/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vercel-blob/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vercel/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vonage/</loc></url>
