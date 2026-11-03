@@ -24,6 +24,8 @@
   <url><loc>https://vendorindex.dev/task/send-transactional-email-from-nextjs/</loc></url>
   <url><loc>https://vendorindex.dev/category/vector-databases/</loc></url>
   <url><loc>https://vendorindex.dev/compare/chroma-vs-qdrant-vs-turbopuffer/</loc></url>
+  <url><loc>https://vendorindex.dev/category/web-search/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/exa-vs-tavily-vs-serper/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/amazon-rds/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/amazon-s3/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/amazon-ses/</loc></url>
@@ -34,6 +36,7 @@
   <url><loc>https://vendorindex.dev/vendor/better-auth/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/betterstack/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/bird/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/brave-search/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/bugsnag/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/chroma/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/claude-haiku-5-5/</loc></url>
@@ -43,6 +46,7 @@
   <url><loc>https://vendorindex.dev/vendor/cloudflare-workers/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/datadog/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/exa/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/fly/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-3-8-flash/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-4-argon/</loc></url>
@@ -67,8 +71,11 @@
   <url><loc>https://vendorindex.dev/vendor/rollbar/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/sendgrid/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/sentry/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/serpapi/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/serper/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/stripe/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/supabase/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/tavily/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/telnyx/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/tigris/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/turbopuffer/</loc></url>

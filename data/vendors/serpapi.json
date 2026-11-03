@@ -1,0 +1,138 @@
+{
+  "as_of": "2026-11-03T03:29:04.668Z",
+  "url": "https://vendorindex.dev/vendor/serpapi/",
+  "vendor": {
+    "id": "serpapi",
+    "name": "SerpApi",
+    "type": "saas",
+    "categories": [
+      "web-search"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "serpapi",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/serpapi",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "google-search-results",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/google-search-results/",
+      "official": true
+    },
+    {
+      "language": "ruby",
+      "package": "google_search_results",
+      "registry": "rubygems",
+      "url": "https://github.com/serpapi/google-search-results-ruby",
+      "official": true
+    },
+    {
+      "language": "php",
+      "package": "serpapi/google-search-results-php",
+      "registry": "packagist",
+      "url": "https://github.com/serpapi/google-search-results-php",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "serpapi-paygo",
+      "name": "Pay-as-you-go",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "searches": 250
+      },
+      "overages": [
+        {
+          "metric": "searches",
+          "unit_size": 1,
+          "per_unit": 0.015
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 26.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 0,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://serpapi.com/search-api"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 75,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 11.25
+    },
+    {
+      "volume": 10000,
+      "monthly": 146.25
+    },
+    {
+      "volume": 100000,
+      "monthly": 1496.25
+    }
+  ],
+  "health": {
+    "score": 75,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -22.2,
+    "last_release_at": "2025-07-25",
+    "status_page": "https://status.serpapi.com",
+    "sources": [
+      "https://www.npmjs.com/package/serpapi",
+      "https://status.serpapi.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

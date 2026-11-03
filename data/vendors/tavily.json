@@ -1,0 +1,123 @@
+{
+  "as_of": "2026-11-03T03:29:04.668Z",
+  "url": "https://vendorindex.dev/vendor/tavily/",
+  "vendor": {
+    "id": "tavily",
+    "name": "Tavily",
+    "type": "saas",
+    "categories": [
+      "web-search"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@tavily/core",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@tavily/core",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "tavily-python",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/tavily-python/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "tavily-paygo",
+      "name": "Pay-as-you-go",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "searches": 1000
+      },
+      "overages": [
+        {
+          "metric": "searches",
+          "unit_size": 1,
+          "per_unit": 0.008
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 65.7,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 53.51,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.tavily.com/documentation/quickstart"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 70,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 0
+    },
+    {
+      "volume": 10000,
+      "monthly": 72
+    },
+    {
+      "volume": 100000,
+      "monthly": 792
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -13.4,
+    "last_release_at": "2026-11-02",
+    "status_page": "https://status.tavily.com",
+    "sources": [
+      "https://www.npmjs.com/package/@tavily/core",
+      "https://status.tavily.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

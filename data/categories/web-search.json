@@ -1,0 +1,162 @@
+{
+  "as_of": "2026-11-03T03:29:04.668Z",
+  "url": "https://vendorindex.dev/category/web-search/",
+  "category": {
+    "id": "web-search",
+    "name": "Web search APIs",
+    "usage_metric": "searches"
+  },
+  "use_cases": [
+    {
+      "id": "agent-web-search",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "exa",
+          "total": 67,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 0
+            },
+            {
+              "volume": 10000,
+              "monthly": 63
+            },
+            {
+              "volume": 100000,
+              "monthly": 693
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "tavily",
+          "total": 65.7,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 0
+            },
+            {
+              "volume": 10000,
+              "monthly": 72
+            },
+            {
+              "volume": 100000,
+              "monthly": 792
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "serper",
+          "total": 47.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 0
+            },
+            {
+              "volume": 10000,
+              "monthly": 7.5
+            },
+            {
+              "volume": 100000,
+              "monthly": 97.5
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "brave-search",
+          "total": 40.59,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 0
+            },
+            {
+              "volume": 10000,
+              "monthly": 45
+            },
+            {
+              "volume": 100000,
+              "monthly": 495
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "serpapi",
+          "total": 26.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 11.25
+            },
+            {
+              "volume": 10000,
+              "monthly": 146.25
+            },
+            {
+              "volume": 100000,
+              "monthly": 1496.25
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}
