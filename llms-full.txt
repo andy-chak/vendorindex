@@ -2,8 +2,8 @@
 
 > The reference coding agents consult to pick a vendor, library or service. Per-use-case scores (0–100) from verified, cited pricing, agent-friction and health. Rank is never for sale; internet sentiment is unverified and never affects rank.
 
-Generated 2026-11-03 12:09 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
-Remote MCP server: https://vendorindex-mcp.anindyaju99.workers.dev (POST /mcp).
+Generated 2026-11-03 12:14 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
+Remote MCP server: https://mcp.vendorindex.dev (POST /mcp).
 
 ## Authentication  (/category/auth/)
 Primary use case: App user authentication. Cost metric: mau.
