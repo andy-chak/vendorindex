@@ -1,0 +1,109 @@
+{
+  "as_of": "2026-11-03T03:10:02.792Z",
+  "url": "https://vendorindex.dev/vendor/render/",
+  "vendor": {
+    "id": "render",
+    "name": "Render",
+    "type": "saas",
+    "categories": [
+      "hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [],
+  "observability": null,
+  "plans": [
+    {
+      "id": "render-starter",
+      "name": "Starter",
+      "base_price": 7,
+      "billing_period": "month",
+      "included_units": {
+        "bandwidth_gb": 5
+      },
+      "overages": [
+        {
+          "metric": "bandwidth_gb",
+          "unit_size": 1,
+          "per_unit": 0.15
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 60,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://render.com/docs"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 7.75
+    },
+    {
+      "volume": 100,
+      "monthly": 21.25
+    },
+    {
+      "volume": 1000,
+      "monthly": 156.25
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://status.render.com",
+    "sources": [
+      "https://status.render.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

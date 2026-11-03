@@ -1,0 +1,162 @@
+{
+  "as_of": "2026-11-03T03:10:02.792Z",
+  "url": "https://vendorindex.dev/category/hosting/",
+  "category": {
+    "id": "hosting",
+    "name": "Hosting & deployment",
+    "usage_metric": "bandwidth_gb"
+  },
+  "use_cases": [
+    {
+      "id": "web-app",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "fly",
+          "total": 75.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 2.39
+            },
+            {
+              "volume": 100,
+              "monthly": 4.19
+            },
+            {
+              "volume": 1000,
+              "monthly": 22.19
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cloudflare-workers",
+          "total": 74.55,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 5
+            },
+            {
+              "volume": 100,
+              "monthly": 5
+            },
+            {
+              "volume": 1000,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "render",
+          "total": 60,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 7.75
+            },
+            {
+              "volume": 100,
+              "monthly": 21.25
+            },
+            {
+              "volume": 1000,
+              "monthly": 156.25
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "vercel",
+          "total": 56.97,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 20
+            },
+            {
+              "volume": 100,
+              "monthly": 20
+            },
+            {
+              "volume": 1000,
+              "monthly": 20
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "netlify",
+          "total": 56.47,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 20
+            },
+            {
+              "volume": 100,
+              "monthly": 20
+            },
+            {
+              "volume": 1000,
+              "monthly": 137
+            }
+          ],
+          "profile_costs": [],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,8 @@
   <url><loc>https://vendorindex.dev/compare/better-auth-vs-supabase-vs-workos/</loc></url>
   <url><loc>https://vendorindex.dev/category/error-monitoring/</loc></url>
   <url><loc>https://vendorindex.dev/compare/honeybadger-vs-appsignal-vs-sentry/</loc></url>
+  <url><loc>https://vendorindex.dev/category/hosting/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/fly-vs-cloudflare-workers-vs-render/</loc></url>
   <url><loc>https://vendorindex.dev/category/object-storage/</loc></url>
   <url><loc>https://vendorindex.dev/compare/cloudflare-r2-vs-tigris-vs-backblaze-b2/</loc></url>
   <url><loc>https://vendorindex.dev/category/observability/</loc></url>
@@ -34,13 +36,16 @@
   <url><loc>https://vendorindex.dev/vendor/chroma/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/clerk/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-r2/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/cloudflare-workers/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/datadog/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/fly/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/grafana/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/honeybadger/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/mailgun/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/neon/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/netlify/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/newrelic/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/paddle/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/pinecone/</loc></url>
@@ -49,6 +54,7 @@
   <url><loc>https://vendorindex.dev/vendor/postmark/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/qdrant/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/railway/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/render/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/resend/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/rollbar/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/sendgrid/</loc></url>
@@ -60,6 +66,7 @@
   <url><loc>https://vendorindex.dev/vendor/turbopuffer/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/twilio/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vercel-blob/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/vercel/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vonage/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/weaviate/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/workos/</loc></url>

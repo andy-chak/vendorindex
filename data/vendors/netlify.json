@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-11-03T03:10:02.792Z",
+  "url": "https://vendorindex.dev/vendor/netlify/",
+  "vendor": {
+    "id": "netlify",
+    "name": "Netlify",
+    "type": "saas",
+    "categories": [
+      "hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "netlify-cli",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/netlify-cli",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "netlify-pro",
+      "name": "Pro",
+      "base_price": 20,
+      "billing_period": "month",
+      "included_units": {
+        "bandwidth_gb": 100
+      },
+      "overages": [
+        {
+          "metric": "bandwidth_gb",
+          "unit_size": 1,
+          "per_unit": 0.13
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 56.47,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 7.33,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.netlify.com/get-started/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 20
+    },
+    {
+      "volume": 100,
+      "monthly": 20
+    },
+    {
+      "volume": 1000,
+      "monthly": 137
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -12.4,
+    "last_release_at": "2026-11-02",
+    "status_page": "https://www.netlifystatus.com",
+    "sources": [
+      "https://www.npmjs.com/package/netlify-cli",
+      "https://www.netlifystatus.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

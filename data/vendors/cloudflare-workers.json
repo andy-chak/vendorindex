@@ -1,0 +1,119 @@
+{
+  "as_of": "2026-11-03T03:10:02.792Z",
+  "url": "https://vendorindex.dev/vendor/cloudflare-workers/",
+  "vendor": {
+    "id": "cloudflare-workers",
+    "name": "Cloudflare Workers",
+    "type": "saas",
+    "categories": [
+      "hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "iso27001",
+      "pci"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "wrangler",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/wrangler",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "cf-workers-paid",
+      "name": "Workers Paid",
+      "base_price": 5,
+      "billing_period": "month",
+      "included_units": {
+        "bandwidth_gb": 1000000
+      },
+      "overages": [
+        {
+          "metric": "bandwidth_gb",
+          "unit_size": 1,
+          "per_unit": 0
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 74.55,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 95.25,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://developers.cloudflare.com/workers/get-started/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 5
+    },
+    {
+      "volume": 100,
+      "monthly": 5
+    },
+    {
+      "volume": 1000,
+      "monthly": 5
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 16.2,
+    "last_release_at": "2026-11-02",
+    "status_page": "https://www.cloudflarestatus.com",
+    "sources": [
+      "https://www.npmjs.com/package/wrangler",
+      "https://www.cloudflarestatus.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

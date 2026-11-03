@@ -1,0 +1,106 @@
+{
+  "as_of": "2026-11-03T03:10:02.792Z",
+  "url": "https://vendorindex.dev/vendor/fly/",
+  "vendor": {
+    "id": "fly",
+    "name": "Fly.io",
+    "type": "saas",
+    "categories": [
+      "hosting"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 70,
+  "sdks": [],
+  "observability": null,
+  "plans": [
+    {
+      "id": "fly-small",
+      "name": "shared-cpu-1x (256MB)",
+      "base_price": 2.19,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "bandwidth_gb",
+          "unit_size": 1,
+          "per_unit": 0.02
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 75.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 70,
+        "weight": 0.15,
+        "evidence": [
+          "https://fly.io/docs/getting-started/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 2.39
+    },
+    {
+      "volume": 100,
+      "monthly": 4.19
+    },
+    {
+      "volume": 1000,
+      "monthly": 22.19
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://status.flyio.net",
+    "sources": [
+      "https://status.flyio.net"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
