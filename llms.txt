@@ -5,8 +5,10 @@
 > score. Rank is never for sale; internet sentiment is unverified and never affects rank.
 
 ## Machine-readable data
+- Full catalog in one fetch (plain text): /llms-full.txt
 - Category rankings: /data/categories/<category>.json
 - Vendor detail: /data/vendors/<vendor>.json
+- MCP server (tools: search/compare/recommend/rank): https://vendorindex-mcp.anindyaju99.workers.dev (POST /mcp)
 
 ## Key pages
 - Task pages: /task/send-<category>-from-<framework>/
