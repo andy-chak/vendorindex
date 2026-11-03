@@ -1,0 +1,397 @@
+{
+  "as_of": "2026-11-03T03:16:42.693Z",
+  "url": "https://vendorindex.dev/category/llm-models/",
+  "category": {
+    "id": "llm-models",
+    "name": "LLM model APIs",
+    "usage_metric": "output_mtok"
+  },
+  "use_cases": [
+    {
+      "id": "coding",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.35
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.15
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.15
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "gemini-4-argon",
+          "total": 78.87,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 200
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 250
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "claude-opus-5-5",
+          "total": 76.89,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 200
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 400
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 500
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gemini-3-8-flash",
+          "total": 76.56,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 37.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 75
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 93.75
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "claude-haiku-5-5",
+          "total": 76.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 10
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 12.5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gpt-6-luna",
+          "total": 75.8,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 10
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 12.5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gpt-6-astra",
+          "total": 67.1,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 500
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 1000
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 1250
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "cheap-bulk",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.1
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.4
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.15
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "claude-haiku-5-5",
+          "total": 82.3,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 10
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 12.5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gpt-6-luna",
+          "total": 82.1,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 10
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 12.5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gemini-3-8-flash",
+          "total": 79.87,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 37.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 75
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 93.75
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gemini-4-argon",
+          "total": 75.12,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 100
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 200
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 250
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "claude-opus-5-5",
+          "total": 67.24,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 200
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 400
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 500
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gpt-6-astra",
+          "total": 42.9,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 500
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "coding",
+              "name": "Coding (50M in / 10M out)",
+              "monthly": 1000
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk extract (100M in / 5M out)",
+              "monthly": 1250
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,8 @@
   <url><loc>https://vendorindex.dev/compare/honeybadger-vs-appsignal-vs-sentry/</loc></url>
   <url><loc>https://vendorindex.dev/category/hosting/</loc></url>
   <url><loc>https://vendorindex.dev/compare/fly-vs-cloudflare-workers-vs-render/</loc></url>
+  <url><loc>https://vendorindex.dev/category/llm-models/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/gemini-4-argon-vs-claude-opus-5-5-vs-gemini-3-8-flash/</loc></url>
   <url><loc>https://vendorindex.dev/category/object-storage/</loc></url>
   <url><loc>https://vendorindex.dev/compare/cloudflare-r2-vs-tigris-vs-backblaze-b2/</loc></url>
   <url><loc>https://vendorindex.dev/category/observability/</loc></url>
@@ -34,12 +36,18 @@
   <url><loc>https://vendorindex.dev/vendor/bird/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/bugsnag/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/chroma/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/claude-haiku-5-5/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/claude-opus-5-5/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/clerk/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-r2/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-workers/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/datadog/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/fly/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/gemini-3-8-flash/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/gemini-4-argon/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/gpt-6-astra/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/gpt-6-luna/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/grafana/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/honeybadger/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc></url>

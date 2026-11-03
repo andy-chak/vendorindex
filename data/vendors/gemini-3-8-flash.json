@@ -1,0 +1,126 @@
+{
+  "as_of": "2026-11-03T03:16:42.693Z",
+  "url": "https://vendorindex.dev/vendor/gemini-3-8-flash/",
+  "vendor": {
+    "id": "gemini-3-8-flash",
+    "name": "Gemini 3.8 Flash",
+    "type": "saas",
+    "categories": [
+      "llm-models"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@google/genai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@google/genai",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "google-genai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/google-genai/",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "google.golang.org/genai",
+      "registry": "go",
+      "url": "https://github.com/googleapis/go-genai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "gemini-3-8-flash",
+      "name": "API (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.75
+        },
+        {
+          "metric": "output_mtok",
+          "unit_size": 1,
+          "per_unit": 3.75
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 76.56,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 83,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 93.43,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://ai.google.dev"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 37.5
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -6.8,
+    "last_release_at": "2026-10-29",
+    "status_page": "https://status.cloud.google.com",
+    "sources": [
+      "https://www.npmjs.com/package/@google/genai",
+      "https://status.cloud.google.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
