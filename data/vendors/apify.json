@@ -1,0 +1,116 @@
+{
+  "as_of": "2026-11-03T03:36:14.182Z",
+  "url": "https://vendorindex.dev/vendor/apify/",
+  "vendor": {
+    "id": "apify",
+    "name": "Apify",
+    "type": "saas",
+    "categories": [
+      "web-scraping"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 100,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "apify-client",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/apify-client",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "apify-client",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/apify-client/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "apify-starter",
+      "name": "Starter",
+      "base_price": 19,
+      "billing_period": "month",
+      "included_units": {
+        "pages": 20000
+      },
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.001
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 63.24,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 86.21,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.apify.com/academy"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 19
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 3,
+    "last_release_at": "2026-08-11",
+    "status_page": "https://status.apify.com",
+    "sources": [
+      "https://www.npmjs.com/package/apify-client",
+      "https://status.apify.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

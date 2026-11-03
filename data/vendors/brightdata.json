@@ -1,0 +1,99 @@
+{
+  "as_of": "2026-11-03T03:36:14.182Z",
+  "url": "https://vendorindex.dev/vendor/brightdata/",
+  "vendor": {
+    "id": "brightdata",
+    "name": "Bright Data",
+    "type": "saas",
+    "categories": [
+      "web-scraping"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "iso27001"
+    ]
+  },
+  "agent_friction": 55,
+  "sdks": [],
+  "observability": null,
+  "plans": [
+    {
+      "id": "brightdata-unlocker",
+      "name": "Web Unlocker (pay-as-you-go)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.0015
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 56.25,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 55,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.brightdata.com"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 15
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://status.brightdata.com",
+    "sources": [
+      "https://status.brightdata.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

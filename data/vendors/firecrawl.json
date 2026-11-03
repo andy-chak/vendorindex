@@ -1,0 +1,115 @@
+{
+  "as_of": "2026-11-03T03:36:14.182Z",
+  "url": "https://vendorindex.dev/vendor/firecrawl/",
+  "vendor": {
+    "id": "firecrawl",
+    "name": "Firecrawl",
+    "type": "open_source",
+    "categories": [
+      "web-scraping"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@mendable/firecrawl-js",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@mendable/firecrawl-js",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "firecrawl-py",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/firecrawl-py/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "firecrawl-hobby",
+      "name": "Hobby",
+      "base_price": 19,
+      "billing_period": "month",
+      "included_units": {
+        "pages": 5000
+      },
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.005
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 58,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.firecrawl.dev/introduction"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 44
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -16,
+    "last_release_at": "2026-10-22",
+    "status_page": "https://status.firecrawl.dev",
+    "sources": [
+      "https://www.npmjs.com/package/@mendable/firecrawl-js",
+      "https://status.firecrawl.dev"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

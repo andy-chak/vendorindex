@@ -1,0 +1,152 @@
+{
+  "as_of": "2026-11-03T03:36:14.182Z",
+  "url": "https://vendorindex.dev/category/web-scraping/",
+  "category": {
+    "id": "web-scraping",
+    "name": "Web scraping & extraction",
+    "usage_metric": "pages"
+  },
+  "use_cases": [
+    {
+      "id": "agent-scrape",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.2
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "scrapingbee",
+          "total": 70.74,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 19
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "scrape",
+              "name": "10k pages/mo",
+              "monthly": 19
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "apify",
+          "total": 63.24,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 19
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "scrape",
+              "name": "10k pages/mo",
+              "monthly": 19
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "browserbase",
+          "total": 62.05,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 20
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "scrape",
+              "name": "10k pages/mo",
+              "monthly": 20
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "firecrawl",
+          "total": 58,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 44
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "scrape",
+              "name": "10k pages/mo",
+              "monthly": 44
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "brightdata",
+          "total": 56.25,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10000,
+              "monthly": 15
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "scrape",
+              "name": "10k pages/mo",
+              "monthly": 15
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

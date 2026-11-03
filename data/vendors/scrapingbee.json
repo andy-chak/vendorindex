@@ -1,0 +1,115 @@
+{
+  "as_of": "2026-11-03T03:36:14.182Z",
+  "url": "https://vendorindex.dev/vendor/scrapingbee/",
+  "vendor": {
+    "id": "scrapingbee",
+    "name": "ScrapingBee",
+    "type": "saas",
+    "categories": [
+      "web-scraping"
+    ],
+    "compliance": [
+      "gdpr"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "scrapingbee",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/scrapingbee",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "scrapingbee",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/scrapingbee/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "scrapingbee-hobby",
+      "name": "Hobby",
+      "base_price": 19,
+      "billing_period": "month",
+      "included_units": {
+        "pages": 75000
+      },
+      "overages": [
+        {
+          "metric": "pages",
+          "unit_size": 1,
+          "per_unit": 0.001
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 70.74,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 86.21,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.15,
+        "evidence": [
+          "https://www.scrapingbee.com/documentation/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 70,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 19
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -13,
+    "last_release_at": "2026-09-01",
+    "status_page": "https://status.scrapingbee.com",
+    "sources": [
+      "https://www.npmjs.com/package/scrapingbee",
+      "https://status.scrapingbee.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

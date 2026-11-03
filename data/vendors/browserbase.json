@@ -1,0 +1,109 @@
+{
+  "as_of": "2026-11-03T03:36:14.182Z",
+  "url": "https://vendorindex.dev/vendor/browserbase/",
+  "vendor": {
+    "id": "browserbase",
+    "name": "Browserbase",
+    "type": "saas",
+    "categories": [
+      "web-scraping"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@browserbasehq/sdk",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@browserbasehq/sdk",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "browserbase",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/browserbase/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "browserbase-developer",
+      "name": "Developer",
+      "base_price": 20,
+      "billing_period": "month",
+      "included_units": {
+        "pages": 100000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 62.05,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 82.76,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.browserbase.com/introduction"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10000,
+      "monthly": 20
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -11.3,
+    "last_release_at": "2026-10-30",
+    "status_page": "https://status.browserbase.com",
+    "sources": [
+      "https://www.npmjs.com/package/@browserbasehq/sdk",
+      "https://status.browserbase.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
