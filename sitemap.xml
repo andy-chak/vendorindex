@@ -9,6 +9,8 @@
   <url><loc>https://vendorindex.dev/compare/honeybadger-vs-appsignal-vs-sentry/</loc></url>
   <url><loc>https://vendorindex.dev/category/hosting/</loc></url>
   <url><loc>https://vendorindex.dev/compare/fly-vs-cloudflare-workers-vs-render/</loc></url>
+  <url><loc>https://vendorindex.dev/category/llm-gateways/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/deepinfra-vs-fireworks-ai-vs-together-ai/</loc></url>
   <url><loc>https://vendorindex.dev/category/llm-models/</loc></url>
   <url><loc>https://vendorindex.dev/compare/gemini-4-argon-vs-claude-opus-5-5-vs-gemini-3-8-flash/</loc></url>
   <url><loc>https://vendorindex.dev/category/object-storage/</loc></url>
@@ -45,6 +47,7 @@
   <url><loc>https://vendorindex.dev/vendor/brightdata/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/browserbase/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/bugsnag/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/cerebras/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/chroma/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/claude-haiku-5-5/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/claude-opus-5-5/</loc></url>
@@ -54,8 +57,10 @@
   <url><loc>https://vendorindex.dev/vendor/cohere-embed-5/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/datadog/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/deepinfra/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/exa/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/firecrawl/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/fireworks-ai/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/fly/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-3-8-flash/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-4-argon/</loc></url>
@@ -63,6 +68,7 @@
   <url><loc>https://vendorindex.dev/vendor/gpt-6-astra/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gpt-6-luna/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/grafana/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/groq/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/honeybadger/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/jina-embeddings-v5/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc></url>
@@ -71,6 +77,7 @@
   <url><loc>https://vendorindex.dev/vendor/neon/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/netlify/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/newrelic/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/openrouter/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/paddle/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/pinecone/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/plivo/</loc></url>
@@ -93,6 +100,7 @@
   <url><loc>https://vendorindex.dev/vendor/text-embedding-3-large/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/text-embedding-3-small/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/tigris/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/together-ai/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/turbopuffer/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/twilio/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vercel-blob/</loc></url>

@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-11-03T11:52:43.495Z",
+  "url": "https://vendorindex.dev/vendor/cerebras/",
+  "vendor": {
+    "id": "cerebras",
+    "name": "Cerebras",
+    "type": "saas",
+    "categories": [
+      "llm-gateways"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 65,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "cerebras-cloud-sdk",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/cerebras-cloud-sdk/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@cerebras/cerebras_cloud_sdk",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@cerebras/cerebras_cloud_sdk",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "cerebras",
+      "name": "gpt-oss-120B (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.35
+        },
+        {
+          "metric": "output_mtok",
+          "unit_size": 1,
+          "per_unit": 0.75
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 47.25,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.15,
+        "evidence": [
+          "https://inference-docs.cerebras.ai"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.12,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.08,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 2,
+      "monthly": 1.5
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 28.8,
+    "last_release_at": "2026-07-16",
+    "status_page": "https://status.cerebras.ai",
+    "sources": [
+      "https://pypi.org/project/cerebras-cloud-sdk/",
+      "https://status.cerebras.ai"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

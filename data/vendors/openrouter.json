@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-11-03T11:52:43.495Z",
+  "url": "https://vendorindex.dev/vendor/openrouter/",
+  "vendor": {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "type": "saas",
+    "categories": [
+      "llm-gateways"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 65,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@openrouter/ai-sdk-provider",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@openrouter/ai-sdk-provider",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "openai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/openai/",
+      "official": false
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "openrouter",
+      "name": "gpt-oss-120B (routed, per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.15
+        },
+        {
+          "metric": "output_mtok",
+          "unit_size": 1,
+          "per_unit": 0.6
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 72.79,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 53.61,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.15,
+        "evidence": [
+          "https://openrouter.ai/docs"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.12,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.08,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 2,
+      "monthly": 1.2
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://status.openrouter.ai",
+    "sources": [
+      "https://openrouter.ai",
+      "https://status.openrouter.ai"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}

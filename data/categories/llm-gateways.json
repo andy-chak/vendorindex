@@ -1,0 +1,337 @@
+{
+  "as_of": "2026-11-03T11:52:43.495Z",
+  "url": "https://vendorindex.dev/category/llm-gateways/",
+  "category": {
+    "id": "llm-gateways",
+    "name": "LLM gateways & inference providers",
+    "usage_metric": "output_mtok"
+  },
+  "use_cases": [
+    {
+      "id": "unified-access",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.35
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.15
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.15
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.12
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.08
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "deepinfra",
+          "total": 79.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 0.34
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 0.71
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "fireworks-ai",
+          "total": 74.29,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "together-ai",
+          "total": 74.29,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "openrouter",
+          "total": 72.79,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "groq",
+          "total": 55.29,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cerebras",
+          "total": 47.25,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "cheap-fast-inference",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.15
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.4
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.15
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.12
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.08
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "deepinfra",
+          "total": 80.8,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 0.34
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 0.71
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "fireworks-ai",
+          "total": 63.44,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "together-ai",
+          "total": 63.44,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "groq",
+          "total": 62.24,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "openrouter",
+          "total": 47.24,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 2.7
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cerebras",
+          "total": 40.8,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 2,
+              "monthly": 1.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "ref-chat",
+              "name": "gpt-oss-120B (10M in / 2M out)",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-03",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

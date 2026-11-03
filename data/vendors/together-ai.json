@@ -1,0 +1,120 @@
+{
+  "as_of": "2026-11-03T11:52:43.495Z",
+  "url": "https://vendorindex.dev/vendor/together-ai/",
+  "vendor": {
+    "id": "together-ai",
+    "name": "Together AI",
+    "type": "saas",
+    "categories": [
+      "llm-gateways"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 75,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "together",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/together/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "together-ai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/together-ai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "together-ai",
+      "name": "gpt-oss-120B (serverless, per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.15
+        },
+        {
+          "metric": "output_mtok",
+          "unit_size": 1,
+          "per_unit": 0.6
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 74.29,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.35,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 53.61,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 75,
+        "weight": 0.15,
+        "evidence": [
+          "https://docs.together.ai"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.12,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.08,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 2,
+      "monthly": 1.2
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 17.8,
+    "last_release_at": "2026-10-22",
+    "status_page": "https://status.together.ai",
+    "sources": [
+      "https://pypi.org/project/together/",
+      "https://status.together.ai"
+    ],
+    "captured_at": "2026-11-03"
+  },
+  "last_verified": "2026-11-03",
+  "internet_unverified": null
+}
