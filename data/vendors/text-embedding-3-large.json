@@ -1,0 +1,128 @@
+{
+  "as_of": "2026-11-03T03:53:32.173Z",
+  "url": "https://vendorindex.dev/vendor/text-embedding-3-large/",
+  "vendor": {
+    "id": "text-embedding-3-large",
+    "name": "OpenAI text-embedding-3-large",
+    "type": "saas",
+    "categories": [
+      "embeddings-apis"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 75,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "openai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/openai",
+      "official": true
+    },
+    {
+      "language": "python",
+      "package": "openai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/openai/",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/openai/openai-go",
+      "registry": "go",
+      "url": "https://github.com/openai/openai-go",
+      "official": true
+    },
+    {
+      "language": "dotnet",
+      "package": "OpenAI",
+      "registry": "nuget",
+      "url": "https://github.com/openai/openai-dotnet",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "text-embedding-3-large",
+      "name": "API (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.13
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 62.51,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 86,
+        "weight": 0.4,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 15.38,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 75,
+        "weight": 0.12,
+        "evidence": [
+          "https://developers.openai.com/api/docs/guides/embeddings"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.08,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 1.3
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -7.7,
+    "last_release_at": "2026-10-31",
+    "status_page": "https://status.openai.com",
+    "sources": [
+      "https://www.npmjs.com/package/openai",
+      "https://status.openai.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

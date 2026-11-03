@@ -1,0 +1,122 @@
+{
+  "as_of": "2026-11-03T03:53:32.173Z",
+  "url": "https://vendorindex.dev/vendor/cohere-embed-5/",
+  "vendor": {
+    "id": "cohere-embed-5",
+    "name": "Cohere Embed 5",
+    "type": "saas",
+    "categories": [
+      "embeddings-apis"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "iso27001"
+    ]
+  },
+  "agent_friction": 65,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "cohere",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/cohere/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "cohere-ai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/cohere-ai",
+      "official": true
+    },
+    {
+      "language": "go",
+      "package": "github.com/cohere-ai/cohere-go",
+      "registry": "go",
+      "url": "https://github.com/cohere-ai/cohere-go",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "cohere-embed-5",
+      "name": "Embed 5 Pro (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.12
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 64.46,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 91,
+        "weight": 0.4,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 23.08,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.12,
+        "evidence": [
+          "https://docs.cohere.com/docs/cohere-embed"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.08,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 1.2
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 6.5,
+    "last_release_at": "2026-10-21",
+    "status_page": "https://status.cohere.com",
+    "sources": [
+      "https://pypi.org/project/cohere/",
+      "https://status.cohere.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

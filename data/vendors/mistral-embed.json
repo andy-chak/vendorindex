@@ -1,0 +1,114 @@
+{
+  "as_of": "2026-11-03T03:53:32.173Z",
+  "url": "https://vendorindex.dev/vendor/mistral-embed/",
+  "vendor": {
+    "id": "mistral-embed",
+    "name": "Mistral Embed",
+    "type": "saas",
+    "categories": [
+      "embeddings-apis"
+    ],
+    "compliance": [
+      "gdpr",
+      "soc2"
+    ]
+  },
+  "agent_friction": 65,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "mistralai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/mistralai/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@mistralai/mistralai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@mistralai/mistralai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "mistral-embed",
+      "name": "API (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.1
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 59.87,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 75,
+        "weight": 0.4,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 38.46,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.12,
+        "evidence": [
+          "https://docs.mistral.ai/capabilities/embeddings/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 95,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.08,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 1
+    }
+  ],
+  "health": {
+    "score": 95,
+    "incidents_90d": 0,
+    "downloads_trend_pct": -16,
+    "last_release_at": "2026-11-01",
+    "status_page": "https://status.mistral.ai",
+    "sources": [
+      "https://pypi.org/project/mistralai/",
+      "https://status.mistral.ai"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}

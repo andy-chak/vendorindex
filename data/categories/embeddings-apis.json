@@ -1,0 +1,505 @@
+{
+  "as_of": "2026-11-03T03:53:32.173Z",
+  "url": "https://vendorindex.dev/category/embeddings-apis/",
+  "category": {
+    "id": "embeddings-apis",
+    "name": "Embeddings APIs",
+    "usage_metric": "input_mtok"
+  },
+  "use_cases": [
+    {
+      "id": "retrieval",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.4
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.15
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.15
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.12
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.08
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "voyage-4-lite",
+          "total": 73.2,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 0.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 0.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 2
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "text-embedding-3-small",
+          "total": 72,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 0.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 0.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 2
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "jina-embeddings-v5",
+          "total": 70.54,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 0.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 0.5
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "voyage-4-large",
+          "total": 65.26,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 12
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cohere-embed-5",
+          "total": 64.46,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 12
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gemini-embedding",
+          "total": 63.8,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.5
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 15
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "text-embedding-3-large",
+          "total": 62.51,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.3
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.3
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 13
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mistral-embed",
+          "total": 59.87,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 10
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "cheap-bulk",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.12
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.43
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.15
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.12
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.08
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "text-embedding-3-small",
+          "total": 78.16,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 0.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 0.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 2
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "voyage-4-lite",
+          "total": 77.68,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 0.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 0.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 2
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "jina-embeddings-v5",
+          "total": 68,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 0.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 0.5
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mistral-embed",
+          "total": 49.64,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 10
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "voyage-4-large",
+          "total": 45.68,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 12
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cohere-embed-5",
+          "total": 45.44,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.2
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 12
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "text-embedding-3-large",
+          "total": 42.73,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.3
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.3
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 13
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "gemini-embedding",
+          "total": 37.2,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 10,
+              "monthly": 1.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "index",
+              "name": "Index 10M tokens",
+              "monthly": 1.5
+            },
+            {
+              "id": "bulk",
+              "name": "Bulk embed 100M tokens",
+              "monthly": 15
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-02",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

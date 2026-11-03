@@ -3,6 +3,8 @@
   <url><loc>https://vendorindex.dev/</loc></url>
   <url><loc>https://vendorindex.dev/category/auth/</loc></url>
   <url><loc>https://vendorindex.dev/compare/better-auth-vs-supabase-vs-workos/</loc></url>
+  <url><loc>https://vendorindex.dev/category/embeddings-apis/</loc></url>
+  <url><loc>https://vendorindex.dev/compare/voyage-4-lite-vs-text-embedding-3-small-vs-jina-embeddings-v5/</loc></url>
   <url><loc>https://vendorindex.dev/category/error-monitoring/</loc></url>
   <url><loc>https://vendorindex.dev/compare/honeybadger-vs-appsignal-vs-sentry/</loc></url>
   <url><loc>https://vendorindex.dev/category/hosting/</loc></url>
@@ -49,6 +51,7 @@
   <url><loc>https://vendorindex.dev/vendor/clerk/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-r2/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-workers/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/cohere-embed-5/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/datadog/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/exa/</loc></url>
@@ -56,12 +59,15 @@
   <url><loc>https://vendorindex.dev/vendor/fly/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-3-8-flash/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gemini-4-argon/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/gemini-embedding/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gpt-6-astra/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/gpt-6-luna/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/grafana/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/honeybadger/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/jina-embeddings-v5/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/mailgun/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/mistral-embed/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/neon/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/netlify/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/newrelic/</loc></url>
@@ -84,12 +90,16 @@
   <url><loc>https://vendorindex.dev/vendor/supabase/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/tavily/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/telnyx/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/text-embedding-3-large/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/text-embedding-3-small/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/tigris/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/turbopuffer/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/twilio/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vercel-blob/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vercel/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/vonage/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/voyage-4-large/</loc></url>
+  <url><loc>https://vendorindex.dev/vendor/voyage-4-lite/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/weaviate/</loc></url>
   <url><loc>https://vendorindex.dev/vendor/workos/</loc></url>
 </urlset>

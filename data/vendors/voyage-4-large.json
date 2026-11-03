@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-11-03T03:53:32.173Z",
+  "url": "https://vendorindex.dev/vendor/voyage-4-large/",
+  "vendor": {
+    "id": "voyage-4-large",
+    "name": "Voyage voyage-4-large",
+    "type": "saas",
+    "categories": [
+      "embeddings-apis"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 65,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "voyageai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/voyageai/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "voyageai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/voyageai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "voyage-4-large",
+      "name": "API (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "input_mtok",
+          "unit_size": 1,
+          "per_unit": 0.12
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 65.26,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 93,
+        "weight": 0.4,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 23.08,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 65,
+        "weight": 0.12,
+        "evidence": [
+          "https://docs.voyageai.com/docs/pricing"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.08,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 10,
+      "monthly": 1.2
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 40.3,
+    "last_release_at": "2026-07-10",
+    "status_page": "https://status.voyageai.com",
+    "sources": [
+      "https://pypi.org/project/voyageai/",
+      "https://status.voyageai.com"
+    ],
+    "captured_at": "2026-11-02"
+  },
+  "last_verified": "2026-11-02",
+  "internet_unverified": null
+}
