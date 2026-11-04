@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/mixedbread-rerank/",
+  "vendor": {
+    "id": "mixedbread-rerank",
+    "name": "Mixedbread Rerank",
+    "type": "open_source",
+    "categories": [
+      "reranking"
+    ],
+    "compliance": []
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "mxbai-rerank",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/mxbai-rerank/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "mixedbread-rerank-selfhost",
+      "name": "Self-hosted (open weights)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "rerank_mtok": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 83.45,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 84,
+        "weight": 0.45,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.05,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.12,
+        "evidence": [
+          "https://www.mixedbread.com/docs"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 85,
+        "weight": 0.13,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 85,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 24.9,
+    "last_release_at": "2025-06-02",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/mxbai-rerank/",
+      "https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v2"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

@@ -1,0 +1,381 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/category/image-generation/",
+  "category": {
+    "id": "image-generation",
+    "name": "Image generation APIs",
+    "usage_metric": "images"
+  },
+  "use_cases": [
+    {
+      "id": "high-quality-generation",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.45
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.15
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.05
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "fal",
+          "total": 87.05,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 20
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 20
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "black-forest-labs",
+          "total": 85.1,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 30
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 30
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "recraft",
+          "total": 80.97,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 35
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 35
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "replicate",
+          "total": 79.55,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 40
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 40
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "google-imagen",
+          "total": 78.95,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 40
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 40
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "openai-images",
+          "total": 73.03,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 53
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 53
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "ideogram",
+          "total": 71,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 60
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 60
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "cheap-bulk-generation",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.1
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.5
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.05
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "fal",
+          "total": 92,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 20
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 20
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "black-forest-labs",
+          "total": 79.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 30
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 30
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "recraft",
+          "total": 73.25,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 35
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 35
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "replicate",
+          "total": 67,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 40
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 40
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "google-imagen",
+          "total": 65.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 40
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 40
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "openai-images",
+          "total": 47.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 53
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 53
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "ideogram",
+          "total": 40.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 1000,
+              "monthly": 60
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "img-1k",
+              "name": "1,000 images/mo (1024x1024)",
+              "monthly": 60
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "we_rate_lower"
+        }
+      ]
+    }
+  ]
+}

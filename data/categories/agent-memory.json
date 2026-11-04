@@ -1,0 +1,293 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/category/agent-memory/",
+  "category": {
+    "id": "agent-memory",
+    "name": "Agent memory",
+    "usage_metric": "memory_ops"
+  },
+  "use_cases": [
+    {
+      "id": "long-term-agent-memory",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.15
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.15
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.1
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.25
+        },
+        {
+          "dimension": "health",
+          "weight": 0.25
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "cognee",
+          "total": 87.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "letta",
+          "total": 87.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mem0",
+          "total": 87.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "langmem",
+          "total": 81.25,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "zep",
+          "total": 70,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 125
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 125
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "temporal-knowledge-graph",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.45
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.1
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.05
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.15
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "cognee",
+          "total": 93.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "zep",
+          "total": 82,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 125
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 125
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mem0",
+          "total": 71,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "letta",
+          "total": 48.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "langmem",
+          "total": 44.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "mem-100k",
+              "name": "100k memory ops/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

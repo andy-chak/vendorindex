@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/cohere-rerank/",
+  "vendor": {
+    "id": "cohere-rerank",
+    "name": "Cohere Rerank",
+    "type": "saas",
+    "categories": [
+      "reranking"
+    ],
+    "compliance": [
+      "soc2",
+      "gdpr",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "cohere",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/cohere/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "cohere-ai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/cohere-ai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "cohere-rerank-pro",
+      "name": "Rerank 5 Pro (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "rerank_mtok",
+          "unit_size": 1,
+          "per_unit": 0.05
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 75.35,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 95,
+        "weight": 0.45,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.05,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.12,
+        "evidence": [
+          "https://docs.cohere.com/docs/rerank-overview"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.13,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 5
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 10.4,
+    "last_release_at": "2026-10-21",
+    "status_page": "https://status.cohere.com",
+    "sources": [
+      "https://pypi.org/project/cohere/",
+      "https://status.cohere.com"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": {
+    "sentiment_index": 55,
+    "divergence": "none"
+  }
+}

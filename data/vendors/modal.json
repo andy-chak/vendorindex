@@ -1,0 +1,109 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/modal/",
+  "vendor": {
+    "id": "modal",
+    "name": "Modal",
+    "type": "saas",
+    "categories": [
+      "code-sandboxes"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "modal",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/modal/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "modal-usage",
+      "name": "Usage-based (per-second)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "vcpu_hours",
+          "unit_size": 1,
+          "per_unit": 0.095
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 65.99,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 14.97,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.25,
+        "evidence": [
+          "https://modal.com/docs/guide/sandbox"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 500,
+      "monthly": 47.5
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0.1,
+    "last_release_at": "2026-10-27",
+    "status_page": "https://status.modal.com",
+    "sources": [
+      "https://pypi.org/project/modal/",
+      "https://status.modal.com"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": {
+    "sentiment_index": 45,
+    "divergence": "none"
+  }
+}

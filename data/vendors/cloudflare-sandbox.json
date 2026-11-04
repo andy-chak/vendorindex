@@ -1,0 +1,109 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/cloudflare-sandbox/",
+  "vendor": {
+    "id": "cloudflare-sandbox",
+    "name": "Cloudflare Sandboxes",
+    "type": "saas",
+    "categories": [
+      "code-sandboxes"
+    ],
+    "compliance": [
+      "soc2",
+      "iso27001",
+      "pci",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 70,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@cloudflare/sandbox",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@cloudflare/sandbox",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "cloudflare-sandbox-usage",
+      "name": "Workers Paid + active CPU",
+      "base_price": 5,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "vcpu_hours",
+          "unit_size": 1,
+          "per_unit": 0.072
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 68.78,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 53.89,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 70,
+        "weight": 0.25,
+        "evidence": [
+          "https://developers.cloudflare.com/sandbox/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 500,
+      "monthly": 41
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://www.cloudflarestatus.com",
+    "sources": [
+      "https://www.npmjs.com/package/@cloudflare/sandbox",
+      "https://www.cloudflarestatus.com"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

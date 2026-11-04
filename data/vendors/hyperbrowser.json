@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/hyperbrowser/",
+  "vendor": {
+    "id": "hyperbrowser",
+    "name": "Hyperbrowser",
+    "type": "saas",
+    "categories": [
+      "agent-browsers"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "hyperbrowser",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/hyperbrowser/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@hyperbrowser/sdk",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@hyperbrowser/sdk",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "hyperbrowser-payg",
+      "name": "Usage-based (per browser-hour)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "browser_hours",
+          "unit_size": 1,
+          "per_unit": 0.1
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 77.26,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.3,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 26.47,
+        "weight": 0.18,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.07,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.25,
+        "evidence": [
+          "https://docs.hyperbrowser.ai"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 500,
+      "monthly": 50
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 46.8,
+    "last_release_at": "2026-10-28",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/hyperbrowser/",
+      "https://docs.hyperbrowser.ai"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

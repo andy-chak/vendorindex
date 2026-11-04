@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/voyage-rerank/",
+  "vendor": {
+    "id": "voyage-rerank",
+    "name": "Voyage Rerank",
+    "type": "saas",
+    "categories": [
+      "reranking"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "voyageai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/voyageai/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "voyageai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/voyageai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "voyage-rerank-3",
+      "name": "rerank-3 (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "rerank_mtok",
+          "unit_size": 1,
+          "per_unit": 0.05
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 74.9,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 94,
+        "weight": 0.45,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.05,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.12,
+        "evidence": [
+          "https://docs.voyageai.com/docs/reranker"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.13,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 5
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 46.1,
+    "last_release_at": "2026-07-10",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/voyageai/",
+      "https://docs.voyageai.com/docs/pricing"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

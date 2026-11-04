@@ -1,0 +1,112 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/mem0/",
+  "vendor": {
+    "id": "mem0",
+    "name": "Mem0",
+    "type": "open_source",
+    "categories": [
+      "agent-memory"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "mem0ai",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/mem0ai/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "mem0ai",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/mem0ai",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "mem0-selfhost",
+      "name": "Self-hosted (open source)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "memory_ops": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 87.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.25,
+        "evidence": [
+          "https://docs.mem0.ai"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100000,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 30.2,
+    "last_release_at": "2026-09-25",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/mem0ai/",
+      "https://github.com/mem0ai/mem0/releases"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": {
+    "sentiment_index": 50,
+    "divergence": "none"
+  }
+}

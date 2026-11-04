@@ -2,8 +2,24 @@
 
 > The reference coding agents consult to pick a vendor, library or service. Per-use-case scores (0–100) from verified, cited pricing, agent-friction and health. Rank is never for sale; internet sentiment is unverified and never affects rank.
 
-Generated 2026-11-03 22:50 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
+Generated 2026-11-04 13:45 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
 Remote MCP server: https://mcp.vendorindex.dev (POST /mcp).
+
+## Headless browsers for agents  (/category/agent-browsers/)
+Primary use case: Reliable agent web automation. Cost metric: browser_hours.
+- Hyperbrowser (hyperbrowser): score 77.26, $50 @ 500 browser-hours/mo, free tier: yes, verified 2026-11-04
+- Anchor Browser (anchor-browser): score 76.26, $50 @ 500 browser-hours/mo, free tier: yes, verified 2026-11-04
+- Steel (steel): score 75.5, $0 @ 500 browser-hours/mo, free tier: yes, verified 2026-11-04
+- Browserless (browserless): score 73, $0 @ 500 browser-hours/mo, free tier: yes, verified 2026-11-04
+- Browserbase (browserbase): score 72, $68 @ 500 browser-hours/mo, free tier: no, verified 2026-11-04
+
+## Agent memory  (/category/agent-memory/)
+Primary use case: Long-term cross-session memory. Cost metric: memory_ops.
+- Cognee (cognee): score 87.5, $0 @ 100k memory ops/mo, free tier: yes, verified 2026-11-04
+- Letta (letta): score 87.5, $0 @ 100k memory ops/mo, free tier: yes, verified 2026-11-04
+- Mem0 (mem0): score 87.5, $0 @ 100k memory ops/mo, free tier: yes, verified 2026-11-04
+- LangMem (langmem): score 81.25, $0 @ 100k memory ops/mo, free tier: yes, verified 2026-11-04
+- Zep (zep): score 70, $125 @ 100k memory ops/mo, free tier: no, verified 2026-11-04
 
 ## Authentication  (/category/auth/)
 Primary use case: App user authentication. Cost metric: mau.
@@ -12,6 +28,14 @@ Primary use case: App user authentication. Cost metric: mau.
 - WorkOS (workos): score 74, $0 @ 1k mau/mo, free tier: yes, verified 2026-11-01
 - Clerk (clerk): score 55.5, $0 @ 1k mau/mo, free tier: yes, verified 2026-11-01
 - Auth0 (auth0): score n/a, $0 @ 1k mau/mo, free tier: yes, verified 2026-11-01
+
+## Code sandboxes & agent runtimes  (/category/code-sandboxes/)
+Primary use case: Agent code execution (fast, isolated). Cost metric: vcpu_hours.
+- Daytona (daytona): score 87.5, $33.30 @ 500 vCPU-hours/mo, free tier: yes, verified 2026-11-04
+- E2B (e2b): score 87.5, $33.30 @ 500 vCPU-hours/mo, free tier: yes, verified 2026-11-04
+- Cloudflare Sandboxes (cloudflare-sandbox): score 68.78, $41 @ 500 vCPU-hours/mo, free tier: no, verified 2026-11-04
+- Modal (modal): score 65.99, $47.50 @ 500 vCPU-hours/mo, free tier: yes, verified 2026-11-04
+- Vercel Sandbox (vercel-sandbox): score 50.5, $50 @ 500 vCPU-hours/mo, free tier: yes, verified 2026-11-04
 
 ## PDF & document extraction  (/category/doc-extraction/)
 Primary use case: Bulk text/markdown extraction for RAG. Cost metric: pages.
@@ -56,6 +80,16 @@ Primary use case: Small web app (100 GB/mo). Cost metric: bandwidth_gb.
 - Vercel (vercel): score 56.97, $20 @ 10 bandwidth_gb/mo, free tier: no, verified 2026-11-02
 - Netlify (netlify): score 56.47, $20 @ 10 bandwidth_gb/mo, free tier: no, verified 2026-11-02
 
+## Image generation APIs  (/category/image-generation/)
+Primary use case: High-quality / prompt-faithful generation. Cost metric: images.
+- fal (fal): score 87.05, $20 @ 1,000 images/mo (1024x1024), free tier: yes, verified 2026-11-04
+- Black Forest Labs (FLUX) (black-forest-labs): score 85.1, $30 @ 1,000 images/mo (1024x1024), free tier: yes, verified 2026-11-04
+- Recraft (recraft): score 80.97, $35 @ 1,000 images/mo (1024x1024), free tier: yes, verified 2026-11-04
+- Replicate (replicate): score 79.55, $40 @ 1,000 images/mo (1024x1024), free tier: yes, verified 2026-11-04
+- Google Imagen (google-imagen): score 78.95, $40 @ 1,000 images/mo (1024x1024), free tier: yes, verified 2026-11-04
+- OpenAI Images (gpt-image) (openai-images): score 73.03, $53 @ 1,000 images/mo (1024x1024), free tier: yes, verified 2026-11-04
+- Ideogram (ideogram): score 71, $60 @ 1,000 images/mo (1024x1024), free tier: yes, verified 2026-11-04
+
 ## LLM gateways & inference providers  (/category/llm-gateways/)
 Primary use case: Unified access (one API, many models). Cost metric: output_mtok.
 - DeepInfra (deepinfra): score 79.75, $0.71 @ gpt-oss-120B (10M in / 2M out), free tier: yes, verified 2026-11-03
@@ -73,6 +107,15 @@ Primary use case: Agentic coding. Cost metric: output_mtok.
 - Claude Haiku 5.5 (claude-haiku-5-5): score 76.5, $10 @ Coding (50M in / 10M out), free tier: yes, verified 2026-11-02
 - GPT-6 Luna (gpt-6-luna): score 75.8, $10 @ Coding (50M in / 10M out), free tier: yes, verified 2026-11-02
 - GPT-6 Astra (gpt-6-astra): score 67.1, $1000 @ Coding (50M in / 10M out), free tier: yes, verified 2026-11-02
+
+## LLM observability & evals  (/category/llm-observability/)
+Primary use case: Production tracing & debugging. Cost metric: traces.
+- Arize Phoenix (arize-phoenix): score 86, $0 @ 100k traces/mo, free tier: yes, verified 2026-11-04
+- Langfuse (langfuse): score 86, $0 @ 100k traces/mo, free tier: yes, verified 2026-11-04
+- Opik (opik): score 86, $0 @ 100k traces/mo, free tier: yes, verified 2026-11-04
+- Helicone (helicone): score 85, $0 @ 100k traces/mo, free tier: yes, verified 2026-11-04
+- LangSmith (langsmith): score 77.75, $84 @ 100k traces/mo, free tier: no, verified 2026-11-04
+- Braintrust (braintrust): score 66.5, $249 @ 100k traces/mo, free tier: no, verified 2026-11-04
 
 ## Object storage  (/category/object-storage/)
 Primary use case: App file & asset storage. Cost metric: storage_gb.
@@ -105,6 +148,14 @@ Primary use case: Small production database. Cost metric: storage_gb.
 - Supabase (supabase): score 58.5, $25.25 @ 10 storage_gb/mo, free tier: yes, verified 2026-11-01
 - Crunchy Bridge (crunchy-bridge): score 57.95, $9 @ 10 storage_gb/mo, free tier: no, verified 2026-11-01
 
+## Reranking APIs  (/category/reranking/)
+Primary use case: High-accuracy RAG reranking. Cost metric: rerank_mtok.
+- BGE Reranker (bge-reranker): score 84.5, $0 @ 100M tokens/mo, free tier: yes, verified 2026-11-04
+- Mixedbread Rerank (mixedbread-rerank): score 83.45, $0 @ 100M tokens/mo, free tier: yes, verified 2026-11-04
+- Jina Reranker (jina-reranker): score 79.55, $2 @ 100M tokens/mo, free tier: yes, verified 2026-11-04
+- Cohere Rerank (cohere-rerank): score 75.35, $5 @ 100M tokens/mo, free tier: yes, verified 2026-11-04
+- Voyage Rerank (voyage-rerank): score 74.9, $5 @ 100M tokens/mo, free tier: yes, verified 2026-11-04
+
 ## SMS API  (/category/sms/)
 Primary use case: App notifications & OTP (US). Cost metric: messages.
 - Telnyx (telnyx): score 71.29, $40 @ 10k messages/mo, free tier: yes, verified 2026-11-02
@@ -133,7 +184,7 @@ Primary use case: RAG / embeddings store. Cost metric: storage_gb.
 Primary use case: Clean content for agents. Cost metric: pages.
 - ScrapingBee (scrapingbee): score 70.74, $19 @ 10k pages/mo, free tier: no, verified 2026-11-02
 - Apify (apify): score 63.24, $19 @ 10k pages/mo, free tier: no, verified 2026-11-02
-- Browserbase (browserbase): score 62.05, $20 @ 10k pages/mo, free tier: no, verified 2026-11-02
+- Browserbase (browserbase): score 62.05, $20 @ 10k pages/mo, free tier: no, verified 2026-11-04
 - Firecrawl (firecrawl): score 58, $44 @ 10k pages/mo, free tier: no, verified 2026-11-02
 - Bright Data (brightdata): score 56.25, $15 @ 10k pages/mo, free tier: yes, verified 2026-11-02
 

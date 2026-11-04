@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/cognee/",
+  "vendor": {
+    "id": "cognee",
+    "name": "Cognee",
+    "type": "open_source",
+    "categories": [
+      "agent-memory"
+    ],
+    "compliance": []
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "cognee",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/cognee/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "cognee-selfhost",
+      "name": "Self-hosted (open source)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "memory_ops": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 87.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.25,
+        "evidence": [
+          "https://docs.cognee.ai"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100000,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 45.8,
+    "last_release_at": "2026-10-29",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/cognee/",
+      "https://github.com/topoteretes/cognee/releases"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

@@ -1,0 +1,94 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/browserless/",
+  "vendor": {
+    "id": "browserless",
+    "name": "Browserless",
+    "type": "open_source",
+    "categories": [
+      "agent-browsers"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [],
+  "observability": null,
+  "plans": [
+    {
+      "id": "browserless-selfhost",
+      "name": "Self-hosted (Docker, source-available)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "browser_hours": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 73,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.3,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.18,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.07,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.25,
+        "evidence": [
+          "https://docs.browserless.io"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 500,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": "https://status.browserless.io",
+    "sources": [
+      "https://github.com/browserless/browserless/releases",
+      "https://status.browserless.io"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

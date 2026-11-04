@@ -1,0 +1,116 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/e2b/",
+  "vendor": {
+    "id": "e2b",
+    "name": "E2B",
+    "type": "open_source",
+    "categories": [
+      "code-sandboxes"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "e2b",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/e2b/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "@e2b/code-interpreter",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@e2b/code-interpreter",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "e2b-usage",
+      "name": "Usage-based (per-second)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "vcpu_hours",
+          "unit_size": 1,
+          "per_unit": 0.0666
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 87.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.25,
+        "evidence": [
+          "https://e2b.dev/docs"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 500,
+      "monthly": 33.3
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 50.2,
+    "last_release_at": "2026-11-03",
+    "status_page": "https://status.e2b.dev",
+    "sources": [
+      "https://pypi.org/project/e2b/",
+      "https://status.e2b.dev"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": {
+    "sentiment_index": 55,
+    "divergence": "none"
+  }
+}

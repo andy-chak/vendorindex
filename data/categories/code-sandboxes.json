@@ -1,0 +1,293 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/category/code-sandboxes/",
+  "category": {
+    "id": "code-sandboxes",
+    "name": "Code sandboxes & agent runtimes",
+    "usage_metric": "vcpu_hours"
+  },
+  "use_cases": [
+    {
+      "id": "agent-code-execution",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.25
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.1
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.25
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "daytona",
+          "total": 87.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 33.3
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 33.3
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "e2b",
+          "total": 87.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 33.3
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 33.3
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cloudflare-sandbox",
+          "total": 68.78,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 41
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 41
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "modal",
+          "total": 65.99,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 47.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 47.5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "vercel-sandbox",
+          "total": 50.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "cost-efficient-sandboxing",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.1
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.45
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.05
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.15
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "daytona",
+          "total": 93.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 33.3
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 33.3
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "e2b",
+          "total": 93.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 33.3
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 33.3
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cloudflare-sandbox",
+          "total": 65.25,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 41
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 41
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "modal",
+          "total": 50.74,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 47.5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 47.5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "vercel-sandbox",
+          "total": 44,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "cpu-500h",
+              "name": "500 vCPU-hours/mo",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

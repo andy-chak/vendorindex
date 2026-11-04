@@ -1,0 +1,293 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/category/agent-browsers/",
+  "category": {
+    "id": "agent-browsers",
+    "name": "Headless browsers for agents",
+    "usage_metric": "browser_hours"
+  },
+  "use_cases": [
+    {
+      "id": "agent-web-automation",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.3
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.18
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.07
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.25
+        },
+        {
+          "dimension": "health",
+          "weight": 0.1
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "hyperbrowser",
+          "total": 77.26,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "anchor-browser",
+          "total": 76.26,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "steel",
+          "total": 75.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "browserless",
+          "total": 73,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "browserbase",
+          "total": 72,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 68
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 68
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "cost-efficient-browsing",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.1
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.45
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.05
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.15
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "steel",
+          "total": 93.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "browserless",
+          "total": 92,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "hyperbrowser",
+          "total": 60.41,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "anchor-browser",
+          "total": 58.91,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 50
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 50
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "browserbase",
+          "total": 47.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 500,
+              "monthly": 68
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "browser-500h",
+              "name": "500 browser-hours/mo",
+              "monthly": 68
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

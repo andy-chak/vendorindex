@@ -1,0 +1,110 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/steel/",
+  "vendor": {
+    "id": "steel",
+    "name": "Steel",
+    "type": "open_source",
+    "categories": [
+      "agent-browsers"
+    ],
+    "compliance": []
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "steel-sdk",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/steel-sdk/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "steel-sdk",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/steel-sdk",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "steel-selfhost",
+      "name": "Self-hosted (open source)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "browser_hours": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 75.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.3,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.18,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.07,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.25,
+        "evidence": [
+          "https://docs.steel.dev"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 500,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 20,
+    "last_release_at": "2026-06-23",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/steel-sdk/",
+      "https://github.com/steel-dev/steel-browser/releases"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": {
+    "sentiment_index": 50,
+    "divergence": "none"
+  }
+}

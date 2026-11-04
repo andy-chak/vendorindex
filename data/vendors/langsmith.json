@@ -1,0 +1,117 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/langsmith/",
+  "vendor": {
+    "id": "langsmith",
+    "name": "LangSmith",
+    "type": "saas",
+    "categories": [
+      "llm-observability"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa",
+      "gdpr"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "langsmith",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/langsmith/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "langsmith",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/langsmith",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "langsmith-plus",
+      "name": "Plus (per-seat + per-trace)",
+      "base_price": 39,
+      "billing_period": "month",
+      "included_units": {
+        "traces": 10000
+      },
+      "overages": [
+        {
+          "metric": "traces",
+          "unit_size": 1000,
+          "per_unit": 0.5
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 77.75,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 66.27,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.2,
+        "evidence": [
+          "https://docs.smith.langchain.com"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100000,
+      "monthly": 84
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 21.8,
+    "last_release_at": "2026-11-02",
+    "status_page": "https://status.smith.langchain.com",
+    "sources": [
+      "https://pypi.org/project/langsmith/",
+      "https://status.smith.langchain.com"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

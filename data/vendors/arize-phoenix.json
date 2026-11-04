@@ -1,0 +1,102 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/arize-phoenix/",
+  "vendor": {
+    "id": "arize-phoenix",
+    "name": "Arize Phoenix",
+    "type": "open_source",
+    "categories": [
+      "llm-observability"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "arize-phoenix",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/arize-phoenix/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "arize-phoenix-selfhost",
+      "name": "Self-hosted (open source)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "traces": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 86,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.2,
+        "evidence": [
+          "https://arize.com/docs/phoenix"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100000,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 14.9,
+    "last_release_at": "2026-10-30",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/arize-phoenix/",
+      "https://github.com/Arize-ai/phoenix/releases"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

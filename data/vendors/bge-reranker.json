@@ -1,0 +1,103 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/bge-reranker/",
+  "vendor": {
+    "id": "bge-reranker",
+    "name": "BGE Reranker",
+    "type": "open_source",
+    "categories": [
+      "reranking"
+    ],
+    "compliance": []
+  },
+  "agent_friction": 80,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "FlagEmbedding",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/FlagEmbedding/",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "bge-reranker-selfhost",
+      "name": "Self-hosted (open weights)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {
+        "rerank_mtok": 100000000
+      },
+      "overages": [],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 84.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 82,
+        "weight": 0.45,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 100,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.05,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 80,
+        "weight": 0.12,
+        "evidence": [
+          "https://github.com/FlagOpen/FlagEmbedding"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.13,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 0
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": "2026-08-24",
+    "status_page": null,
+    "sources": [
+      "https://pypi.org/project/FlagEmbedding/",
+      "https://huggingface.co/BAAI/bge-reranker-v2-m3"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": {
+    "sentiment_index": 35,
+    "divergence": "none"
+  }
+}

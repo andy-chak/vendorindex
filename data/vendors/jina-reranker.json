@@ -1,0 +1,97 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/jina-reranker/",
+  "vendor": {
+    "id": "jina-reranker",
+    "name": "Jina Reranker",
+    "type": "saas",
+    "categories": [
+      "reranking"
+    ],
+    "compliance": [
+      "gdpr"
+    ]
+  },
+  "agent_friction": 70,
+  "sdks": [],
+  "observability": null,
+  "plans": [
+    {
+      "id": "jina-reranker-api",
+      "name": "Reranker API (per-token)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "rerank_mtok",
+          "unit_size": 1,
+          "per_unit": 0.02
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 79.55,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 87,
+        "weight": 0.45,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 60,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.05,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 70,
+        "weight": 0.12,
+        "evidence": [
+          "https://jina.ai/reranker/"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.13,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 100,
+      "monthly": 2
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": null,
+    "sources": [
+      "https://jina.ai/reranker/"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

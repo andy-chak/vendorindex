@@ -1,0 +1,107 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/vercel-sandbox/",
+  "vendor": {
+    "id": "vercel-sandbox",
+    "name": "Vercel Sandbox",
+    "type": "saas",
+    "categories": [
+      "code-sandboxes"
+    ],
+    "compliance": [
+      "soc2",
+      "hipaa"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "typescript",
+      "package": "@vercel/sandbox",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/@vercel/sandbox",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "vercel-sandbox-usage",
+      "name": "Usage-based (active CPU + memory)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "vcpu_hours",
+          "unit_size": 1,
+          "per_unit": 0.1
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 50.5,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 50,
+        "weight": 0.25,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.2,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.25,
+        "evidence": [
+          "https://vercel.com/docs/vercel-sandbox"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 55,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 500,
+      "monthly": 50
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 14.2,
+    "last_release_at": "2026-10-28",
+    "status_page": "https://www.vercel-status.com",
+    "sources": [
+      "https://www.npmjs.com/package/@vercel/sandbox",
+      "https://www.vercel-status.com"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

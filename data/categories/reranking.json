@@ -1,0 +1,293 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/category/reranking/",
+  "category": {
+    "id": "reranking",
+    "name": "Reranking APIs",
+    "usage_metric": "rerank_mtok"
+  },
+  "use_cases": [
+    {
+      "id": "retrieval-reranking",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.45
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.15
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.05
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.12
+        },
+        {
+          "dimension": "health",
+          "weight": 0.13
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "bge-reranker",
+          "total": 84.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mixedbread-rerank",
+          "total": 83.45,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "jina-reranker",
+          "total": 79.55,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 2
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cohere-rerank",
+          "total": 75.35,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "voyage-rerank",
+          "total": 74.9,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "cheap-bulk-rerank",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.1
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.45
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.05
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.15
+        },
+        {
+          "dimension": "health",
+          "weight": 0.15
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "bge-reranker",
+          "total": 92,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "mixedbread-rerank",
+          "total": 89.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "jina-reranker",
+          "total": 72.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 2
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 2
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "cohere-rerank",
+          "total": 47,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "we_rate_lower"
+        },
+        {
+          "vendor": "voyage-rerank",
+          "total": 47,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100,
+              "monthly": 5
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "rerank-100m",
+              "name": "100M tokens/mo",
+              "monthly": 5
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

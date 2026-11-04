@@ -1,0 +1,337 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/category/llm-observability/",
+  "category": {
+    "id": "llm-observability",
+    "name": "LLM observability & evals",
+    "usage_metric": "traces"
+  },
+  "use_cases": [
+    {
+      "id": "tracing-debugging",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.2
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.2
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.1
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.2
+        },
+        {
+          "dimension": "health",
+          "weight": 0.2
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "arize-phoenix",
+          "total": 86,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "langfuse",
+          "total": 86,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "opik",
+          "total": 86,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "helicone",
+          "total": 85,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "langsmith",
+          "total": 77.75,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 84
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 84
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "braintrust",
+          "total": 66.5,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 249
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 249
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    },
+    {
+      "id": "eval-experimentation",
+      "weights": [
+        {
+          "dimension": "fit",
+          "weight": 0.4
+        },
+        {
+          "dimension": "cost",
+          "weight": 0.12
+        },
+        {
+          "dimension": "integration",
+          "weight": 0.1
+        },
+        {
+          "dimension": "agent_friction",
+          "weight": 0.13
+        },
+        {
+          "dimension": "health",
+          "weight": 0.15
+        },
+        {
+          "dimension": "lock_in",
+          "weight": 0.1
+        }
+      ],
+      "ranking": [
+        {
+          "vendor": "arize-phoenix",
+          "total": 87.4,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "langfuse",
+          "total": 87.4,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "opik",
+          "total": 87.4,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "langsmith",
+          "total": 81.85,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 84
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 84
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "braintrust",
+          "total": 75.2,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 249
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 249
+            }
+          ],
+          "free_tier": false,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        },
+        {
+          "vendor": "helicone",
+          "total": 66.65,
+          "insufficient_data": false,
+          "costs": [
+            {
+              "volume": 100000,
+              "monthly": 0
+            }
+          ],
+          "profile_costs": [
+            {
+              "id": "traces-100k",
+              "name": "100k traces/mo",
+              "monthly": 0
+            }
+          ],
+          "free_tier": true,
+          "last_verified": "2026-11-04",
+          "staleness": "fresh",
+          "divergence": "none"
+        }
+      ]
+    }
+  ]
+}

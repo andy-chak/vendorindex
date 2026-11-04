@@ -1,0 +1,113 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/replicate/",
+  "vendor": {
+    "id": "replicate",
+    "name": "Replicate",
+    "type": "saas",
+    "categories": [
+      "image-generation"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 90,
+  "sdks": [
+    {
+      "language": "python",
+      "package": "replicate",
+      "registry": "pypi",
+      "url": "https://pypi.org/project/replicate/",
+      "official": true
+    },
+    {
+      "language": "typescript",
+      "package": "replicate",
+      "registry": "npm",
+      "url": "https://www.npmjs.com/package/replicate",
+      "official": true
+    }
+  ],
+  "observability": null,
+  "plans": [
+    {
+      "id": "replicate-flagship",
+      "name": "Flagship model run (per image)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "images",
+          "unit_size": 1,
+          "per_unit": 0.04
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 79.55,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 89,
+        "weight": 0.45,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 50,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.05,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 90,
+        "weight": 0.15,
+        "evidence": [
+          "https://replicate.com/docs"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 85,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 40
+    }
+  ],
+  "health": {
+    "score": 85,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 12.7,
+    "last_release_at": "2025-05-27",
+    "status_page": "https://www.replicatestatus.com",
+    "sources": [
+      "https://pypi.org/project/replicate/",
+      "https://www.replicatestatus.com"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": null
+}

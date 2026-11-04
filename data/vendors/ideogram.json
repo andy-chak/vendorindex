@@ -1,0 +1,100 @@
+{
+  "as_of": "2026-11-04T13:45:03.373Z",
+  "url": "https://vendorindex.dev/vendor/ideogram/",
+  "vendor": {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "type": "saas",
+    "categories": [
+      "image-generation"
+    ],
+    "compliance": [
+      "soc2"
+    ]
+  },
+  "agent_friction": 70,
+  "sdks": [],
+  "observability": null,
+  "plans": [
+    {
+      "id": "ideogram-default",
+      "name": "Default (per image)",
+      "base_price": 0,
+      "billing_period": "month",
+      "included_units": {},
+      "overages": [
+        {
+          "metric": "images",
+          "unit_size": 1,
+          "per_unit": 0.06
+        }
+      ],
+      "contact_sales": false
+    }
+  ],
+  "score": {
+    "total": 71,
+    "dimensions": [
+      {
+        "dimension": "fit",
+        "value": 90,
+        "weight": 0.45,
+        "evidence": []
+      },
+      {
+        "dimension": "cost",
+        "value": 0,
+        "weight": 0.15,
+        "evidence": []
+      },
+      {
+        "dimension": "integration",
+        "value": 0,
+        "weight": 0.05,
+        "evidence": []
+      },
+      {
+        "dimension": "agent_friction",
+        "value": 70,
+        "weight": 0.15,
+        "evidence": [
+          "https://developer.ideogram.ai"
+        ]
+      },
+      {
+        "dimension": "health",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      },
+      {
+        "dimension": "lock_in",
+        "value": 100,
+        "weight": 0.1,
+        "evidence": []
+      }
+    ]
+  },
+  "costs": [
+    {
+      "volume": 1000,
+      "monthly": 60
+    }
+  ],
+  "health": {
+    "score": 100,
+    "incidents_90d": 0,
+    "downloads_trend_pct": 0,
+    "last_release_at": null,
+    "status_page": null,
+    "sources": [
+      "https://developer.ideogram.ai"
+    ],
+    "captured_at": "2026-11-04"
+  },
+  "last_verified": "2026-11-04",
+  "internet_unverified": {
+    "sentiment_index": 48,
+    "divergence": "none"
+  }
+}
