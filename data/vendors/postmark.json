@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04T13:45:03.373Z",
+  "as_of": "2026-11-08T13:55:32.608Z",
   "url": "https://vendorindex.dev/vendor/postmark/",
   "vendor": {
     "id": "postmark",
@@ -122,7 +122,7 @@
     }
   ],
   "score": {
-    "total": 62.25,
+    "total": 52.25,
     "dimensions": [
       {
         "dimension": "fit",
@@ -138,7 +138,7 @@
       },
       {
         "dimension": "integration",
-        "value": 50,
+        "value": 0,
         "weight": 0.2,
         "evidence": []
       },

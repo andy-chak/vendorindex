@@ -8,6 +8,7 @@
 - Full catalog in one fetch (plain text): /llms-full.txt
 - Category rankings: /data/categories/<category>.json
 - Vendor detail: /data/vendors/<vendor>.json
+- Price/data-change feed (RSS): /feed.xml
 - MCP server (tools: search/compare/recommend/rank): https://mcp.vendorindex.dev (POST /mcp)
 
 ## Key pages

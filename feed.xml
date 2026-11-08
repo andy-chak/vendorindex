@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VendorIndex — price &amp; data changes</title>
+    <link>https://vendorindex.dev/</link>
+    <atom:link href="https://vendorindex.dev/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Cited pricing and data changes across the vendors VendorIndex tracks, newest first.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Zep — monthly pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/zep/</link>
+      <guid isPermaLink="false">obs-zep-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Flex plan $125/month (as of July 2026; the '$25' seen online is a credit top-up, not the plan price). Meters ingested Episodes at 1 credit / 350 bytes; retrieval, storage and users are not metered. Free tier deprecated in 2026; 10k free credits/mo to start. Graphiti engine is open source (Apache-2.0). — source: https://www.getzep.com/pricing (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Voyage Rerank — per token pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/voyage-rerank/</link>
+      <guid isPermaLink="false">obs-voyage-rerank-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: rerank-3 $0.05 per 1M tokens; rerank-3-lite $0.02 per 1M. rerank-2.5 includes 200M free tokens/month. Billed on query tokens x doc count + document tokens. — source: https://docs.voyageai.com/docs/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Vercel Sandbox — per second pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/vercel-sandbox/</link>
+      <guid isPermaLink="false">obs-vercel-sandbox-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Billed on active CPU + provisioned memory per second; bundled with Vercel platform usage. A clear per-vCPU-hour rate is not prominently published — modeled at ~$0.10/vCPU-hour (approximate, flagged). — source: https://vercel.com/docs/vercel-sandbox/pricing (confidence 0.5)</description>
+    </item>
+    <item>
+      <title>Steel — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/steel/</link>
+      <guid isPermaLink="false">obs-steel-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Steel browser core is open-source (Apache-2.0); self-hosted, $0 software cost. Cloud: Launch free tier / $0.10 per browser-hour; Scale $250/mo at $0.08/hr. Compute borne by the user when self-hosted. — source: https://steel.dev/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Replicate — per image pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/replicate/</link>
+      <guid isPermaLink="false">obs-replicate-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Per-run output/compute pricing across thousands of models; often a higher markup than fal for the same open model (Ideogram v3 ~$0.09 vs ~$0.03 on fal). Modeled at a representative flagship run ~$0.04. — source: https://replicate.com/pricing (confidence 0.65)</description>
+    </item>
+    <item>
+      <title>Recraft — per image pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/recraft/</link>
+      <guid isPermaLink="false">obs-recraft-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: API ~$0.035 per raster image, ~$0.08 per vector (SVG) image. Modeled at the raster tier. — source: https://www.recraft.ai/docs (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Opik — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/opik/</link>
+      <guid isPermaLink="false">obs-opik-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (Apache-2.0); self-hosted, $0 software cost. Comet-hosted cloud has a free tier and paid plans (~$19/mo). Compute borne by the user when self-hosted. — source: https://www.comet.com/site/pricing/ (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>OpenAI Images (gpt-image) — per image pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/openai-images/</link>
+      <guid isPermaLink="false">obs-openai-images-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: gpt-image per 1024x1024: ~$0.011 low quality, ~$0.053 medium, ~$0.211 high. Billed via image tokens. Modeled at the medium tier. — source: https://openai.com/api/pricing/ (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Modal — per second pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/modal/</link>
+      <guid isPermaLink="false">obs-modal-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Per-second compute ~$0.071/vCPU-hour (from $0.1419/physical-core-hr) + memory ~$0.024/GiB-hour; GPU priced separately. $30/month free credits. Full-duration metering. — source: https://modal.com/pricing (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Mixedbread Rerank — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/mixedbread-rerank/</link>
+      <guid isPermaLink="false">obs-mixedbread-rerank-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: mxbai-rerank-large-v2 open weights (Apache-2.0); self-hosted, $0 software cost. Mixedbread also offers a hosted reranking API (usage-priced). Compute borne by the user when self-hosted. — source: https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v2 (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Mem0 — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/mem0/</link>
+      <guid isPermaLink="false">obs-mem0-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (Apache-2.0); self-hosted, $0 software cost. Managed cloud: Hobby free (10k adds + 1k retrievals/mo), Starter $19/mo, Growth $79/mo, Pro $249/mo (graph memory). Compute borne by the user when self-hosted. — source: https://mem0.ai/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Letta — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/letta/</link>
+      <guid isPermaLink="false">obs-letta-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (Apache-2.0); self-hosted, $0 software cost. Cloud: free tier (3 stateful agents, 5 MiB/repo, BYO keys); Pro $20/mo (20 agents, 50 MiB) + $0.10 per active agent/mo. Compute borne by the user when self-hosted. — source: https://www.letta.com/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>LangSmith — per trace pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/langsmith/</link>
+      <guid isPermaLink="false">obs-langsmith-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Developer free (1 seat, 5k base traces/mo, 14-day retention). Plus $39/seat/mo (10k base traces/mo, then pay-as-you-go). Metered in LangChain Standard Units (LSUs) at $1.00/LSU; per-trace overage modeled at ~$0.50/1k base traces (approximate — LSU mapping is opaque). — source: https://www.langchain.com/pricing-langsmith (confidence 0.6)</description>
+    </item>
+    <item>
+      <title>LangMem — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/langmem/</link>
+      <guid isPermaLink="false">obs-langmem-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (MIT) library; self-hosted, $0 software cost. No managed service — you run it inside your own LangGraph/app. Compute borne by the user. — source: https://github.com/langchain-ai/langmem/blob/main/LICENSE (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Langfuse — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/langfuse/</link>
+      <guid isPermaLink="false">obs-langfuse-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (MIT); self-hosted, $0 software cost. Cloud: Hobby free (50k units/mo), Core $29/mo (100k units, then $8/100k), Pro $199/mo, Enterprise $2,499/mo. Compute borne by the user when self-hosted. — source: https://langfuse.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Jina Reranker — per token pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/jina-reranker/</link>
+      <guid isPermaLink="false">obs-jina-reranker-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Billed per token from a shared token balance; 10M free tokens per new API key. Headline rate modeled at ~$0.02/1M tokens (Jina does not list a clear $/1M on the main page) — flagged. — source: https://jina.ai/reranker/ (confidence 0.6)</description>
+    </item>
+    <item>
+      <title>Ideogram — per image pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/ideogram/</link>
+      <guid isPermaLink="false">obs-ideogram-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Hosted API per image: Turbo ~$0.03, Default ~$0.06, Quality ~$0.10. (The same Ideogram model is cheaper on fal ~$0.03 than on Replicate ~$0.09.) Modeled at Default. — source: https://developer.ideogram.ai/api-reference/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Hyperbrowser — per browser hour pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/hyperbrowser/</link>
+      <guid isPermaLink="false">obs-hyperbrowser-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: ~$0.10 per browser-hour. Free tier (1,000 credits, 1 concurrent browser); Startup $30/mo; Scale $100/mo; Enterprise custom. One credit balance shared across browsers, sandboxes and agents. — source: https://www.hyperbrowser.ai/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Helicone — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/helicone/</link>
+      <guid isPermaLink="false">obs-helicone-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (Apache-2.0); self-hosted, $0 software cost. Cloud: free to 100k requests/mo, Pro $20/mo, Enterprise custom. Compute borne by the user when self-hosted. — source: https://www.helicone.ai/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Google Imagen — per image pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/google-imagen/</link>
+      <guid isPermaLink="false">obs-google-imagen-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Imagen 4 via Gemini API per image: Fast ~$0.02, Standard ~$0.04, Ultra ~$0.06. Modeled at Standard. — source: https://ai.google.dev/gemini-api/docs/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>fal — per image pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/fal/</link>
+      <guid isPermaLink="false">obs-fal-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Output-priced per image/megapixel: FLUX.1 schnell ~$0.003, FLUX.2 klein ~$0.005-0.014, FLUX.2 pro ~$0.03 (first MP). Typically the cheapest way to run open models. Modeled at a fast flagship tier ~$0.02. — source: https://fal.ai/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>E2B — per second pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/e2b/</link>
+      <guid isPermaLink="false">obs-e2b-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Compute billed per second: $0.0504/vCPU-hour + $0.0162/GiB-hour. Hobby free with $100 one-time credit, up to 1h sessions / 20 concurrent, no card. Pro $150/mo for 24h sessions + 100 concurrent. — source: https://e2b.dev/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Daytona — per second pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/daytona/</link>
+      <guid isPermaLink="false">obs-daytona-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Pay-as-you-go, billed per second: $0.0504/vCPU-hour + $0.0162/GiB-hour (same compute rate as E2B). $200 free compute credit, no credit card for the trial. — source: https://www.daytona.io/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Cohere Rerank — per token pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/cohere-rerank/</link>
+      <guid isPermaLink="false">obs-cohere-rerank-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Rerank 5 (released 2026-10-21): Pro $0.05 per 1M tokens, Fast $0.02 per 1M tokens. Billed on query + document tokens. Free trial key available. — source: https://cohere.com/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Cognee — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/cognee/</link>
+      <guid isPermaLink="false">obs-cognee-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (Apache-2.0); self-hosted, $0 software cost. Managed cloud available (usage-based). Compute borne by the user when self-hosted. — source: https://www.cognee.ai/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Cloudflare Sandboxes — per second pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/cloudflare-sandbox/</link>
+      <guid isPermaLink="false">obs-cloudflare-sandbox-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Active CPU billed at $0.072/vCPU-hour (CPU charged only while busy, not while idle), on top of a $5/month Workers Paid base, plus Workers requests + Durable Objects usage. Free tier available. — source: https://developers.cloudflare.com/sandbox/platform/pricing/ (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Browserless — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/browserless/</link>
+      <guid isPermaLink="false">obs-browserless-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Browserless ships a self-hostable Docker image (source-available); self-hosted, $0 software cost. Cloud: free 1,000 units/mo; paid plans $25–$350/mo (unit-metered). Compute borne by the user when self-hosted. — source: https://www.browserless.io/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Browserbase — per browser hour pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/browserbase/</link>
+      <guid isPermaLink="false">obs-browserbase-agent-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Free tier (1 browser-hour, 3 concurrent). Developer $20/mo includes 100 browser-hours, then $0.12/browser-hour. Startup $99/mo includes 500 browser-hours, then $0.10/hr. — source: https://www.browserbase.com/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Braintrust — monthly pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/braintrust/</link>
+      <guid isPermaLink="false">obs-braintrust-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Starter free ($10 credits, 1GB processed data + $4/GB, 10k scores + $2.50/1k, 14-day retention, unlimited users). Pro $249/mo ($100 credits, 5GB + $3/GB, 50k scores + $1.50/1k, 30-day retention). Enterprise custom. Billed on GB + scores, not traces — $249 flat modeled as the ~100k-trace workload (approximate). — source: https://www.braintrust.dev/pricing (confidence 0.6)</description>
+    </item>
+    <item>
+      <title>Black Forest Labs (FLUX) — per image pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/black-forest-labs/</link>
+      <guid isPermaLink="false">obs-black-forest-labs-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Direct BFL API: flux-2-pro ~$0.03 for the first megapixel (1024x1024), ~$0.015 per additional MP; credit-based ($0.015-0.07/MP across tiers). FLUX schnell weights are open (Apache-2.0). — source: https://docs.bfl.ai/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>BGE Reranker — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/bge-reranker/</link>
+      <guid isPermaLink="false">obs-bge-reranker-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: bge-reranker-v2-m3 and larger BGE rerankers are MIT open weights; self-hosted, $0 software cost. No first-party hosted API. Compute borne by the user. — source: https://huggingface.co/BAAI/bge-reranker-v2-m3 (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Arize Phoenix — license cost (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/arize-phoenix/</link>
+      <guid isPermaLink="false">obs-arize-phoenix-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (Elastic License 2.0); self-hosted, $0 software cost. Managed Arize AX cloud from ~$50/mo (Developer) / $99/mo. Compute borne by the user when self-hosted. — source: https://phoenix.arize.com/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Anchor Browser — per browser hour pricing (2026-11-04)</title>
+      <link>https://vendorindex.dev/vendor/anchor-browser/</link>
+      <guid isPermaLink="false">obs-anchor-browser-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Usage-based per browser-hour; a fixed $/hr is not prominently published. Modeled at ~$0.10/browser-hour (approximate, flagged). Free trial credits available. — source: https://anchorbrowser.io/pricing (confidence 0.5)</description>
+    </item>
+    <item>
+      <title>Unstructured — license cost (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/unstructured/</link>
+      <guid isPermaLink="false">obs-unstructured-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source library (Apache-2.0); self-hosted, $0 software cost. Managed Platform/Serverless API priced separately. Compute borne by the user. — source: https://docs.unstructured.io/open-source/introduction/overview (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Together AI — gpt oss 120b pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/together-ai/</link>
+      <guid isPermaLink="false">obs-together-ai-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: gpt-oss-120B $0.15/1M in, $0.60/1M out — source: https://www.together.ai/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Reducto — per page pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/reducto/</link>
+      <guid isPermaLink="false">obs-reducto-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Standard plan: Parse (r-1) $10 per 1,000 pages = $0.01/page; Extract $20 per 1,000 pages = $0.02/page. Includes $150 in free usage. Growth/Enterprise custom. — source: https://reducto.ai/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>PyMuPDF — license cost (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/pymupdf/</link>
+      <guid isPermaLink="false">obs-pymupdf-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (AGPL-3.0 or Artifex commercial license); self-hosted, $0 software cost. Compute borne by the user. — source: https://artifex.com/licensing/ (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>pdfplumber — license cost (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/pdfplumber/</link>
+      <guid isPermaLink="false">obs-pdfplumber-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (MIT); self-hosted, $0 software cost. Compute borne by the user. — source: https://github.com/jsvine/pdfplumber/blob/stable/LICENSE.txt (confidence 0.95)</description>
+    </item>
+    <item>
+      <title>OpenRouter — gpt oss 120b pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/openrouter/</link>
+      <guid isPermaLink="false">obs-openrouter-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: gpt-oss-120B passthrough (representative; range $0.03-0.35 in / $0.15-0.95 out across providers, no per-token markup + ~5.5% credit-purchase fee) — source: https://openrouter.ai/openai/gpt-oss-120b (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Mistral OCR — per page pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/mistral-ocr/</link>
+      <guid isPermaLink="false">obs-mistral-ocr-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Mistral OCR 4.1 ~$4 per 1,000 pages = $0.004/page; ~$2/1,000 via Batch API (50% off); ~$5/1,000 for annotated pages (Document AI). Price rose from $2 to $4/1k in the July 2026 OCR 4 update. — source: https://mistral.ai/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>MinerU — license cost (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/mineru/</link>
+      <guid isPermaLink="false">obs-mineru-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (AGPL-3.0); self-hosted, $0 software cost. Compute borne by the user. — source: https://github.com/opendatalab/MinerU/blob/master/LICENSE.md (confidence 0.95)</description>
+    </item>
+    <item>
+      <title>Marker — license cost (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/marker/</link>
+      <guid isPermaLink="false">obs-marker-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (GPL-3.0; commercial license required above a revenue threshold); self-hosted, $0 software cost. Compute borne by the user. — source: https://github.com/datalab-to/marker#readme (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>LlamaParse — per page pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/llamaparse/</link>
+      <guid isPermaLink="false">obs-llamaparse-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 1,000 credits = $1.25. Balanced/cost-effective mode 3 credits/page = $0.00375/page. Fast 1 cr, Agentic 10 cr, Agentic Plus 45 cr/page. Free plan includes 10,000 credits/month (~3,333 pages at Balanced). — source: https://www.llamaindex.ai/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Groq — gpt oss 120b pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/groq/</link>
+      <guid isPermaLink="false">obs-groq-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: gpt-oss-120B $0.15/1M in, $0.60/1M out — source: https://groq.com/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Google Document AI — per page pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/google-document-ai/</link>
+      <guid isPermaLink="false">obs-google-document-ai-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Enterprise Document OCR $1.50/1,000 pages (1-5M/mo), first 1,000/mo free; Layout Parser $10/1,000 = $0.01/page; Form Parser $30/1,000 ($20 above 1M). Verified via third-party summaries (official pricing page rendered incompletely). — source: https://cloud.google.com/document-ai/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Fireworks AI — gpt oss 120b pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/fireworks-ai/</link>
+      <guid isPermaLink="false">obs-fireworks-ai-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: gpt-oss-120B $0.15/1M in, $0.60/1M out — source: https://fireworks.ai/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Extend — per page pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/extend/</link>
+      <guid isPermaLink="false">obs-extend-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Pay-as-you-go: Parse Light $5 per 1,000 pages = $0.005/page; Parse Performance $20/1,000 = $0.02/page; Extract Light $7/1,000; Extract Performance $30/1,000. 10,000 free credits to start ($0.01/credit thereafter). — source: https://www.extend.ai/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Docling — license cost (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/docling/</link>
+      <guid isPermaLink="false">obs-docling-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Open-source (MIT, LF AI &amp; Data); self-hosted, $0 software cost. Compute borne by the user. — source: https://github.com/docling-project/docling/blob/main/LICENSE (confidence 0.95)</description>
+    </item>
+    <item>
+      <title>DeepInfra — gpt oss 120b pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/deepinfra/</link>
+      <guid isPermaLink="false">obs-deepinfra-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: gpt-oss-120B $0.037/1M in, $0.17/1M out (per third-party trackers; cheapest in class) — source: https://deepinfra.com/openai/gpt-oss-120b (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Cerebras — gpt oss 120b pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/cerebras/</link>
+      <guid isPermaLink="false">obs-cerebras-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: gpt-oss-120B $0.35/1M in, $0.75/1M out (fastest; recently raised from $0.25/$0.69) — source: https://www.cerebras.ai/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Azure AI Document Intelligence — per page pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/azure-document-intelligence/</link>
+      <guid isPermaLink="false">obs-azure-document-intelligence-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: S0 pay-as-you-go: Read (OCR) $1.50/1,000 pages; Layout $10/1,000 = $0.01/page (markdown output); Prebuilt models $10/1,000; Custom extraction $30/1,000. F0 free tier 500 pages/month. Verified via third-party summaries (official pricing page showed placeholders). — source: https://azure.microsoft.com/en-us/pricing/details/ai-document-intelligence/ (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>AWS Textract — per page pricing (2026-11-03)</title>
+      <link>https://vendorindex.dev/vendor/aws-textract/</link>
+      <guid isPermaLink="false">obs-aws-textract-2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: US region, first 1M pages/mo: Detect Document Text (plain OCR) $1.50/1,000 = $0.0015/page; Tables $15/1,000 = $0.015/page; Forms (key-value) $50/1,000; Queries $15/1,000; Forms+Tables+Queries $70/1,000. Free tier 1,000 pages/mo for first 3 months. — source: https://aws.amazon.com/textract/pricing/ (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Weaviate — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/weaviate/</link>
+      <guid isPermaLink="false">obs-weaviate-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $45/mo min; $0.00465/1M vector dims; storage $0.12/GiB — source: https://weaviate.io/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Voyage voyage-4-lite — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/voyage-4-lite/</link>
+      <guid isPermaLink="false">obs-voyage-4-lite-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.02/1M input tokens (200M free) — source: https://docs.voyageai.com/docs/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Voyage voyage-4-large — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/voyage-4-large/</link>
+      <guid isPermaLink="false">obs-voyage-4-large-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.12/1M input tokens (200M free) — source: https://docs.voyageai.com/docs/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Vonage — sms rate us (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/vonage/</link>
+      <guid isPermaLink="false">obs-vonage-sms-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.0086 per segment + carrier fees — source: https://www.vonage.com/communications-apis/messages/pricing/ (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Vercel — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/vercel/</link>
+      <guid isPermaLink="false">obs-vercel-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Pro $20/member; 1TB bandwidth incl; $0.15/GB over — source: https://vercel.com/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Twilio — sms rate us (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/twilio/</link>
+      <guid isPermaLink="false">obs-twilio-sms-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.0083 per segment + carrier fees — source: https://www.twilio.com/en-us/sms/pricing/us (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>turbopuffer — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/turbopuffer/</link>
+      <guid isPermaLink="false">obs-turbopuffer-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $16/mo min; storage $0.33/GB; writes $2/GB; queries $1/PB — source: https://turbopuffer.com/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>OpenAI text-embedding-3-small — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/text-embedding-3-small/</link>
+      <guid isPermaLink="false">obs-text-embedding-3-small-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.02/1M input tokens — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>OpenAI text-embedding-3-large — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/text-embedding-3-large/</link>
+      <guid isPermaLink="false">obs-text-embedding-3-large-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.13/1M input tokens — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Telnyx — sms rate us (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/telnyx/</link>
+      <guid isPermaLink="false">obs-telnyx-sms-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.004 per segment + carrier fees — source: https://telnyx.com/pricing/messaging (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Tavily — search rate (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/tavily/</link>
+      <guid isPermaLink="false">obs-tavily-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $8/1k ($0.008/credit); 1k free; $30/mo 10k — source: https://tavily.com/#pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Serper — search rate (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/serper/</link>
+      <guid isPermaLink="false">obs-serper-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: ~$1/1k (lowest cost); 2.5k free — source: https://serper.dev (confidence 0.6)</description>
+    </item>
+    <item>
+      <title>SerpApi — search rate (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/serpapi/</link>
+      <guid isPermaLink="false">obs-serpapi-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $15/1k; 250 free; $25/mo 1k — source: https://serpapi.com/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Sentry — tier price (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/sentry/</link>
+      <guid isPermaLink="false">obs-sentry-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Team $29/mo, 50k errors — source: https://sentry.io/pricing/ (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>ScrapingBee — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/scrapingbee/</link>
+      <guid isPermaLink="false">obs-scrapingbee-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Hobby $19/mo 75k credits; free 1k — source: https://www.scrapingbee.com/#pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Rollbar — tier price (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/rollbar/</link>
+      <guid isPermaLink="false">obs-rollbar-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Essentials $9/mo @10k occ; ~$35 @50k (estimate) — source: https://rollbar.com/pricing/ (confidence 0.5)</description>
+    </item>
+    <item>
+      <title>Render — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/render/</link>
+      <guid isPermaLink="false">obs-render-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Starter $7/mo (0.5CPU/512MB); 5GB free then $0.15/GB — source: https://render.com/pricing (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Qdrant — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/qdrant/</link>
+      <guid isPermaLink="false">obs-qdrant-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: resource-based (RAM/vCPU); small-cluster estimate ~$25/mo — source: https://qdrant.tech/pricing/ (confidence 0.5)</description>
+    </item>
+    <item>
+      <title>Plivo — sms rate us (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/plivo/</link>
+      <guid isPermaLink="false">obs-plivo-sms-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.0077 per segment + carrier fees — source: https://www.plivo.com/sms/pricing/us/ (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Pinecone — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/pinecone/</link>
+      <guid isPermaLink="false">obs-pinecone-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $50/mo min; storage $0.33/GB; reads $16-18/M units, writes $4-4.5/M — source: https://www.pinecone.io/pricing/ (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>New Relic — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/newrelic/</link>
+      <guid isPermaLink="false">obs-newrelic-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 100GB + 1 user free; $0.40/GB over; full users $349/mo — source: https://newrelic.com/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Netlify — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/netlify/</link>
+      <guid isPermaLink="false">obs-netlify-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Pro $20/mo; bandwidth ~$0.13/GB (credit-based) — source: https://www.netlify.com/pricing/ (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Mistral Embed — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/mistral-embed/</link>
+      <guid isPermaLink="false">obs-mistral-embed-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.10/1M input tokens — source: https://mistral.ai/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Jina Embeddings v5 — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/jina-embeddings-v5/</link>
+      <guid isPermaLink="false">obs-jina-embeddings-v5-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.05/1M input tokens (text-small; not published on page, per third-party trackers + dashboard) — source: https://jina.ai/embeddings/ (confidence 0.6)</description>
+    </item>
+    <item>
+      <title>Honeybadger — tier price (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/honeybadger/</link>
+      <guid isPermaLink="false">obs-honeybadger-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Team $26/mo, 50k errors, no overage — source: https://www.honeybadger.io/plans/ (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Grafana Cloud — pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/grafana/</link>
+      <guid isPermaLink="false">obs-grafana-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $19/mo base; 50GB logs free; $0.40/GB write over — source: https://grafana.com/pricing/ (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>GPT-6 Luna — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/gpt-6-luna/</link>
+      <guid isPermaLink="false">obs-gpt-6-luna-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $0.10/1M input, $0.50/1M output — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra — token pricing (2026-11-02)</title>
+      <link>https://vendorindex.dev/vendor/gpt-6-astra/</link>
+      <guid isPermaLink="false">obs-gpt-6-astra-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: $10/1M input, $50/1M output — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
+    </item>
+  </channel>
+</rss>

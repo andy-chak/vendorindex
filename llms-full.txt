@@ -2,7 +2,7 @@
 
 > The reference coding agents consult to pick a vendor, library or service. Per-use-case scores (0–100) from verified, cited pricing, agent-friction and health. Rank is never for sale; internet sentiment is unverified and never affects rank.
 
-Generated 2026-11-04 13:45 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
+Generated 2026-11-08 13:55 UTC. Structured data: /data/categories/<id>.json and /data/vendors/<id>.json.
 Remote MCP server: https://mcp.vendorindex.dev (POST /mcp).
 
 ## Headless browsers for agents  (/category/agent-browsers/)
@@ -170,7 +170,7 @@ Primary use case: Transactional email. Cost metric: emails.
 - Twilio SendGrid (sendgrid): score 83.35, $19.95 @ 3k emails/mo, free tier: no, verified 2026-11-01
 - Mailgun (mailgun): score 80.41, $15 @ 3k emails/mo, free tier: no, verified 2026-11-01
 - Amazon SES (amazon-ses): score 68.75, $0.30 @ 3k emails/mo, free tier: yes, verified 2026-11-01
-- Postmark (postmark): score 62.25, $15 @ 3k emails/mo, free tier: no, verified 2026-11-01
+- Postmark (postmark): score 52.25, $15 @ 3k emails/mo, free tier: no, verified 2026-11-01
 
 ## Vector databases  (/category/vector-databases/)
 Primary use case: RAG / embeddings store. Cost metric: storage_gb.
