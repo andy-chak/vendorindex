@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/agent-memory/",
   "category": {
     "id": "agent-memory",
@@ -59,7 +59,7 @@
           "divergence": "none"
         },
         {
-          "vendor": "letta",
+          "vendor": "mem0",
           "total": 87.5,
           "insufficient_data": false,
           "costs": [
@@ -81,8 +81,8 @@
           "divergence": "none"
         },
         {
-          "vendor": "mem0",
-          "total": 87.5,
+          "vendor": "letta",
+          "total": 85,
           "insufficient_data": false,
           "costs": [
             {
@@ -245,7 +245,7 @@
         },
         {
           "vendor": "letta",
-          "total": 48.5,
+          "total": 47,
           "insufficient_data": false,
           "costs": [
             {

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/langfuse/",
   "vendor": {
     "id": "langfuse",
@@ -97,14 +97,14 @@
   "health": {
     "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": 33.4,
-    "last_release_at": "2026-10-30",
+    "downloads_trend_pct": 30.4,
+    "last_release_at": "2026-11-05",
     "status_page": "https://status.langfuse.com",
     "sources": [
       "https://pypi.org/project/langfuse/",
       "https://status.langfuse.com"
     ],
-    "captured_at": "2026-11-04"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-04",
   "internet_unverified": {

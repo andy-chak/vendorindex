@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/neon/",
   "vendor": {
     "id": "neon",
@@ -120,15 +120,15 @@
   "health": {
     "score": 95,
     "incidents_90d": 1,
-    "downloads_trend_pct": -0.2,
+    "downloads_trend_pct": 32.7,
     "last_release_at": "2026-10-01",
     "status_page": "https://neonstatus.com",
     "sources": [
       "https://www.npmjs.com/package/@neondatabase/serverless",
       "https://neonstatus.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-12",
   "internet_unverified": null
 }

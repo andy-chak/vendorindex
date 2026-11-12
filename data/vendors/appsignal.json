@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/appsignal/",
   "vendor": {
     "id": "appsignal",
@@ -59,7 +59,7 @@
     }
   ],
   "score": {
-    "total": 73,
+    "total": 74,
     "dimensions": [
       {
         "dimension": "fit",
@@ -89,7 +89,7 @@
       },
       {
         "dimension": "health",
-        "value": 90,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -108,16 +108,16 @@
     }
   ],
   "health": {
-    "score": 90,
+    "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": -29.3,
-    "last_release_at": "2026-10-23",
+    "downloads_trend_pct": 7.4,
+    "last_release_at": "2026-11-11",
     "status_page": "https://status.appsignal.com",
     "sources": [
       "https://www.npmjs.com/package/@appsignal/nodejs",
       "https://status.appsignal.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

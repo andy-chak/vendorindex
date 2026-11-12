@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/payments/",
   "category": {
     "id": "payments",
@@ -64,39 +64,39 @@
             }
           ],
           "free_tier": true,
-          "last_verified": "2026-11-01",
+          "last_verified": "2026-11-12",
           "staleness": "fresh",
           "divergence": "none"
         },
         {
           "vendor": "polar",
-          "total": 61.35,
+          "total": 51.75,
           "insufficient_data": false,
           "costs": [
             {
               "volume": 10000,
-              "monthly": 4000
+              "monthly": 5000
             }
           ],
           "profile_costs": [
             {
               "id": "small",
               "name": "Small ($20 avg × 1k)",
-              "monthly": 1200
+              "monthly": 1500
             },
             {
               "id": "medium",
               "name": "Medium ($50 avg × 10k)",
-              "monthly": 24000
+              "monthly": 30000
             },
             {
               "id": "large",
               "name": "Large ($80 avg × 100k)",
-              "monthly": 360000
+              "monthly": 450000
             }
           ],
           "free_tier": true,
-          "last_verified": "2026-11-01",
+          "last_verified": "2026-11-12",
           "staleness": "fresh",
           "divergence": "none"
         },
@@ -128,7 +128,7 @@
             }
           ],
           "free_tier": true,
-          "last_verified": "2026-11-01",
+          "last_verified": "2026-11-12",
           "staleness": "fresh",
           "divergence": "none"
         },
@@ -160,7 +160,7 @@
             }
           ],
           "free_tier": true,
-          "last_verified": "2026-11-01",
+          "last_verified": "2026-11-12",
           "staleness": "fresh",
           "divergence": "none"
         }

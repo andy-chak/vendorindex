@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/error-monitoring/",
   "category": {
     "id": "error-monitoring",
@@ -37,13 +37,13 @@
       ],
       "ranking": [
         {
-          "vendor": "honeybadger",
-          "total": 73.01,
+          "vendor": "appsignal",
+          "total": 74,
           "insufficient_data": false,
           "costs": [
             {
               "volume": 50000,
-              "monthly": 26
+              "monthly": 23.25
             }
           ],
           "profile_costs": [],
@@ -53,13 +53,13 @@
           "divergence": "none"
         },
         {
-          "vendor": "appsignal",
-          "total": 73,
+          "vendor": "honeybadger",
+          "total": 73.01,
           "insufficient_data": false,
           "costs": [
             {
               "volume": 50000,
-              "monthly": 23.25
+              "monthly": 26
             }
           ],
           "profile_costs": [],

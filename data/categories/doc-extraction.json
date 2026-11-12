@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/doc-extraction/",
   "category": {
     "id": "doc-extraction",
@@ -170,7 +170,7 @@
         },
         {
           "vendor": "mistral-ocr",
-          "total": 76.92,
+          "total": 77.67,
           "insufficient_data": false,
           "costs": [
             {
@@ -280,7 +280,7 @@
         },
         {
           "vendor": "azure-document-intelligence",
-          "total": 53.17,
+          "total": 53.92,
           "insufficient_data": false,
           "costs": [
             {
@@ -443,7 +443,7 @@
         },
         {
           "vendor": "mistral-ocr",
-          "total": 83.45,
+          "total": 84.2,
           "insufficient_data": false,
           "costs": [
             {
@@ -553,7 +553,7 @@
         },
         {
           "vendor": "azure-document-intelligence",
-          "total": 69.7,
+          "total": 70.45,
           "insufficient_data": false,
           "costs": [
             {

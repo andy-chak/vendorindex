@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/embeddings-apis/",
   "category": {
     "id": "embeddings-apis",
@@ -227,7 +227,7 @@
         },
         {
           "vendor": "mistral-embed",
-          "total": 59.87,
+          "total": 60.37,
           "insufficient_data": false,
           "costs": [
             {
@@ -366,7 +366,7 @@
         },
         {
           "vendor": "mistral-embed",
-          "total": 49.64,
+          "total": 50.14,
           "insufficient_data": false,
           "costs": [
             {

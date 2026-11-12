@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/replicate/",
   "vendor": {
     "id": "replicate",
@@ -99,14 +99,14 @@
   "health": {
     "score": 85,
     "incidents_90d": 0,
-    "downloads_trend_pct": 12.7,
+    "downloads_trend_pct": 8.3,
     "last_release_at": "2025-05-27",
     "status_page": "https://www.replicatestatus.com",
     "sources": [
       "https://pypi.org/project/replicate/",
       "https://www.replicatestatus.com"
     ],
-    "captured_at": "2026-11-04"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-04",
   "internet_unverified": null

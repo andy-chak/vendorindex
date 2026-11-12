@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/observability/",
   "category": {
     "id": "observability",
@@ -62,7 +62,7 @@
         },
         {
           "vendor": "betterstack",
-          "total": 71.21,
+          "total": 71.71,
           "insufficient_data": false,
           "costs": [
             {
@@ -86,7 +86,7 @@
         },
         {
           "vendor": "axiom",
-          "total": 70.41,
+          "total": 70.91,
           "insufficient_data": false,
           "costs": [
             {

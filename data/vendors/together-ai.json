@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/together-ai/",
   "vendor": {
     "id": "together-ai",
@@ -106,14 +106,14 @@
   "health": {
     "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": 17.8,
-    "last_release_at": "2026-10-22",
+    "downloads_trend_pct": 20.6,
+    "last_release_at": "2026-11-04",
     "status_page": "https://status.together.ai",
     "sources": [
       "https://pypi.org/project/together/",
       "https://status.together.ai"
     ],
-    "captured_at": "2026-11-03"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-03",
   "internet_unverified": null

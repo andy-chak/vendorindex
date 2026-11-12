@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/workos/",
   "vendor": {
     "id": "workos",
@@ -169,14 +169,14 @@
     "score": 85,
     "incidents_90d": 3,
     "downloads_trend_pct": -4.5,
-    "last_release_at": "2026-10-30",
+    "last_release_at": "2026-11-05",
     "status_page": "https://status.workos.com",
     "sources": [
       "https://www.npmjs.com/package/@workos-inc/node",
       "https://status.workos.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-12",
   "internet_unverified": null
 }

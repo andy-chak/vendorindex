@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/sendgrid/",
   "vendor": {
     "id": "sendgrid",
@@ -99,7 +99,7 @@
         {
           "metric": "emails",
           "unit_size": 1000,
-          "per_unit": 0.3
+          "per_unit": 1.33
         }
       ],
       "contact_sales": false
@@ -159,7 +159,7 @@
     },
     {
       "volume": 1000000,
-      "monthly": 304.95
+      "monthly": 1283.45
     }
   ],
   "health": {
@@ -172,9 +172,9 @@
       "https://www.npmjs.com/package/@sendgrid/mail",
       "https://status.twilio.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-12",
   "internet_unverified": {
     "sentiment_index": -30,
     "divergence": "we_rate_higher"

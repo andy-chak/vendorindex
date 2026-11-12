@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/datadog/",
   "vendor": {
     "id": "datadog",
@@ -147,13 +147,13 @@
     "score": 95,
     "incidents_90d": 0,
     "downloads_trend_pct": -16.5,
-    "last_release_at": "2026-10-30",
+    "last_release_at": "2026-11-05",
     "status_page": "https://status.datadoghq.com",
     "sources": [
       "https://www.npmjs.com/package/dd-trace",
       "https://status.datadoghq.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

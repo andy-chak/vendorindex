@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/agent-browsers/",
   "category": {
     "id": "agent-browsers",
@@ -60,7 +60,7 @@
         },
         {
           "vendor": "anchor-browser",
-          "total": 76.26,
+          "total": 76.76,
           "insufficient_data": false,
           "costs": [
             {
@@ -126,7 +126,7 @@
         },
         {
           "vendor": "browserbase",
-          "total": 72,
+          "total": 72.5,
           "insufficient_data": false,
           "costs": [
             {
@@ -245,7 +245,7 @@
         },
         {
           "vendor": "anchor-browser",
-          "total": 58.91,
+          "total": 59.66,
           "insufficient_data": false,
           "costs": [
             {
@@ -267,7 +267,7 @@
         },
         {
           "vendor": "browserbase",
-          "total": 47.75,
+          "total": 48.5,
           "insufficient_data": false,
           "costs": [
             {

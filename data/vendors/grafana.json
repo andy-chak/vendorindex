@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/grafana/",
   "vendor": {
     "id": "grafana",
@@ -113,13 +113,13 @@
     "score": 95,
     "incidents_90d": 0,
     "downloads_trend_pct": -12.6,
-    "last_release_at": "2026-10-22",
+    "last_release_at": "2026-11-09",
     "status_page": "https://status.grafana.com",
     "sources": [
       "https://www.npmjs.com/package/@grafana/faro-web-sdk",
       "https://status.grafana.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/azure-document-intelligence/",
   "vendor": {
     "id": "azure-document-intelligence",
@@ -59,7 +59,7 @@
     }
   ],
   "score": {
-    "total": 53.17,
+    "total": 53.92,
     "dimensions": [
       {
         "dimension": "fit",
@@ -89,7 +89,7 @@
       },
       {
         "dimension": "health",
-        "value": 80,
+        "value": 85,
         "weight": 0.15,
         "evidence": []
       },
@@ -108,16 +108,16 @@
     }
   ],
   "health": {
-    "score": 80,
+    "score": 85,
     "incidents_90d": 0,
-    "downloads_trend_pct": -13.5,
+    "downloads_trend_pct": 2.3,
     "last_release_at": "2025-03-27",
     "status_page": "https://status.azure.com",
     "sources": [
       "https://pypi.org/project/azure-ai-documentintelligence/",
       "https://status.azure.com"
     ],
-    "captured_at": "2026-11-03"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-03",
   "internet_unverified": null

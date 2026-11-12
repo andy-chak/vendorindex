@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/polar/",
   "vendor": {
     "id": "polar",
@@ -59,7 +59,7 @@
     }
   ],
   "score": {
-    "total": 61.35,
+    "total": 51.75,
     "dimensions": [
       {
         "dimension": "fit",
@@ -69,7 +69,7 @@
       },
       {
         "dimension": "cost",
-        "value": 48,
+        "value": 0,
         "weight": 0.2,
         "evidence": []
       },
@@ -104,21 +104,21 @@
   "costs": [
     {
       "volume": 10000,
-      "monthly": 4000
+      "monthly": 5000
     }
   ],
   "health": {
     "score": 100,
     "incidents_90d": 0,
     "downloads_trend_pct": 0,
-    "last_release_at": "2026-10-02",
+    "last_release_at": "2026-11-11",
     "status_page": "https://status.polar.sh",
     "sources": [
       "https://www.npmjs.com/package/@polar-sh/sdk",
       "https://status.polar.sh"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
-  "last_verified": "2026-11-01",
+  "last_verified": "2026-11-12",
   "internet_unverified": null
 }

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/mistral-embed/",
   "vendor": {
     "id": "mistral-embed",
@@ -49,7 +49,7 @@
     }
   ],
   "score": {
-    "total": 59.87,
+    "total": 60.37,
     "dimensions": [
       {
         "dimension": "fit",
@@ -79,7 +79,7 @@
       },
       {
         "dimension": "health",
-        "value": 95,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -98,16 +98,16 @@
     }
   ],
   "health": {
-    "score": 95,
+    "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": -16,
+    "downloads_trend_pct": -2.3,
     "last_release_at": "2026-11-01",
     "status_page": "https://status.mistral.ai",
     "sources": [
       "https://pypi.org/project/mistralai/",
       "https://status.mistral.ai"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

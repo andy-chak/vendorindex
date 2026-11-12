@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/letta/",
   "vendor": {
     "id": "letta",
@@ -44,7 +44,7 @@
     }
   ],
   "score": {
-    "total": 87.5,
+    "total": 85,
     "dimensions": [
       {
         "dimension": "fit",
@@ -74,7 +74,7 @@
       },
       {
         "dimension": "health",
-        "value": 100,
+        "value": 90,
         "weight": 0.25,
         "evidence": []
       },
@@ -93,16 +93,16 @@
     }
   ],
   "health": {
-    "score": 100,
+    "score": 90,
     "incidents_90d": 0,
-    "downloads_trend_pct": -7,
+    "downloads_trend_pct": -60.4,
     "last_release_at": "2026-10-12",
     "status_page": null,
     "sources": [
       "https://pypi.org/project/letta/",
       "https://github.com/letta-ai/letta/releases"
     ],
-    "captured_at": "2026-11-04"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-04",
   "internet_unverified": null

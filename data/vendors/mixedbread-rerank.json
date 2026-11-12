@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/mixedbread-rerank/",
   "vendor": {
     "id": "mixedbread-rerank",
@@ -86,14 +86,14 @@
   "health": {
     "score": 85,
     "incidents_90d": 0,
-    "downloads_trend_pct": 24.9,
+    "downloads_trend_pct": 36.8,
     "last_release_at": "2025-06-02",
     "status_page": null,
     "sources": [
       "https://pypi.org/project/mxbai-rerank/",
       "https://huggingface.co/mixedbread-ai/mxbai-rerank-large-v2"
     ],
-    "captured_at": "2026-11-04"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-04",
   "internet_unverified": null

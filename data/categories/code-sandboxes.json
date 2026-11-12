@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/code-sandboxes/",
   "category": {
     "id": "code-sandboxes",
@@ -37,7 +37,7 @@
       ],
       "ranking": [
         {
-          "vendor": "daytona",
+          "vendor": "e2b",
           "total": 87.5,
           "insufficient_data": false,
           "costs": [
@@ -59,8 +59,8 @@
           "divergence": "none"
         },
         {
-          "vendor": "e2b",
-          "total": 87.5,
+          "vendor": "daytona",
+          "total": 87,
           "insufficient_data": false,
           "costs": [
             {
@@ -178,7 +178,7 @@
       ],
       "ranking": [
         {
-          "vendor": "daytona",
+          "vendor": "e2b",
           "total": 93.5,
           "insufficient_data": false,
           "costs": [
@@ -200,8 +200,8 @@
           "divergence": "none"
         },
         {
-          "vendor": "e2b",
-          "total": 93.5,
+          "vendor": "daytona",
+          "total": 92.75,
           "insufficient_data": false,
           "costs": [
             {

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/category/llm-observability/",
   "category": {
     "id": "llm-observability",
@@ -104,7 +104,7 @@
         },
         {
           "vendor": "helicone",
-          "total": 85,
+          "total": 83,
           "insufficient_data": false,
           "costs": [
             {
@@ -311,7 +311,7 @@
         },
         {
           "vendor": "helicone",
-          "total": 66.65,
+          "total": 65.15,
           "insufficient_data": false,
           "costs": [
             {

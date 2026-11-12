@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/vonage/",
   "vendor": {
     "id": "vonage",
@@ -138,13 +138,13 @@
     "score": 100,
     "incidents_90d": 0,
     "downloads_trend_pct": -8.2,
-    "last_release_at": "2026-09-09",
+    "last_release_at": "2026-11-10",
     "status_page": "https://vonagestatus.com",
     "sources": [
       "https://www.npmjs.com/package/@vonage/server-sdk",
       "https://vonagestatus.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

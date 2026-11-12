@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://vendorindex.dev/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://vendorindex.dev/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/category/agent-browsers/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/hyperbrowser-vs-anchor-browser-vs-steel/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/category/agent-memory/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/cognee-vs-letta-vs-mem0/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/category/auth/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/better-auth-vs-supabase-vs-workos/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/cognee-vs-mem0-vs-letta/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https://vendorindex.dev/category/auth/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/better-auth-vs-supabase-vs-workos/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/category/code-sandboxes/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/daytona-vs-e2b-vs-cloudflare-sandbox/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/e2b-vs-daytona-vs-cloudflare-sandbox/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/category/doc-extraction/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/docling-vs-mineru-vs-unstructured/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/category/embeddings-apis/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/voyage-4-lite-vs-text-embedding-3-small-vs-jina-embeddings-v5/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/category/error-monitoring/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/honeybadger-vs-appsignal-vs-sentry/</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/appsignal-vs-honeybadger-vs-sentry/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/category/hosting/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/fly-vs-cloudflare-workers-vs-render/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/category/image-generation/</loc><lastmod>2026-11-04</lastmod></url>
@@ -25,40 +25,40 @@
   <url><loc>https://vendorindex.dev/compare/gemini-4-argon-vs-claude-opus-5-5-vs-gemini-3-8-flash/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/category/llm-observability/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/arize-phoenix-vs-langfuse-vs-opik/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/category/object-storage/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/cloudflare-r2-vs-tigris-vs-backblaze-b2/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/category/object-storage/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/cloudflare-r2-vs-tigris-vs-backblaze-b2/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/category/observability/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/newrelic-vs-betterstack-vs-axiom/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/category/payments/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/stripe-vs-polar-vs-paddle/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/category/postgres-hosting/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/railway-vs-neon-vs-amazon-rds/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/category/payments/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/stripe-vs-polar-vs-paddle/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/category/postgres-hosting/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/railway-vs-neon-vs-amazon-rds/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/category/reranking/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/bge-reranker-vs-mixedbread-rerank-vs-jina-reranker/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/category/sms/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/telnyx-vs-bird-vs-twilio/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/category/transactional-email/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/compare/resend-vs-sendgrid-vs-mailgun/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/task/send-transactional-email-from-nextjs/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/category/transactional-email/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/compare/resend-vs-sendgrid-vs-mailgun/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/task/send-transactional-email-from-nextjs/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/category/vector-databases/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/chroma-vs-qdrant-vs-turbopuffer/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/category/web-scraping/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/scrapingbee-vs-apify-vs-browserbase/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/category/web-search/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/compare/exa-vs-tavily-vs-serper/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/amazon-rds/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/amazon-s3/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/amazon-ses/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/amazon-rds/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/amazon-s3/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/amazon-ses/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/anchor-browser/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/apify/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/appsignal/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/arize-phoenix/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/auth0/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/auth0/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/aws-textract/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/axiom/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/azure-document-intelligence/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/backblaze-b2/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/better-auth/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/backblaze-b2/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/better-auth/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/betterstack/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/bge-reranker/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/bird/</loc><lastmod>2026-11-02</lastmod></url>
@@ -73,14 +73,14 @@
   <url><loc>https://vendorindex.dev/vendor/chroma/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/claude-haiku-5-5/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/claude-opus-5-5/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/clerk/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/cloudflare-r2/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/clerk/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/cloudflare-r2/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-sandbox/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/cloudflare-workers/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/cognee/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/cohere-embed-5/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/cohere-rerank/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/crunchy-bridge/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/datadog/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/daytona/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/deepinfra/</loc><lastmod>2026-11-03</lastmod></url>
@@ -110,10 +110,10 @@
   <url><loc>https://vendorindex.dev/vendor/langfuse/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/langmem/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/langsmith/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/lemon-squeezy/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/letta/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/llamaparse/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/mailgun/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/mailgun/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/marker/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/mem0/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/mineru/</loc><lastmod>2026-11-03</lastmod></url>
@@ -121,45 +121,45 @@
   <url><loc>https://vendorindex.dev/vendor/mistral-ocr/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/mixedbread-rerank/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/modal/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/neon/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/neon/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/netlify/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/newrelic/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/openai-images/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/openrouter/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/opik/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/paddle/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/paddle/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/pdfplumber/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/pinecone/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/plivo/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/polar/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/postmark/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/polar/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/postmark/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/pymupdf/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/qdrant/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/railway/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/railway/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/recraft/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/reducto/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/render/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/replicate/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/resend/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/resend/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/rollbar/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/scrapingbee/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/sendgrid/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/sendgrid/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/sentry/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/serpapi/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/serper/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/steel/</loc><lastmod>2026-11-04</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/stripe/</loc><lastmod>2026-11-01</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/supabase/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/stripe/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/supabase/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/tavily/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/telnyx/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/text-embedding-3-large/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/text-embedding-3-small/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/tigris/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/tigris/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/together-ai/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/turbopuffer/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/twilio/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/unstructured/</loc><lastmod>2026-11-03</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/vercel-blob/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/vercel-blob/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/vercel-sandbox/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/vercel/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/vonage/</loc><lastmod>2026-11-02</lastmod></url>
@@ -167,6 +167,6 @@
   <url><loc>https://vendorindex.dev/vendor/voyage-4-lite/</loc><lastmod>2026-11-02</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/voyage-rerank/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/weaviate/</loc><lastmod>2026-11-02</lastmod></url>
-  <url><loc>https://vendorindex.dev/vendor/workos/</loc><lastmod>2026-11-01</lastmod></url>
+  <url><loc>https://vendorindex.dev/vendor/workos/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://vendorindex.dev/vendor/zep/</loc><lastmod>2026-11-04</lastmod></url>
 </urlset>

@@ -6,7 +6,266 @@
     <atom:link href="https://vendorindex.dev/feed.xml" rel="self" type="application/rss+xml" />
     <description>Cited pricing and data changes across the vendors VendorIndex tracks, newest first.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>WorkOS — free mau (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/workos/</link>
+      <guid isPermaLink="false">obs-workos-authkit-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 1000000 — source: https://workos.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Vercel Blob — storage and egress (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/vercel-blob/</link>
+      <guid isPermaLink="false">obs-vercel-blob-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: storage $0.023/GB-mo, data transfer $0.05/GB — source: https://vercel.com/docs/vercel-blob/usage-and-pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Tigris — storage and egress (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/tigris/</link>
+      <guid isPermaLink="false">obs-tigris-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: storage $0.02/GB-mo, egress $0 — source: https://www.tigrisdata.com/docs/pricing/ (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Supabase — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/supabase/</link>
+      <guid isPermaLink="false">obs-supabase-db-pro-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 25 — source: https://supabase.com/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Supabase — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/supabase/</link>
+      <guid isPermaLink="false">obs-supabase-auth-pro-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 25 — source: https://supabase.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Supabase — included mau (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/supabase/</link>
+      <guid isPermaLink="false">obs-supabase-auth-free-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 50000 — source: https://supabase.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Stripe — transaction fee (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/stripe/</link>
+      <guid isPermaLink="false">obs-stripe-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 2.9% + $0.30 — source: https://stripe.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Amazon SES — overage (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/amazon-ses/</link>
+      <guid isPermaLink="false">obs-ses-standard-base-2026-10-14</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 0.1 — source: https://aws.amazon.com/ses/pricing (confidence 1)</description>
+    </item>
+    <item>
+      <title>Amazon SES — overage (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/amazon-ses/</link>
+      <guid isPermaLink="false">obs-ses-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>unchanged: 0.1 — source: https://aws.amazon.com/ses/pricing/ (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Twilio SendGrid — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/sendgrid/</link>
+      <guid isPermaLink="false">obs-sendgrid-essentials-base-2026-10-14</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 19.95 — source: https://sendgrid.com/en-us/pricing (confidence 1)</description>
+    </item>
+    <item>
+      <title>Twilio SendGrid — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/sendgrid/</link>
+      <guid isPermaLink="false">obs-sendgrid-essentials-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>unchanged: 19.95 — source: https://www.twilio.com/en-us/products/email-api/pricing (confidence 0.8)</description>
+    </item>
+    <item>
+      <title>Amazon S3 — storage and egress (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/amazon-s3/</link>
+      <guid isPermaLink="false">obs-s3-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: storage $0.023/GB-mo, egress $0.09/GB — source: https://aws.amazon.com/s3/pricing/ (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Resend — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/resend/</link>
+      <guid isPermaLink="false">obs-resend-scale-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 650 — source: https://resend.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Resend — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/resend/</link>
+      <guid isPermaLink="false">obs-resend-pro-base-2026-10-14</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 20 — source: https://resend.com/pricing (confidence 1)</description>
+    </item>
+    <item>
+      <title>Resend — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/resend/</link>
+      <guid isPermaLink="false">obs-resend-pro-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>unchanged: 20 — source: https://resend.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Resend — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/resend/</link>
+      <guid isPermaLink="false">obs-resend-free-base-2026-10-14</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 0 — source: https://resend.com/pricing (confidence 1)</description>
+    </item>
+    <item>
+      <title>Resend — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/resend/</link>
+      <guid isPermaLink="false">obs-resend-free-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>unchanged: 0 — source: https://resend.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Amazon RDS for Postgres — instance and storage (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/amazon-rds/</link>
+      <guid isPermaLink="false">obs-rds-micro-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: db.t4g.micro ~$11.68/mo + gp3 storage $0.115/GB-mo — source: https://aws.amazon.com/rds/postgresql/pricing/ (confidence 0.65)</description>
+    </item>
+    <item>
+      <title>Railway — base and storage (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/railway/</link>
+      <guid isPermaLink="false">obs-railway-hobby-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: Hobby $5/mo ($5 credit); storage $0.15/GB-mo — source: https://railway.com/pricing (confidence 0.65)</description>
+    </item>
+    <item>
+      <title>Cloudflare R2 — storage and egress (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/cloudflare-r2/</link>
+      <guid isPermaLink="false">obs-r2-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: storage $0.015/GB-mo, egress $0 — source: https://developers.cloudflare.com/r2/pricing/ (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Postmark — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/postmark/</link>
+      <guid isPermaLink="false">obs-postmark-platform-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 18 — source: https://postmarkapp.com/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Postmark — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/postmark/</link>
+      <guid isPermaLink="false">obs-postmark-basic-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>unchanged: 15 — source: https://postmarkapp.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Polar — transaction fee (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/polar/</link>
+      <guid isPermaLink="false">obs-polar-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>hike: 5% + $0.50 — source: https://polar.sh/pricing (confidence 0.85)</description>
+    </item>
+    <item>
+      <title>Paddle — transaction fee (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/paddle/</link>
+      <guid isPermaLink="false">obs-paddle-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 5% + $0.50 — source: https://www.paddle.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Neon — storage price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/neon/</link>
+      <guid isPermaLink="false">obs-neon-launch-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: storage $0.35/GB-mo; compute usage-based — source: https://neon.com/pricing (confidence 0.6)</description>
+    </item>
+    <item>
+      <title>Mailgun — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/mailgun/</link>
+      <guid isPermaLink="false">obs-mailgun-scale-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 90 — source: https://www.mailgun.com/pricing/ (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Mailgun — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/mailgun/</link>
+      <guid isPermaLink="false">obs-mailgun-foundation-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 35 — source: https://www.mailgun.com/pricing/ (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Mailgun — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/mailgun/</link>
+      <guid isPermaLink="false">obs-mailgun-basic-base-2026-10-14</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 15 — source: https://www.mailgun.com/pricing (confidence 1)</description>
+    </item>
+    <item>
+      <title>Mailgun — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/mailgun/</link>
+      <guid isPermaLink="false">obs-mailgun-basic-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>unchanged: 15 — source: https://www.mailgun.com/pricing/ (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Lemon Squeezy — transaction fee (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/lemon-squeezy/</link>
+      <guid isPermaLink="false">obs-lemonsqueezy-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 5% + $0.50 — source: https://www.lemonsqueezy.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Crunchy Bridge — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/crunchy-bridge/</link>
+      <guid isPermaLink="false">obs-crunchy-hobby0-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 9 — source: https://www.crunchydata.com/pricing (confidence 0.7)</description>
+    </item>
+    <item>
+      <title>Clerk — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/clerk/</link>
+      <guid isPermaLink="false">obs-clerk-pro-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 25 — source: https://clerk.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Clerk — included mau (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/clerk/</link>
+      <guid isPermaLink="false">obs-clerk-free-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 50000 — source: https://clerk.com/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Better Auth — base price (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/better-auth/</link>
+      <guid isPermaLink="false">obs-better-auth-oss-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 0 — source: https://www.better-auth.com (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Backblaze B2 — storage and egress (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/backblaze-b2/</link>
+      <guid isPermaLink="false">obs-b2-standard-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: storage $6.95/TB-mo, egress $0.01/GB (free 3x storage) — source: https://www.backblaze.com/cloud-storage/pricing (confidence 0.9)</description>
+    </item>
+    <item>
+      <title>Auth0 — pricing (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/auth0/</link>
+      <guid isPermaLink="false">obs-auth0-professional-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: contact-sales — source: https://auth0.com/pricing (confidence 0.75)</description>
+    </item>
+    <item>
+      <title>Auth0 — included mau (2026-11-12)</title>
+      <link>https://vendorindex.dev/vendor/auth0/</link>
+      <guid isPermaLink="false">obs-auth0-free-2026-11-01</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>new: 25000 — source: https://auth0.com/pricing (confidence 0.9)</description>
+    </item>
     <item>
       <title>Zep — monthly pricing (2026-11-04)</title>
       <link>https://vendorindex.dev/vendor/zep/</link>
@@ -307,265 +566,6 @@
       <guid isPermaLink="false">obs-llamaparse-2026-11-03</guid>
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
       <description>new: 1,000 credits = $1.25. Balanced/cost-effective mode 3 credits/page = $0.00375/page. Fast 1 cr, Agentic 10 cr, Agentic Plus 45 cr/page. Free plan includes 10,000 credits/month (~3,333 pages at Balanced). — source: https://www.llamaindex.ai/pricing (confidence 0.8)</description>
-    </item>
-    <item>
-      <title>Groq — gpt oss 120b pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/groq/</link>
-      <guid isPermaLink="false">obs-groq-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: gpt-oss-120B $0.15/1M in, $0.60/1M out — source: https://groq.com/pricing (confidence 0.8)</description>
-    </item>
-    <item>
-      <title>Google Document AI — per page pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/google-document-ai/</link>
-      <guid isPermaLink="false">obs-google-document-ai-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Enterprise Document OCR $1.50/1,000 pages (1-5M/mo), first 1,000/mo free; Layout Parser $10/1,000 = $0.01/page; Form Parser $30/1,000 ($20 above 1M). Verified via third-party summaries (official pricing page rendered incompletely). — source: https://cloud.google.com/document-ai/pricing (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>Fireworks AI — gpt oss 120b pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/fireworks-ai/</link>
-      <guid isPermaLink="false">obs-fireworks-ai-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: gpt-oss-120B $0.15/1M in, $0.60/1M out — source: https://fireworks.ai/pricing (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Extend — per page pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/extend/</link>
-      <guid isPermaLink="false">obs-extend-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Pay-as-you-go: Parse Light $5 per 1,000 pages = $0.005/page; Parse Performance $20/1,000 = $0.02/page; Extract Light $7/1,000; Extract Performance $30/1,000. 10,000 free credits to start ($0.01/credit thereafter). — source: https://www.extend.ai/pricing (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Docling — license cost (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/docling/</link>
-      <guid isPermaLink="false">obs-docling-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Open-source (MIT, LF AI &amp; Data); self-hosted, $0 software cost. Compute borne by the user. — source: https://github.com/docling-project/docling/blob/main/LICENSE (confidence 0.95)</description>
-    </item>
-    <item>
-      <title>DeepInfra — gpt oss 120b pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/deepinfra/</link>
-      <guid isPermaLink="false">obs-deepinfra-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: gpt-oss-120B $0.037/1M in, $0.17/1M out (per third-party trackers; cheapest in class) — source: https://deepinfra.com/openai/gpt-oss-120b (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>Cerebras — gpt oss 120b pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/cerebras/</link>
-      <guid isPermaLink="false">obs-cerebras-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: gpt-oss-120B $0.35/1M in, $0.75/1M out (fastest; recently raised from $0.25/$0.69) — source: https://www.cerebras.ai/pricing (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>Azure AI Document Intelligence — per page pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/azure-document-intelligence/</link>
-      <guid isPermaLink="false">obs-azure-document-intelligence-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: S0 pay-as-you-go: Read (OCR) $1.50/1,000 pages; Layout $10/1,000 = $0.01/page (markdown output); Prebuilt models $10/1,000; Custom extraction $30/1,000. F0 free tier 500 pages/month. Verified via third-party summaries (official pricing page showed placeholders). — source: https://azure.microsoft.com/en-us/pricing/details/ai-document-intelligence/ (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>AWS Textract — per page pricing (2026-11-03)</title>
-      <link>https://vendorindex.dev/vendor/aws-textract/</link>
-      <guid isPermaLink="false">obs-aws-textract-2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: US region, first 1M pages/mo: Detect Document Text (plain OCR) $1.50/1,000 = $0.0015/page; Tables $15/1,000 = $0.015/page; Forms (key-value) $50/1,000; Queries $15/1,000; Forms+Tables+Queries $70/1,000. Free tier 1,000 pages/mo for first 3 months. — source: https://aws.amazon.com/textract/pricing/ (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Weaviate — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/weaviate/</link>
-      <guid isPermaLink="false">obs-weaviate-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $45/mo min; $0.00465/1M vector dims; storage $0.12/GiB — source: https://weaviate.io/pricing (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>Voyage voyage-4-lite — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/voyage-4-lite/</link>
-      <guid isPermaLink="false">obs-voyage-4-lite-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.02/1M input tokens (200M free) — source: https://docs.voyageai.com/docs/pricing (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Voyage voyage-4-large — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/voyage-4-large/</link>
-      <guid isPermaLink="false">obs-voyage-4-large-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.12/1M input tokens (200M free) — source: https://docs.voyageai.com/docs/pricing (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Vonage — sms rate us (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/vonage/</link>
-      <guid isPermaLink="false">obs-vonage-sms-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.0086 per segment + carrier fees — source: https://www.vonage.com/communications-apis/messages/pricing/ (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>Vercel — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/vercel/</link>
-      <guid isPermaLink="false">obs-vercel-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Pro $20/member; 1TB bandwidth incl; $0.15/GB over — source: https://vercel.com/pricing (confidence 0.85)</description>
-    </item>
-    <item>
-      <title>Twilio — sms rate us (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/twilio/</link>
-      <guid isPermaLink="false">obs-twilio-sms-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.0083 per segment + carrier fees — source: https://www.twilio.com/en-us/sms/pricing/us (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>turbopuffer — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/turbopuffer/</link>
-      <guid isPermaLink="false">obs-turbopuffer-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $16/mo min; storage $0.33/GB; writes $2/GB; queries $1/PB — source: https://turbopuffer.com/pricing (confidence 0.85)</description>
-    </item>
-    <item>
-      <title>OpenAI text-embedding-3-small — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/text-embedding-3-small/</link>
-      <guid isPermaLink="false">obs-text-embedding-3-small-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.02/1M input tokens — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>OpenAI text-embedding-3-large — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/text-embedding-3-large/</link>
-      <guid isPermaLink="false">obs-text-embedding-3-large-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.13/1M input tokens — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Telnyx — sms rate us (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/telnyx/</link>
-      <guid isPermaLink="false">obs-telnyx-sms-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.004 per segment + carrier fees — source: https://telnyx.com/pricing/messaging (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Tavily — search rate (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/tavily/</link>
-      <guid isPermaLink="false">obs-tavily-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $8/1k ($0.008/credit); 1k free; $30/mo 10k — source: https://tavily.com/#pricing (confidence 0.8)</description>
-    </item>
-    <item>
-      <title>Serper — search rate (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/serper/</link>
-      <guid isPermaLink="false">obs-serper-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: ~$1/1k (lowest cost); 2.5k free — source: https://serper.dev (confidence 0.6)</description>
-    </item>
-    <item>
-      <title>SerpApi — search rate (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/serpapi/</link>
-      <guid isPermaLink="false">obs-serpapi-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $15/1k; 250 free; $25/mo 1k — source: https://serpapi.com/pricing (confidence 0.8)</description>
-    </item>
-    <item>
-      <title>Sentry — tier price (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/sentry/</link>
-      <guid isPermaLink="false">obs-sentry-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Team $29/mo, 50k errors — source: https://sentry.io/pricing/ (confidence 0.85)</description>
-    </item>
-    <item>
-      <title>ScrapingBee — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/scrapingbee/</link>
-      <guid isPermaLink="false">obs-scrapingbee-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Hobby $19/mo 75k credits; free 1k — source: https://www.scrapingbee.com/#pricing (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>Rollbar — tier price (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/rollbar/</link>
-      <guid isPermaLink="false">obs-rollbar-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Essentials $9/mo @10k occ; ~$35 @50k (estimate) — source: https://rollbar.com/pricing/ (confidence 0.5)</description>
-    </item>
-    <item>
-      <title>Render — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/render/</link>
-      <guid isPermaLink="false">obs-render-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Starter $7/mo (0.5CPU/512MB); 5GB free then $0.15/GB — source: https://render.com/pricing (confidence 0.7)</description>
-    </item>
-    <item>
-      <title>Qdrant — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/qdrant/</link>
-      <guid isPermaLink="false">obs-qdrant-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: resource-based (RAM/vCPU); small-cluster estimate ~$25/mo — source: https://qdrant.tech/pricing/ (confidence 0.5)</description>
-    </item>
-    <item>
-      <title>Plivo — sms rate us (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/plivo/</link>
-      <guid isPermaLink="false">obs-plivo-sms-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.0077 per segment + carrier fees — source: https://www.plivo.com/sms/pricing/us/ (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>Pinecone — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/pinecone/</link>
-      <guid isPermaLink="false">obs-pinecone-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $50/mo min; storage $0.33/GB; reads $16-18/M units, writes $4-4.5/M — source: https://www.pinecone.io/pricing/ (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>New Relic — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/newrelic/</link>
-      <guid isPermaLink="false">obs-newrelic-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: 100GB + 1 user free; $0.40/GB over; full users $349/mo — source: https://newrelic.com/pricing (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>Netlify — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/netlify/</link>
-      <guid isPermaLink="false">obs-netlify-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Pro $20/mo; bandwidth ~$0.13/GB (credit-based) — source: https://www.netlify.com/pricing/ (confidence 0.7)</description>
-    </item>
-    <item>
-      <title>Mistral Embed — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/mistral-embed/</link>
-      <guid isPermaLink="false">obs-mistral-embed-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.10/1M input tokens — source: https://mistral.ai/pricing (confidence 0.8)</description>
-    </item>
-    <item>
-      <title>Jina Embeddings v5 — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/jina-embeddings-v5/</link>
-      <guid isPermaLink="false">obs-jina-embeddings-v5-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.05/1M input tokens (text-small; not published on page, per third-party trackers + dashboard) — source: https://jina.ai/embeddings/ (confidence 0.6)</description>
-    </item>
-    <item>
-      <title>Honeybadger — tier price (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/honeybadger/</link>
-      <guid isPermaLink="false">obs-honeybadger-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: Team $26/mo, 50k errors, no overage — source: https://www.honeybadger.io/plans/ (confidence 0.85)</description>
-    </item>
-    <item>
-      <title>Grafana Cloud — pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/grafana/</link>
-      <guid isPermaLink="false">obs-grafana-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $19/mo base; 50GB logs free; $0.40/GB write over — source: https://grafana.com/pricing/ (confidence 0.75)</description>
-    </item>
-    <item>
-      <title>GPT-6 Luna — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/gpt-6-luna/</link>
-      <guid isPermaLink="false">obs-gpt-6-luna-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $0.10/1M input, $0.50/1M output — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
-    </item>
-    <item>
-      <title>GPT-6 Astra — token pricing (2026-11-02)</title>
-      <link>https://vendorindex.dev/vendor/gpt-6-astra/</link>
-      <guid isPermaLink="false">obs-gpt-6-astra-2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <description>new: $10/1M input, $50/1M output — source: https://developers.openai.com/api/docs/pricing (confidence 0.9)</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/voyage-4-lite/",
   "vendor": {
     "id": "voyage-4-lite",
@@ -99,14 +99,14 @@
   "health": {
     "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": 40.3,
-    "last_release_at": "2026-07-10",
+    "downloads_trend_pct": 44.9,
+    "last_release_at": "2026-11-10",
     "status_page": "https://status.voyageai.com",
     "sources": [
       "https://pypi.org/project/voyageai/",
       "https://status.voyageai.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

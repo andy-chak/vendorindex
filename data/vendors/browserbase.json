@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/browserbase/",
   "vendor": {
     "id": "browserbase",
@@ -62,7 +62,7 @@
     }
   ],
   "score": {
-    "total": 62.05,
+    "total": 62.55,
     "dimensions": [
       {
         "dimension": "fit",
@@ -92,7 +92,7 @@
       },
       {
         "dimension": "health",
-        "value": 95,
+        "value": 100,
         "weight": 0.1,
         "evidence": []
       },
@@ -111,16 +111,16 @@
     }
   ],
   "health": {
-    "score": 95,
+    "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": -11.3,
-    "last_release_at": "2026-10-30",
+    "downloads_trend_pct": -1.3,
+    "last_release_at": "2026-11-11",
     "status_page": "https://status.browserbase.com",
     "sources": [
       "https://www.npmjs.com/package/@browserbasehq/sdk",
       "https://status.browserbase.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-04",
   "internet_unverified": null

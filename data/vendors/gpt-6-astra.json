@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/gpt-6-astra/",
   "vendor": {
     "id": "gpt-6-astra",
@@ -126,14 +126,14 @@
   "health": {
     "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": -1.9,
-    "last_release_at": "2026-10-31",
+    "downloads_trend_pct": 10.3,
+    "last_release_at": "2026-11-10",
     "status_page": "https://status.openai.com",
     "sources": [
       "https://www.npmjs.com/package/openai",
       "https://status.openai.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

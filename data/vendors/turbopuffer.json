@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/turbopuffer/",
   "vendor": {
     "id": "turbopuffer",
@@ -106,7 +106,7 @@
       "https://www.npmjs.com/package/@turbopuffer/turbopuffer",
       "https://status.turbopuffer.com"
     ],
-    "captured_at": "2026-11-02"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-02",
   "internet_unverified": null

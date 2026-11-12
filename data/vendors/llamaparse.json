@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/llamaparse/",
   "vendor": {
     "id": "llamaparse",
@@ -108,14 +108,14 @@
   "health": {
     "score": 85,
     "incidents_90d": 0,
-    "downloads_trend_pct": -22.4,
+    "downloads_trend_pct": -33.8,
     "last_release_at": "2026-02-13",
     "status_page": null,
     "sources": [
       "https://pypi.org/project/llama-cloud-services/",
       "https://developers.llamaindex.ai/python/cloud/llamaparse/"
     ],
-    "captured_at": "2026-11-03"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-03",
   "internet_unverified": {

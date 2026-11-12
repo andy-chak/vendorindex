@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-08T13:55:32.608Z",
+  "as_of": "2026-11-12T12:11:27.811Z",
   "url": "https://vendorindex.dev/vendor/unstructured/",
   "vendor": {
     "id": "unstructured",
@@ -102,14 +102,14 @@
   "health": {
     "score": 100,
     "incidents_90d": 0,
-    "downloads_trend_pct": 13.5,
-    "last_release_at": "2026-10-30",
+    "downloads_trend_pct": 8.6,
+    "last_release_at": "2026-11-06",
     "status_page": null,
     "sources": [
       "https://pypi.org/project/unstructured/",
       "https://github.com/Unstructured-IO/unstructured/releases"
     ],
-    "captured_at": "2026-11-03"
+    "captured_at": "2026-11-12"
   },
   "last_verified": "2026-11-03",
   "internet_unverified": null
